@@ -35,9 +35,13 @@
   },
   "name":"dialogo",
   "resources":[
+    {"id":{"name":"Controle","path":"objects/Controle/Controle.yy",},},
+    {"id":{"name":"Dialogo","path":"objects/Dialogo/Dialogo.yy",},},
     {"id":{"name":"Obstaculo","path":"objects/Obstaculo/Obstaculo.yy",},},
+    {"id":{"name":"ParenteNpc","path":"objects/ParenteNpc/ParenteNpc.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ScriptsTextos","path":"scripts/ScriptsTextos/ScriptsTextos.yy",},},
     {"id":{"name":"francine","path":"sprites/francine/francine.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],

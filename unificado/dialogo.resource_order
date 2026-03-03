@@ -17,7 +17,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Controle","order":4,"path":"objects/Controle/Controle.yy",},
+    {"name":"Dialogo","order":3,"path":"objects/Dialogo/Dialogo.yy",},
     {"name":"Obstaculo","order":1,"path":"objects/Obstaculo/Obstaculo.yy",},
+    {"name":"ParenteNpc","order":2,"path":"objects/ParenteNpc/ParenteNpc.yy",},
     {"name":"francine","order":2,"path":"sprites/francine/francine.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
   ],

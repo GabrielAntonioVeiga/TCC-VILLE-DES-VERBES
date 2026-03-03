@@ -1,12 +1,10 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 6C19CB98
-/// @DnDArgument : "code" "// ================= INPUT =================$(13_10)var RightKey = keyboard_check(vk_right);$(13_10)var LeftKey  = keyboard_check(vk_left);$(13_10)var UpKey    = keyboard_check(vk_up);$(13_10)var DownKey  = keyboard_check(vk_down);$(13_10)$(13_10)// ================= ACELERAÇÃO =================$(13_10)if (RightKey) xspeed += accel;$(13_10)if (LeftKey)  xspeed -= accel;$(13_10)if (DownKey)  yspeed += accel;$(13_10)if (UpKey)    yspeed -= accel;$(13_10)$(13_10)// ================= LIMITA VELOCIDADE =================$(13_10)xspeed = clamp(xspeed, -maxspd, maxspd);$(13_10)yspeed = clamp(yspeed, -maxspd, maxspd);$(13_10)$(13_10)// ================= ATRITO =================$(13_10)if (!RightKey && !LeftKey) {$(13_10)    if (abs(xspeed) < fric) xspeed = 0;$(13_10)    else xspeed -= sign(xspeed) * fric;$(13_10)}$(13_10)$(13_10)if (!UpKey && !DownKey) {$(13_10)    if (abs(yspeed) < fric) yspeed = 0;$(13_10)    else yspeed -= sign(yspeed) * fric;$(13_10)}$(13_10)$(13_10)// ================= DIREÇÃO =================$(13_10)if (RightKey)      facing = DIR.RIGHT;$(13_10)else if (LeftKey)  facing = DIR.LEFT;$(13_10)else if (UpKey)    facing = DIR.UP;$(13_10)else if (DownKey)  facing = DIR.DOWN;$(13_10)$(13_10)// ================= COLISÕES =================$(13_10)if (place_meeting(x + xspeed, y, Obstaculo)) {$(13_10)    xspeed = 0;$(13_10)}$(13_10)$(13_10)if (place_meeting(x, y + yspeed, Obstaculo)) {$(13_10)    yspeed = 0;$(13_10)}$(13_10)$(13_10)// ================= MOVIMENTO FINAL =================$(13_10)x += xspeed;$(13_10)y += yspeed;$(13_10)$(13_10)// ================= ESTADO DE MOVIMENTO =================$(13_10)moving = (abs(xspeed) > 0.05) || (abs(yspeed) > 0.05);$(13_10)$(13_10)// ================= ANIMAÇÃO =================$(13_10)// cada direção ocupa 4 frames$(13_10)// RIGHT=0, DOWN=1, LEFT=2, UP=3$(13_10)var dir_base = facing * 4;$(13_10)$(13_10)if (moving) {$(13_10)    anim_timer++;$(13_10)$(13_10)    if (anim_timer >= anim_delay) {$(13_10)        anim_timer = 0;$(13_10)        anim_frame = (anim_frame + 1) mod 4;$(13_10)    }$(13_10)}$(13_10)else {$(13_10)    // idle$(13_10)    anim_timer = 0;$(13_10)    anim_frame = 0;$(13_10)}$(13_10)$(13_10)// aplica frame correto$(13_10)image_index = dir_base + anim_frame;"
 // ================= INPUT =================
-var RightKey = keyboard_check(vk_right);
-var LeftKey  = keyboard_check(vk_left);
-var UpKey    = keyboard_check(vk_up);
-var DownKey  = keyboard_check(vk_down);
+var can_move = (global.dialogo == false);
+
+var RightKey = can_move ? keyboard_check(vk_right) : 0;
+var LeftKey  = can_move ? keyboard_check(vk_left) : 0;
+var UpKey    = can_move ? keyboard_check(vk_up) : 0;
+var DownKey  = can_move ? keyboard_check(vk_down) : 0;
 
 // ================= ACELERAÇÃO =================
 if (RightKey) xspeed += accel;
@@ -72,3 +70,14 @@ else {
 
 // aplica frame correto
 image_index = dir_base + anim_frame;
+
+#region Diálogo
+if (distance_to_object(ParenteNpc) <= 130) {
+    if (keyboard_check_pressed(ord("E")) && global.dialogo == false && !instance_exists(Dialogo)) {
+        var npc = instance_nearest(x, y, ParenteNpc);
+        var _dialogoInst = instance_create_layer(x, y, "Dialogo", Dialogo);
+        _dialogoInst.nomeNpc = npc.nome;
+        
+        global.dialogo = true; 
+    }
+}

@@ -59,8 +59,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Personagens",
+    "path":"folders/Sprites/Personagens.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

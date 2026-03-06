@@ -40,6 +40,8 @@
     {"id":{"name":"Controle","path":"objects/Controle/Controle.yy",},},
     {"id":{"name":"Dialogo","path":"objects/Dialogo/Dialogo.yy",},},
     {"id":{"name":"interacao","path":"objects/interacao/interacao.yy",},},
+    {"id":{"name":"obj_quiz","path":"objects/obj_quiz/obj_quiz.yy",},},
+    {"id":{"name":"ObjObstaculoQuiz","path":"objects/ObjObstaculoQuiz/ObjObstaculoQuiz.yy",},},
     {"id":{"name":"Obstaculo","path":"objects/Obstaculo/Obstaculo.yy",},},
     {"id":{"name":"ParenteNpc","path":"objects/ParenteNpc/ParenteNpc.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},

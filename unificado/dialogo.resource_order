@@ -22,6 +22,8 @@
     {"name":"Controle","order":4,"path":"objects/Controle/Controle.yy",},
     {"name":"Dialogo","order":3,"path":"objects/Dialogo/Dialogo.yy",},
     {"name":"interacao","order":5,"path":"objects/interacao/interacao.yy",},
+    {"name":"obj_quiz","order":6,"path":"objects/obj_quiz/obj_quiz.yy",},
+    {"name":"ObjObstaculoQuiz","order":7,"path":"objects/ObjObstaculoQuiz/ObjObstaculoQuiz.yy",},
     {"name":"Obstaculo","order":1,"path":"objects/Obstaculo/Obstaculo.yy",},
     {"name":"ParenteNpc","order":2,"path":"objects/ParenteNpc/ParenteNpc.yy",},
     {"name":"interacaoE","order":1,"path":"sprites/interacaoE/interacaoE.yy",},

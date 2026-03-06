@@ -25,3 +25,9 @@ moving = false;
 
 // Desliga animação automática do sprite
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7615524D
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)"
+/// @description Execute Code

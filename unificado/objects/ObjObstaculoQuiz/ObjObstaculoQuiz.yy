@@ -25,16 +25,24 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":64.0,"y":0.0,},
+    {"x":64.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Sprite2",
     "path":"sprites/Sprite2/Sprite2.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Sprite2",
+    "path":"sprites/Sprite2/Sprite2.yy",
+  },
   "visible":true,
 }

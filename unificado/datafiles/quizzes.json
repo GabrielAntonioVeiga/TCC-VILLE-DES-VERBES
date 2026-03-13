@@ -1,0 +1,40 @@
+{
+  "interacao_livros": [
+    {
+      "tempo_verbal": "Present",
+      "verbo": "Lire (Ler)",
+      "variacoes": [
+        { "pronome": "Je", "frase": "Je _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 0 },
+        { "pronome": "Tu", "frase": "Tu _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 0 },
+        { "pronome": "Il/Elle", "frase": "Il _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 1 },
+        { "pronome": "Nous", "frase": "Nous _______ ce livre.", "opcoes": ["lisons", "lis", "lisez", "lisent"], "resposta_correta": 0 },
+        { "pronome": "Vous", "frase": "Vous _______ ce livre.", "opcoes": ["lisez", "lis", "lisons", "lisent"], "resposta_correta": 0 },
+        { "pronome": "Ils/Elles", "frase": "Elles _______ ce livre.", "opcoes": ["lisent", "lis", "lisons", "lisez"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passe Compose",
+      "verbo": "Lire (Ler)",
+      "variacoes": [
+        { "pronome": "Je", "frase": "J'_______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 0 },
+        { "pronome": "Tu", "frase": "Tu _______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 1 },
+        { "pronome": "Il/Elle", "frase": "Elle _______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 2 },
+        { "pronome": "Nous", "frase": "Nous _______ ce livre hier.", "opcoes": ["avons lu", "avez lu", "ont lu", "ai lu"], "resposta_correta": 0 },
+        { "pronome": "Vous", "frase": "Vous _______ ce livre hier.", "opcoes": ["avez lu", "avons lu", "ont lu", "ai lu"], "resposta_correta": 0 },
+        { "pronome": "Ils/Elles", "frase": "Ils _______ ce livre hier.", "opcoes": ["ont lu", "avez lu", "avons lu", "a lu"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Lire (Ler)",
+      "variacoes": [
+        { "pronome": "Je", "frase": "Je _______ ce livre demain.", "opcoes": ["vais lire", "vas lire", "va lire", "allons lire"], "resposta_correta": 0 },
+        { "pronome": "Tu", "frase": "Tu _______ ce livre demain.", "opcoes": ["vas lire", "vais lire", "va lire", "allons lire"], "resposta_correta": 0 },
+        { "pronome": "Il/Elle", "frase": "Il _______ ce livre demain.", "opcoes": ["va lire", "vais lire", "vas lire", "allons lire"], "resposta_correta": 0 },
+        { "pronome": "Nous", "frase": "Nous _______ ce livre demain.", "opcoes": ["allons lire", "allez lire", "vont lire", "vais lire"], "resposta_correta": 0 },
+        { "pronome": "Vous", "frase": "Vous _______ ce livre demain.", "opcoes": ["allez lire", "allons lire", "vont lire", "vais lire"], "resposta_correta": 0 },
+        { "pronome": "Ils/Elles", "frase": "Elles _______ ce livre demain.", "opcoes": ["vont lire", "allez lire", "allons lire", "vais lire"], "resposta_correta": 0 }
+      ]
+    }
+  ]
+}

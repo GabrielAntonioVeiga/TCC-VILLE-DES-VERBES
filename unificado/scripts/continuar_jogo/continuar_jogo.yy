@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"continuar_jogo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"continuar_jogo",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

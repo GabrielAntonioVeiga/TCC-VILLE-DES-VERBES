@@ -1,8 +1,14 @@
-/// @DnDAction : YoYo Games.Common.Function
-/// @DnDVersion : 1
-/// @DnDHash : 0D55FE91
-/// @DnDComment : 
-/// @DnDArgument : "funcName" "Script5"
-function carregar_jogo(){
-
+function carregar_jogo()
+{
+    // exemplo simples de carregamento
+    if (file_exists("save0.sav"))
+    {
+        show_message("Save carregado!");
+        return true;
+    }
+    else
+    {
+        show_message("Nenhum save encontrado.");
+        return false;
+    }
 }

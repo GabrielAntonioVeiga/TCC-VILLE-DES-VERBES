@@ -1,8 +1,10 @@
-/// @DnDAction : YoYo Games.Common.Function
-/// @DnDVersion : 1
-/// @DnDHash : 14AD8D9B
-/// @DnDComment : 
-/// @DnDArgument : "funcName" "Script4"
-function continuar_jogo(){
-
+/// continuar_jogo()
+function continuar_jogo() {
+    var ok = carregar_jogo(); // usa o wrapper
+    if (ok) {
+        // ir para a room de gameplay (substitua pelo nome exato se necessário)
+        room_goto(Room1);
+    } else {
+        // já mostrou mensagem dentro de carregar_jogo()
+    }
 }

@@ -1,0 +1,46 @@
+/// obj_menu - Create
+// Texto do menu (em Português)
+menu_texts = [
+    "Continuar",
+    "Novo Jogo",
+    "Seleção de Save",
+    "Configurações",
+    "Créditos",
+    "Sair"
+];
+
+// Estado (habilitado / desabilitado)
+menu_enabled = [];
+for (var i = 0; i < array_length(menu_texts); i++) {
+    menu_enabled[i] = true;
+}
+
+// posições / estilo
+menu_x = display_get_width() / 2;
+menu_y = display_get_height() / 2 - 80;
+button_w = 520;
+button_h = 56;
+button_spacing = 72;
+selected_index = 0;
+
+// input
+input_cooldown = 0.12;
+input_timer = 0;
+
+// Fonte (use a sua fonte se tiver). Se não tiver, usa fonte padrão.
+if (asset_get_index("fnt_menu") != -1) {
+    menu_font = fnt_menu;
+} else {
+    menu_font = -1;
+}
+
+// Desabilitar "Continuar" se não houver last_slot
+ini_open("settings.ini");
+var last = ini_read_real("save","last_slot", 0);
+ini_close();
+if (last <= 0) {
+    menu_enabled[0] = false; // índice 0 = Continuar
+}
+
+// debug
+show_debug_message("obj_menu criado. last_slot = " + string(last));

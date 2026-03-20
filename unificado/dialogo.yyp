@@ -74,6 +74,7 @@
     {"id":{"name":"francine","path":"sprites/francine/francine.yy",},},
     {"id":{"name":"interacaoE","path":"sprites/interacaoE/interacaoE.yy",},},
     {"id":{"name":"jacques","path":"sprites/jacques/jacques.yy",},},
+    {"id":{"name":"jerome","path":"sprites/jerome/jerome.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],
   "resourceType":"GMProject",

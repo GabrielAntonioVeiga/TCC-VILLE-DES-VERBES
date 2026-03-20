@@ -43,5 +43,6 @@
     {"name":"ScriptsSalvamento","order":1,"path":"scripts/ScriptsSalvamento/ScriptsSalvamento.yy",},
     {"name":"interacaoE","order":1,"path":"sprites/interacaoE/interacaoE.yy",},
     {"name":"jacques","order":1,"path":"sprites/jacques/jacques.yy",},
+    {"name":"jerome","order":2,"path":"sprites/jerome/jerome.yy",},
   ],
 }

@@ -17,8 +17,8 @@
   ],
   "name":"rm_creditos",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Room de menus",
+    "path":"folders/Rooms/Room de menus.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

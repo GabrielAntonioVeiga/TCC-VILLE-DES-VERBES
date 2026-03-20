@@ -19,8 +19,8 @@
   ],
   "name":"rm_SaveSelection",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Room de menus",
+    "path":"folders/Rooms/Room de menus.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

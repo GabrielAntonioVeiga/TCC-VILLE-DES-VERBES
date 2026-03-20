@@ -10,8 +10,8 @@
   "name":"ObjObstaculoQuiz",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Objetos de Quiz",
+    "path":"folders/Objects/Objetos de Quiz.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -11,8 +11,8 @@
   "name":"Dialogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Objetos de dialogo",
+    "path":"folders/Objects/Objetos de dialogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -15,6 +15,10 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objetos de dialogo","folderPath":"folders/Objects/Objetos de dialogo.yy","name":"Objetos de dialogo","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objetos de Menus","folderPath":"folders/Objects/Objetos de Menus.yy","name":"Objetos de Menus","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objetos de Quiz","folderPath":"folders/Objects/Objetos de Quiz.yy","name":"Objetos de Quiz","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objetos de UI","folderPath":"folders/Objects/Objetos de UI.yy","name":"Objetos de UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -28,7 +32,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"quizzes.json","CopyToMask":-1,"filePath":"datafiles","name":"quizzes.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -39,6 +45,7 @@
   },
   "name":"dialogo",
   "resources":[
+    {"id":{"name":"fnt_padrao","path":"fonts/fnt_padrao/fnt_padrao.yy",},},
     {"id":{"name":"Controle","path":"objects/Controle/Controle.yy",},},
     {"id":{"name":"Dialogo","path":"objects/Dialogo/Dialogo.yy",},},
     {"id":{"name":"interacao","path":"objects/interacao/interacao.yy",},},

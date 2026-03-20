@@ -16,23 +16,30 @@ for (var i = 0; i < array_length(menu_texts); i++) {
 }
 
 // posições / estilo
-menu_x = display_get_width() / 2;
-menu_y = display_get_height() / 2 - 80;
+/*isso aqui vai defirir a resposividade do jogo... vulgo é possivel dar ruim*/
 button_w = 520;
 button_h = 56;
+menu_x = display_get_width() / 2 - button_w/2;
+menu_y = display_get_height()/2 - (button_h * array_length(menu_texts));
 button_spacing = 72;
 selected_index = 0;
 
 // input
+/*
 input_cooldown = 0.12;
 input_timer = 0;
+*/
 
 // Fonte (use a sua fonte se tiver). Se não tiver, usa fonte padrão.
+/*
+
 if (asset_get_index("fnt_menu") != -1) {
-    menu_font = fnt_menu;
+    menu_font = fnt_padrao;
 } else {
     menu_font = -1;
 }
+*/
+draw_set_font(fnt_padrao); //isso aqui tá meio gambiarra, mas como foi setado no começo, o jogo inteiro mudou d fonte
 
 // Desabilitar "Continuar" se não houver last_slot
 ini_open("settings.ini");

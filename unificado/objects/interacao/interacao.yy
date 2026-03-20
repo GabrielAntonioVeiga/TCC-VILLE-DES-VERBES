@@ -6,8 +6,8 @@
   "name":"interacao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Objetos de UI",
+    "path":"folders/Objects/Objetos de UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

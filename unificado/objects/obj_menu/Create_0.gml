@@ -25,9 +25,10 @@ button_spacing = 72;
 selected_index = 0;
 
 // input
-
+/*
 input_cooldown = 0.12;
 input_timer = 0;
+*/
 
 
 // Fonte (use a sua fonte se tiver). Se não tiver, usa fonte padrão.

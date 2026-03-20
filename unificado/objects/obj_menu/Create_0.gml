@@ -1,5 +1,6 @@
 /// obj_menu - Create
 // Texto do menu (em Português)
+//window_set_size(900,900); //gambiarra
 menu_texts = [
     "Continuar",
     "Novo Jogo",

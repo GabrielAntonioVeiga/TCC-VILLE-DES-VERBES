@@ -8,4 +8,5 @@ draw_set_color(c_white);
 
 draw_text(x, y, credits_text);
 
-draw_text(x, display_get_height()-40, "Pressione ESC ou clique para voltar");
+
+//draw_text(x, display_get_height()-40, "Pressione ESC ou clique para voltar");

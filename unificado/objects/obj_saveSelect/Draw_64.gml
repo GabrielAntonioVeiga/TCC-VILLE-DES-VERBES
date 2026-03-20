@@ -1,5 +1,13 @@
 draw_set_halign(fa_center);
-draw_text(room_width/2,100,"SELEÇÃO DE SAVE");
+
+if selected == slots //gambiarra
+	draw_set_color(c_yellow);
+	
+draw_text(room_width/2,200+slots*60,"Voltar");
+
+draw_set_color(c_white);
+draw_text(room_width/2,100,"Seleção de Save");
+
 
 for(var i=0;i<slots;i++)
 {
@@ -15,7 +23,8 @@ for(var i=0;i<slots;i++)
     else
         draw_set_color(c_white);
 
-    draw_text(room_width/2,200+i*60,txt);
+	draw_text(room_width/2,200+i*60,txt);
 }
+draw_set_color(c_white); //gambiarra
 
-draw_text(room_width/2,200+slots*60,"Voltar");
+

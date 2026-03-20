@@ -16,7 +16,7 @@ if keyboard_check_pressed(vk_enter)
         break;
 
         case 2:
-            window_set_fullscreen(!window_get_fullscreen());
+            //window_set_fullscreen(!window_get_fullscreen());
         break;
 
         case 3:

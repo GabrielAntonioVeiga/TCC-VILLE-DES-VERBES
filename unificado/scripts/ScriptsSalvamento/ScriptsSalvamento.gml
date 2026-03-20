@@ -31,7 +31,7 @@ function salvar_jogo_slot(slot) {
     ini_close();
 
     show_message("Jogo salvo no Slot " + string(slot));
-    audio_play_sound(global.snd_confirm,1,false);
+    //audio_play_sound(global.snd_confirm,1,false);
 }
 
 function carregar_jogo_slot(slot) {
@@ -68,7 +68,7 @@ function carregar_jogo_slot(slot) {
     ini_close();
 
     show_message("Save carregado do Slot " + string(slot));
-    audio_play_sound(global.snd_confirm,1,false);
+    //audio_play_sound(global.snd_confirm,1,false);
     return true;
 }
 

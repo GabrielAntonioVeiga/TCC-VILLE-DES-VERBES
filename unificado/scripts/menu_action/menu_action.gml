@@ -2,27 +2,19 @@ function menu_action(index)
 {
     switch(index)
     {
-        case 0: // Continuar
-            continuar_jogo();
-        break;
-
-        case 1: // Novo jogo
-            room_goto(Room1);
-        break;
-
-        case 2: // Seleção de save
+        case 0: // Jogar
             room_goto(rm_SaveSelection);
         break;
 
-        case 3: // Config
+        case 1: // Config
             room_goto(rm_config);
         break;
 
-        case 4: // Créditos
+        case 2: // Créditos
             room_goto(rm_creditos);
         break;
 
-        case 5: // Sair
+        case 3: // Sair
             game_end();
         break;
     }

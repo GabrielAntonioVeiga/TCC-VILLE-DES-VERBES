@@ -2,9 +2,7 @@
 // Texto do menu (em Português)
 //window_set_size(900,900); //gambiarra
 menu_texts = [
-    "Continuar",
-    "Novo Jogo",
-    "Seleção de Save",
+    "Jogar",
     "Configurações",
     "Créditos",
     "Sair"
@@ -43,13 +41,6 @@ if (asset_get_index("fnt_menu") != -1) {
 */
 draw_set_font(fnt_padrao); //isso aqui tá meio gambiarra, mas como foi setado no começo, o jogo inteiro mudou d fonte
 
-// Desabilitar "Continuar" se não houver last_slot
-ini_open("settings.ini");
-var last = ini_read_real("save","last_slot", 0);
-ini_close();
-if (last <= 0) {
-    menu_enabled[0] = false; // índice 0 = Continuar
-}
 
 // debug
-show_debug_message("obj_menu criado. last_slot = " + string(last));
+show_debug_message("obj_menu criado.");

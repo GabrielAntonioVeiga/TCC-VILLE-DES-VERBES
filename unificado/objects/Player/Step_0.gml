@@ -113,13 +113,17 @@ if (distance_to_object(ObjObstaculoQuiz) <= global.range) {
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 12F0E123
-/// @DnDArgument : "code" "// ================= TROCA DE SKIN =================$(13_10)var Skin1Key = keyboard_check_pressed(ord("1"));$(13_10)var Skin2Key = keyboard_check_pressed(ord("2"));$(13_10)$(13_10)if (Skin1Key) {$(13_10)    sprite_index = francine;$(13_10)	} else if (Skin2Key) {$(13_10)    sprite_index = jacques;$(13_10)}"
+/// @DnDArgument : "code" "// ================= TROCA DE SKIN =================$(13_10)if (variable_global_exists(\"player_char\")) {$(13_10)    sprite_index = global.player_char;$(13_10)}$(13_10)$(13_10)var Skin1Key = keyboard_check_pressed(ord(\"1\"));$(13_10)var Skin2Key = keyboard_check_pressed(ord(\"2\"));$(13_10)$(13_10)if (Skin1Key) {$(13_10)    global.player_char = francine;$(13_10)} else if (Skin2Key) {$(13_10)    global.player_char = jacques;$(13_10)}"
 // ================= TROCA DE SKIN =================
+if (variable_global_exists("player_char")) {
+    sprite_index = global.player_char;
+}
+
 var Skin1Key = keyboard_check_pressed(ord("1"));
 var Skin2Key = keyboard_check_pressed(ord("2"));
 
 if (Skin1Key) {
-    sprite_index = francine;
-	} else if (Skin2Key) {
-    sprite_index = jacques;
+    global.player_char = francine;
+} else if (Skin2Key) {
+    global.player_char = jacques;
 }

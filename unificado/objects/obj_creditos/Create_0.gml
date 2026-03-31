@@ -8,5 +8,6 @@ credits_text =
 "UMA ABORDAGEM INTERATIVA PARA O\n" +
 "APRENDIZADO DA CONJUGAÇÃO VERBAL EM FRANCÊS\n\n\n" +
 "CURITIBA\n" +
-"2025\n\n"+
-"Pressione ESC ou clique para voltar";
+"2025";
+
+hover_voltar = false;

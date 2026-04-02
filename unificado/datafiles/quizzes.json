@@ -1,39 +1,77 @@
 {
   "interacao_livros": [
     {
-      "tempo_verbal": "Present",
-      "verbo": "Lire (Ler)",
+      "tempo_verbal": "Présent",
+      "verbo": "Lire",
       "variacoes": [
-        { "pronome": "Je", "frase": "Je _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 0 },
-        { "pronome": "Tu", "frase": "Tu _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 0 },
-        { "pronome": "Il/Elle", "frase": "Il _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 1 },
-        { "pronome": "Nous", "frase": "Nous _______ ce livre.", "opcoes": ["lisons", "lis", "lisez", "lisent"], "resposta_correta": 0 },
-        { "pronome": "Vous", "frase": "Vous _______ ce livre.", "opcoes": ["lisez", "lis", "lisons", "lisent"], "resposta_correta": 0 },
-        { "pronome": "Ils/Elles", "frase": "Elles _______ ce livre.", "opcoes": ["lisent", "lis", "lisons", "lisez"], "resposta_correta": 0 }
+        { "nome_quiz": "Étagère à livres", "pronome": "Je", "frase": "Je _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Tu", "frase": "Tu _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Il/Elle", "frase": "Il _______ ce livre.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 1 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Nous", "frase": "Nous _______ ce livre.", "opcoes": ["lisons", "lis", "lisez", "lisent"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Vous", "frase": "Vous _______ ce livre.", "opcoes": ["lisez", "lis", "lisons", "lisent"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Ils/Elles", "frase": "Elles _______ ce livre.", "opcoes": ["lisent", "lis", "lisons", "lisez"], "resposta_correta": 0 }
       ]
     },
     {
-      "tempo_verbal": "Passe Compose",
-      "verbo": "Lire (Ler)",
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Lire",
       "variacoes": [
-        { "pronome": "Je", "frase": "J'_______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 0 },
-        { "pronome": "Tu", "frase": "Tu _______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 1 },
-        { "pronome": "Il/Elle", "frase": "Elle _______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 2 },
-        { "pronome": "Nous", "frase": "Nous _______ ce livre hier.", "opcoes": ["avons lu", "avez lu", "ont lu", "ai lu"], "resposta_correta": 0 },
-        { "pronome": "Vous", "frase": "Vous _______ ce livre hier.", "opcoes": ["avez lu", "avons lu", "ont lu", "ai lu"], "resposta_correta": 0 },
-        { "pronome": "Ils/Elles", "frase": "Ils _______ ce livre hier.", "opcoes": ["ont lu", "avez lu", "avons lu", "a lu"], "resposta_correta": 0 }
+        { "nome_quiz": "Étagère à livres", "pronome": "Je", "frase": "J'_______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Tu", "frase": "Tu _______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 1 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Il/Elle", "frase": "Elle _______ ce livre hier.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 2 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Nous", "frase": "Nous _______ ce livre hier.", "opcoes": ["avons lu", "avez lu", "ont lu", "ai lu"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Vous", "frase": "Vous _______ ce livre hier.", "opcoes": ["avez lu", "avons lu", "ont lu", "ai lu"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Ils/Elles", "frase": "Ils _______ ce livre hier.", "opcoes": ["ont lu", "avez lu", "avons lu", "a lu"], "resposta_correta": 0 }
       ]
     },
     {
       "tempo_verbal": "Futur Proche",
-      "verbo": "Lire (Ler)",
+      "verbo": "Lire",
       "variacoes": [
-        { "pronome": "Je", "frase": "Je _______ ce livre demain.", "opcoes": ["vais lire", "vas lire", "va lire", "allons lire"], "resposta_correta": 0 },
-        { "pronome": "Tu", "frase": "Tu _______ ce livre demain.", "opcoes": ["vas lire", "vais lire", "va lire", "allons lire"], "resposta_correta": 0 },
-        { "pronome": "Il/Elle", "frase": "Il _______ ce livre demain.", "opcoes": ["va lire", "vais lire", "vas lire", "allons lire"], "resposta_correta": 0 },
-        { "pronome": "Nous", "frase": "Nous _______ ce livre demain.", "opcoes": ["allons lire", "allez lire", "vont lire", "vais lire"], "resposta_correta": 0 },
-        { "pronome": "Vous", "frase": "Vous _______ ce livre demain.", "opcoes": ["allez lire", "allons lire", "vont lire", "vais lire"], "resposta_correta": 0 },
-        { "pronome": "Ils/Elles", "frase": "Elles _______ ce livre demain.", "opcoes": ["vont lire", "allez lire", "allons lire", "vais lire"], "resposta_correta": 0 }
+        { "nome_quiz": "Étagère à livres", "pronome": "Je", "frase": "Je _______ ce livre demain.", "opcoes": ["vais lire", "vas lire", "va lire", "allons lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Tu", "frase": "Tu _______ ce livre demain.", "opcoes": ["vas lire", "vais lire", "va lire", "allons lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Il/Elle", "frase": "Il _______ ce livre demain.", "opcoes": ["va lire", "vais lire", "vas lire", "allons lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Nous", "frase": "Nous _______ ce livre demain.", "opcoes": ["allons lire", "allez lire", "vont lire", "vais lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Vous", "frase": "Vous _______ ce livre demain.", "opcoes": ["allez lire", "allons lire", "vont lire", "vais lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère à livres", "pronome": "Ils/Elles", "frase": "Elles _______ ce livre demain.", "opcoes": ["vont lire", "allez lire", "allons lire", "vais lire"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_maca": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Manger",
+      "variacoes": [
+        { "nome_quiz": "La Pomme", "pronome": "Je", "frase": "Je _______ une pomme.", "opcoes": ["mange", "manges", "mangeons", "mangez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Tu", "frase": "Tu _______ une pomme.", "opcoes": ["manges", "mange", "mangeons", "mangent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Il/Elle", "frase": "Elle _______ une pomme.", "opcoes": ["mange", "manges", "mangeons", "mangent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Nous", "frase": "Nous _______ une pomme.", "opcoes": ["mangeons", "manges", "mangez", "mangent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Vous", "frase": "Vous _______ une pomme.", "opcoes": ["mangez", "manges", "mangeons", "mangent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Ils/Elles", "frase": "Ils _______ une pomme.", "opcoes": ["mangent", "manges", "mangeons", "mangez"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Manger",
+      "variacoes": [
+        { "nome_quiz": "La Pomme", "pronome": "Je", "frase": "J'_______ une pomme.", "opcoes": ["ai mangé", "as mangé", "a mangé", "avons mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Tu", "frase": "Tu _______ une pomme.", "opcoes": ["as mangé", "ai mangé", "a mangé", "avez mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Il/Elle", "frase": "Il _______ une pomme.", "opcoes": ["a mangé", "ai mangé", "as mangé", "ont mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Nous", "frase": "Nous _______ une pomme.", "opcoes": ["avons mangé", "avez mangé", "ont mangé", "ai mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Vous", "frase": "Vous _______ une pomme.", "opcoes": ["avez mangé", "avons mangé", "ont mangé", "as mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Ils/Elles", "frase": "Elles _______ une pomme.", "opcoes": ["ont mangé", "avez mangé", "avons mangé", "a mangé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Manger",
+      "variacoes": [
+        { "nome_quiz": "La Pomme", "pronome": "Je", "frase": "Je _______ une pomme.", "opcoes": ["vais manger", "vas manger", "va manger", "allons manger"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Tu", "frase": "Tu _______ une pomme.", "opcoes": ["vas manger", "vais manger", "va manger", "allez manger"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Il/Elle", "frase": "Il _______ une pomme.", "opcoes": ["va manger", "vais manger", "vas manger", "vont manger"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Nous", "frase": "Nous _______ une pomme.", "opcoes": ["allons manger", "allez manger", "vont manger", "vais manger"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Vous", "frase": "Vous _______ une pomme.", "opcoes": ["allez manger", "allons manger", "vont manger", "vas manger"], "resposta_correta": 0 },
+        { "nome_quiz": "La Pomme", "pronome": "Ils/Elles", "frase": "Elles _______ une pomme.", "opcoes": ["vont manger", "allez manger", "allons manger", "va manger"], "resposta_correta": 0 }
       ]
     }
   ]

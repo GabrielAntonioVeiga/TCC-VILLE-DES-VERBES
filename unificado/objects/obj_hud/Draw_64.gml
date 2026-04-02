@@ -75,11 +75,51 @@ else {
         
         draw_text(gui_w/2, voltar_y, "Voltar");
     }
-    else if (state == "notes") {
+   else if (state == "notes") {
         draw_set_color(c_white);
         draw_text(gui_w/2, 100, "BLOCO DE NOTAS");
-        draw_text(gui_w/2, gui_h/2, "Falta muito a estudar ainda"); // RNF29
         
+        // ================= LÓGICA DO BLOCO DE NOTAS =================
+        var _total = array_length(global.notas);
+        
+        if (_total == 0) {
+            // Se a pessoa não concluiu nenhum quiz ainda
+            draw_text(gui_w/2, gui_h/2, "Nenhuma anotação disponível ainda."); 
+        } else {
+            // Cálculos da paginação
+            var _inicio = pagina_notas * itens_por_pagina;
+            var _fim = min(_inicio + itens_por_pagina, _total);
+            
+            // Desenha as notas da página atual
+            for (var i = _inicio; i < _fim; i++) {
+                var _y = 200 + ((i - _inicio) * 120); // Espaçamento de 50 pixels entre linhas
+                draw_text(gui_w/2, _y, global.notas[i]);
+            }
+            
+            // --- BOTÕES DE PAGINAÇÃO ---
+            var pag_y = gui_h - 200; // Posição Y dos botões de página
+            
+            // Botão "Anterior"
+            if (pagina_notas > 0) {
+                if (mx > (gui_w/2) - 250 && mx < (gui_w/2) - 150 && my > pag_y - 20 && my < pag_y + 20) {
+                    draw_set_color(c_yellow);
+                    if (mouse_check_button_pressed(mb_left)) pagina_notas--;
+                } else draw_set_color(c_white);
+                draw_text((gui_w/2) - 200, pag_y, "< Anterior");
+            }
+            
+            // Botão "Próximo"
+            if (_fim < _total) {
+                if (mx > (gui_w/2) + 150 && mx < (gui_w/2) + 250 && my > pag_y - 20 && my < pag_y + 20) {
+                    draw_set_color(c_yellow);
+                    if (mouse_check_button_pressed(mb_left)) pagina_notas++;
+                } else draw_set_color(c_white);
+                draw_text((gui_w/2) + 200, pag_y, "Próximo >");
+            }
+        }
+        draw_set_color(c_white); // Reseta a cor para o botão voltar
+        
+        // ================= BOTÃO VOLTAR ORIGINAL =================
         // Botão voltar hover de Notas
         if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && my > voltar_y - 20 && my < voltar_y + 20) {
             draw_set_color(c_yellow);
@@ -87,5 +127,4 @@ else {
         
         draw_text(gui_w/2, voltar_y, "Voltar");
     }
-    draw_set_color(c_white);
 }

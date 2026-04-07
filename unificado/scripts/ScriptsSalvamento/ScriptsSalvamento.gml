@@ -23,9 +23,10 @@ function salvar_jogo_slot(slot) {
         posicaoY: Player.y,
         avatar: Player.sprite_index,
         direcao: Player.facing,
-        cenario: room_get_name(room), // Salva a sala verdadeira, não "Cenario"
+        cenario: room_get_name(room),
         colecionaveisAdquiridos: "Colecionaveis",
-        quizzesConcluidos: "Quizzes"
+        quizzesConcluidos: variable_global_exists("quizzes_concluidos") ? global.quizzes_concluidos : {},
+        portasDesbloqueadas: variable_global_exists("portas_desbloqueadas") ? global.portas_desbloqueadas : {}
     };
 
     var stringEstruturaSalvamento = json_stringify(estruturaSalvamento);
@@ -59,6 +60,20 @@ function carregar_jogo_slot(slot) {
     file_text_close(fh);
 
     var estruturaSalvamento = json_parse(conteudo);
+
+    // Restaura quizzes concluídos
+    if (variable_struct_exists(estruturaSalvamento, "quizzesConcluidos")) {
+        if (is_struct(estruturaSalvamento.quizzesConcluidos)) {
+            global.quizzes_concluidos = estruturaSalvamento.quizzesConcluidos;
+        }
+    }
+
+    // Restaura portas desbloqueadas
+    if (variable_struct_exists(estruturaSalvamento, "portasDesbloqueadas")) {
+        if (is_struct(estruturaSalvamento.portasDesbloqueadas)) {
+            global.portas_desbloqueadas = estruturaSalvamento.portasDesbloqueadas;
+        }
+    }
 
     if (instance_exists(Player)) {
         Player.x = estruturaSalvamento.posicaoX;

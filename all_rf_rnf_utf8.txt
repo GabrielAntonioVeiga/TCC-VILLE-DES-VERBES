@@ -1,0 +1,58 @@
+RF001: Selecionar Avatar
+RF002: Movimentação do Avatar
+RF003: Receber Resposta do Quiz
+RF004: Desistir do Quiz
+RF005: Interagir com Cenário e NPCs
+RF006: Trocar Cena (Interação com Porta)
+RF007: Avançar Diálogo
+RF008: Receber Missões (via Diálogo)
+RF009: Visualizar Missão Ativa
+RF010: Consultar Álbum de Colecionáveis
+RF011: Fechar Álbum
+RF012: Consultar Bloco de Notas
+RF013: Fechar Bloco de Notas
+RF014: Filtrar Anotações (por Pronome)
+RF015: Ocultar/Revelar HUD
+RF016: Navegação (Menu -> Créditos)
+RF017: Navegação (Menu -> Configurações)
+RF018: Navegação (Menu -> Seleção de Save)
+RF019: Modificar Volume
+RF020: Modificar Velocidade do Texto
+RF021: Modificar Idioma da Interface
+RF022: Voltar das Configurações
+RF023: Voltar dos Créditos (para Menu)
+RF024: Salvar Progresso do Jogo
+RF025: Carregar Jogo Salvo (Slot)
+RF026: Iniciar Novo Jogo (Slot)
+RF027: Apagar Jogo Salvo (Slot)
+RF028: Regra de Interação (Múltipla)
+RF029: Regra de Navegação (Livre entre Cenas)
+RNF001: Apresentar Quiz
+RNF002: Feedback Visual de Acerto/Erro
+RNF003: Exibir Resposta Correta (em Erro)
+RNF004: Exibir Ambientes Tematizados
+RNF005: Exibir NPCs
+RNF006: Feedback de Proximidade
+RNF007: Posicionar Avatar Pós-Troca de Cena
+RNF008: Exibir Caixa de Diálogo (NPC)
+RNF009: Feedback de Conclusão de Missão
+RNF010: Atualizar Estado da Missão (Ativa/Concluida)
+RNF011: Conceder Item Colecionável
+RNF012: Paginação do Álbum
+RNF013: Salvar Quizzes no Bloco de Notas
+RNF014: Paginação do Bloco de Notas
+RNF015: Exibir HUD
+RNF016: Exibir Menu Principal
+RNF017: Exibir Tela de Configurações
+RNF018: Exibir Tela de Créditos
+RNF019: Feedback de Jogo Salvo
+RNF020: Exibir Tela de Seleção de Save
+RNF021: Confirmação (Duas Etapas) para Apagar
+RNF022: Persistência e Proteção de Dados
+RNF023: Design de Avatares (Cultura Francesa)
+RNF024: Design de Ambientes (Tematização)
+RNF025: Design de NPCs (Cultura Francesa)
+RNF026: Design de Colecionáveis (Van Gogh)
+RNF027: Conteúdo dos Créditos
+RNF028: UI do Quiz (4 Alternativas)
+RNF029: UI de Diálogo (Nome do Falante)

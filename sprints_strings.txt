@@ -1,0 +1,477 @@
+Links uteis
+GitHub:
+GitHub
+Requisitos Restantes
+Requisitos Funcionais Restantes
+Requisitos Não Funcionais Restantes
+Doc oficial:
+Ville des Verbs
+Teams:
+Teams
+Requisitos Concluidos
+Requisitos Funcionais Concluidos
+Requisitos Não Funcionais Concluidos
+Discord:
+Discord
+Frases:
+Frases
+Status de atividade
+Participantes
+Intervalo de procura
+Intervalo de retorno
+Requisitos Funcionais
+Status
+Requisitos não funcionais
+Concluido
+leonardoxablau2004@gmail.com
+Sprint 1!F6:F19
+Sprint 1!E6:E19
+RF001
+RNF001
+Em andamento
+gabrielveiga54@gmail.com
+Sprint 2!F6:F19
+Sprint 2!E6:E19
+RF002
+RNF002
+Próxima Sprint
+Uriel Duarte de Oliveira
+Sprint 3!F6:F19
+Sprint 3!E6:E19
+RF003
+RNF003
+Não iniciada
+joaopedro_deger@hotmail.com
+RF004
+RNF004
+A definir
+RF005
+RNF005
+Todos
+RF006
+RNF006
+RF007
+RNF007
+RF008
+RNF008
+RF009
+RNF009
+RF010
+RNF010
+RF011
+RNF011
+RF012
+RNF012
+RF013
+RNF013
+RF014
+RNF014
+RF015
+RNF015
+RF016
+RNF016
+RF017
+RNF017
+RF018
+RNF018
+RF019
+RNF019
+RF020
+RNF020
+RF021
+RNF021
+RF022
+RNF022
+RF023
+RNF023
+RF024
+RNF024
+RF025
+Não planejado
+RNF025
+RF026
+RNF026
+RF027
+RNF027
+RF028
+RNF028
+RF029
+RNF029
+RNF030
+RNF031
+RNF032
+RNF033
+RNF034
+RNF035
+RNF036
+RNF037
+RNF038
+RNF039
+RNF040
+RNF041
+RNF042
+RNF043
+RNF044
+RNF045
+RNF046
+RNF047
+RNF048
+RNF049
+RNF050
+RNF051
+RNF052
+RNF053
+RNF054
+RNF055
+RNF056
+RNF057
+RNF058
+RNF059
+RNF060
+RNF061
+RNF062
+RNF063
+RNF064
+RNF065
+RNF066
+RNF067
+RNF068
+RNF069
+RNF070
+Objetivo:
+Implementar o MVP do projeto
+Inicio:
+21/02/2026 10:00
+Fim:
+06/03/2026 19:00
+Atividades
+Dependência
+Nome
+Atribuição
+Requisitos
+Descrição
+Não
+Criar repositório github
+Movimentação avatar
+Permir que o jogador controle um avatar com as teclas W,S,D,A
+Desing Francine
+RNF023, RNF066
+Desenhar francine e suas animações
+2, 3
+Integrar movimento e animação
+RF002, RFN023
+Criar uma máquina de estados para que o avatar possua um moviemntação ao andar
+Interação com o ambiente
+1° Adicionar um colider triger ao player com a tag player
+2° o código de detecção fica nos obejtos interagiveis que altera um boolean para saber quando esta dentro e fora do alcance
+3° adicionar uma tecla de de interção alertando no console caso presionada a tecla “E” e a boolean seja verdadeira
+5
+Feedback de proximidade
+Desenhar um "E" piscante e substituir o log da atividade 5 pelo surgimento e desapareciemento do mesmo
+Troca de avatar
+RF001, RNF043
+Permitir com que haja escolha entre personagens
+Quiz
+RNF001, RF003
+os dados serão mocados por enquanto
+1° deve impedir os movimentos do jogador
+
+2° apresenta um texto com uma palavra faltando ex: “Eu _____ uma maçã”
+
+3° apresentar 4 opções clicaveis de resposta ex: “como”, “comi”, “comerei”, “comeram”
+
+4° uma das opções clicaveis deve ser uma resposta certa
+8
+Feedback quiz
+RNF002, RNF003
+1° Apresenta um texto parabenizando pelo acerto ou motivando caso erro
+2° Revelar a resposta correta do quiz caso o jogador tenha errado a resposta
+9
+Botão sair do quiz
+1° um botão de voltar que permite sair do quiz
+
+2° caso já tenha respondido a pergunta salva os resultados (em breve quanso tivermos o banco)
+
+3° deve sumir com os textos do quiz
+
+4°deve conceder novamente o movimento ao player
+Diálogo
+RNF008, RNF030
+1° após a interação descrita em RF005, uma caixa de dialogo deve aparecer
+2°deve impedir que o player se movimente
+
+3° o texto sera mocado por enquanto com uma lista de strings
+
+4° cada index da lista é apresentado por um foreach que irá exibir 1 letra iteração
+
+5° esse foreach é atrelado a uma corroutine com um pequeno intervalo de tempo entre cara iteração do foreach que dará a ilusão que o texto está sendo escrito ao vivo, letra a letra
+11
+Avançar diálogo
+RF007, RNF031
+1° com base em RNF008, ao precionar a letra “E”
+
+2° apaga o texto da caixa de texto
+
+3° para as iterações do foreach e da corroutine
+
+4° exibe aquele index da lista de textos de uma só vez
+
+5° caso seja o ultimo index da lista, some com os textos e concede novamente o movimento ao jogador
+2, 5, 8
+Integrar movimento e quiz
+Iniciar a atividade 8 após uma interação da atividade 5 com um avatar caminhante
+Reunião game desing
+Se reunir com o estudante de letras para discutir sobre game desing e verbos para compor as frases iniciais
+Desenvolvimento e integração do banco de dados
+07/03/2026 00:00
+20/03/2026 19:00
+não
+Criar o banco de dados
+Estudo sobre banco de dados e metodos de salvamento para o jogo
+1
+Integrar banco com quiz
+Adicionado o  Quizzes.Json com estrutura das perguntas
+Mecanica de savestate
+Desenhar M.Jerome
+Tela de menu
+RF016, RF017, RF018, RF022, RF023, RF026, RNF016, RNF017, RNF018,  RNF020, RNF027, RNF035, RNF036, RNF052, RNF053, RNF068
+iniciar, salvar, configurações
+3, 5
+Tela de seleção de Save
+Regra do Quiz (Aleatorização por Pronome)
+UI do Quiz (4 Alternativas)
+Reformular e unificar novas mecânicas desenvolvidas
+21/03/2026 00:00
+03/04/2026 19:00
+Reformular "new game" do menu
+Unificar botões de continue, new game e slot select.
+Tela de seleção de personagem
+Travar quizz até acertar pergunta
+Criar hud
+Botões clicaveis para acessar configurações, salvar, voltar ao menu.
+3
+Salvar quizes concluidos
+Mudar save para JSON
+Bloco de notas 
+Corrigir comportamento do mouse no menu
+Corrigir comportamento da movimentação
+Só comitar o que estava pronto
+Estudar relações de responsividade
+Histórico de Evolução do Desenvolvimento de Requisitos
+Todos os requisitos
+Funcionais
+Não funcionais
+Sprint
+Período
+Categoria
+Qnt
+21/02 
+à
+06/03
+Requisitos Totais Restantes
+Requisitos Totais Concluidos
+07/03
+à
+20/03
+Selecionar Avatar
+Apresentar Quiz
+Prioridade
+(X) Alta
+O sistema deve permitir ao usuário selecionar um avatar de personagem.
+O sistema deve apresentar um quiz com uma frase e alternativas de resposta (relacionado a [RF003]).
+Movimentação do Avatar
+Feedback Visual de Acerto/Erro
+(X) Baixa
+O sistema deve permitir ao usuário controlar a movimentação do avatar pelos ambientes.
+O sistema deve fornecer um feedback visual de acerto ou erro após a seleção da resposta [RF003].
+Receber Resposta do Quiz
+Exibir Resposta Correta (em Erro)
+O sistema deve receber a seleção de resposta do usuário.
+O sistema deve exibir a resposta correta em caso de erro do usuário no quiz [RF003].
+Desistir do Quiz
+Exibir Ambientes Tematizados
+(X) Média
+O sistema deve permitir ao usuário desistir de um quiz em andamento.
+O sistema deve exibir ambientes (cenários) tematizados para a movimentação [RF002] e interação [RF005] do avatar.
+Interagir com Cenário e NPCs
+Exibir NPCs
+O sistema deve permitir ao usuário interagir com objetos do cenário e NPCs.
+O sistema deve exibir Personagens Não-Jogáveis (NPCs) nos ambientes para interação [RF005] e recebimento de missões [RF008].
+Trocar Cena (Interação com Porta)
+Feedback de Proximidade
+O sistema deve trocar a cena atual ao interagir com uma porta.
+O sistema deve exibir um feedback gráfico quando o usuário se aproximar de um item interativo [RF005].
+Avançar Diálogo
+Posicionar Avatar Pós-Troca de Cena
+O sistema deve permitir ao usuário avançar no diálogo.
+O sistema deve posicionar o avatar de forma coerente na nova cena após a troca [RF006].
+Receber Missões (via Diálogo)
+Exibir Caixa de Diálogo (NPC)
+O sistema deve permitir ao jogador receber missões ao dialogar com NPCs.
+O sistema deve exibir uma caixa de diálogo ao interagir [RF005] com um NPC, permitindo o avanço [RF007] do diálogo.
+Visualizar Missão Ativa
+Feedback de Conclusão de Missão
+O sistema deve permitir ao jogador visualizar a missão ativa.
+O sistema deve fornecer um feedback visual ao completar uma missão recebida [RF008] e visualizada [RF009].
+Consultar Álbum de Colecionáveis
+Atualizar Estado da Missão (Ativa/Concluida)
+O sistema deve permitir ao usuário consultar o Álbum de Colecionáveis.
+O sistema deve atualizar o estado da missão (ativa/concluída) [RF008, RF009].
+Fechar Álbum
+Conceder Item Colecionável
+O sistema deve permitir ao usuário fechar o Álbum e voltar ao jogo.
+O sistema deve conceder um item colecionável ao jogador, que pode ser consultado no álbum [RF010].
+Consultar Bloco de Notas
+Paginação do Álbum
+O sistema deve permitir ao usuário consultar o Bloco de Notas.
+O sistema deve exibir botões de paginação ao consultar o Álbum [RF010] se houver muitos itens.
+Fechar Bloco de Notas
+Salvar Quizzes no Bloco de Notas
+O sistema deve permitir ao usuário fechar o Bloco de Notas e voltar ao jogo.
+O sistema deve salvar os quizzes concluídos [RF003] com sucesso no Bloco de Notas [RF012].
+Filtrar Anotações (por Pronome)
+Paginação do Bloco de Notas
+O sistema deve permitir ao usuário filtrar as anotações por pronome.
+O sistema deve exibir botões de paginação ao consultar o Bloco de Notas [RF012] se houver muitas anotações.
+Ocultar/Revelar HUD
+Exibir HUD
+O sistema deve permitir ao usuário ocultar ou revelar a HUD.
+O sistema deve exibir uma Interface de Usuário principal (HUD) durante o jogo, que pode ser ocultada/revelada [RF015].
+Navegação (Menu -> Créditos)
+Exibir Menu Principal
+O sistema deve permitir ao usuário navegar do Menu Principal para a tela de Créditos.
+O sistema deve exibir um Menu Principal ao iniciar, permitindo a navegação [RF016, RF017, RF018].
+Navegação (Menu -> Configurações)
+Exibir Tela de Configurações
+O sistema deve permitir ao usuário navegar do Menu Principal para a tela de Configurações.
+O sistema deve exibir a tela de Configurações acessada via menu [RF017] ou HUD, permitindo modificações [RF019, RF020, RF021] e retorno [RF022].
+Navegação (Menu -> Seleção de Save)
+Exibir Tela de Créditos
+O sistema deve permitir ao usuário navegar do Menu Principal para a tela de Seleção de Save.
+O sistema deve exibir a tela de Créditos, acessada via menu [RF016], permitindo o retorno [RF023].
+Modificar Volume
+Feedback de Jogo Salvo
+O sistema deve permitir ao usuário modificar o volume do jogo.
+O sistema deve fornecer um feedback visual de "salvo com sucesso" após o usuário salvar o progresso [RF024].
+Modificar Velocidade do Texto
+Exibir Tela de Seleção de Save
+O sistema deve permitir ao usuário modificar a velocidade de exibição do texto dos diálogos.
+O sistema deve exibir a tela de Seleção de Save, acessada via menu [RF018], permitindo carregar [RF025], iniciar [RF026] ou apagar [RF027] um jogo.
+Modificar Idioma da Interface
+Confirmação (Duas Etapas) para Apagar
+O sistema deve permitir ao usuário modificar o idioma da interface (HUD, diálogos, feedbacks).
+O sistema deve exigir uma confirmação em duas etapas para apagar um save [RF027].
+Voltar das Configurações
+Persistência e Proteção de Dados
+O sistema deve permitir ao usuário voltar da tela de Configurações (ao menu ou ao jogo).
+Os dados de progresso [RF024, RF025, RF026, RF027] devem ser salvos de forma persistente e protegidos.
+Voltar dos Créditos (para Menu)
+Design de Avatares (Cultura Francesa)
+O sistema deve permitir ao usuário voltar da tela de Créditos para o Menu Principal.
+Os avatares disponíveis para seleção [RF001] devem ter nomes e aparências coerentes com a cultura francesa.
+Salvar Progresso do Jogo
+Design de Ambientes (Tematização)
+O sistema deve permitir ao usuário salvar o progresso do jogo.
+Os ambientes (ex: Maison, Université, Parc) devem ser tematizados, impactando a movimentação [RF002], interação [RF005] e troca de cenas [RF006].
+Carregar Jogo Salvo (Slot)
+Design de NPCs (Cultura Francesa)
+O sistema deve permitir ao usuário selecionar um slot para carregar um jogo salvo.
+Os NPCs de interação [RF005, RF008] devem ter nomes e aparências coerentes com a cultura francesa.
+Iniciar Novo Jogo (Slot)
+Design de Colecionáveis (Van Gogh)
+O sistema deve permitir ao usuário selecionar um slot para iniciar um novo jogo.
+As imagens colecionáveis [RNF011], consultadas no álbum [RF010], devem ser quadros do pintor Vincent Van Gogh.
+Apagar Jogo Salvo (Slot)
+Conteúdo dos Créditos
+O sistema deve permitir ao usuário apagar um jogo salvo.
+A tela de Créditos [RF016, RF023] deve conter informações sobre o projeto e seus criadores.
+Regra de Interação (Múltipla)
+O sistema deve permitir que o usuário interaja com o mesmo objeto múltiplas vezes.
+O quiz [RNF001, RF003] deve ser apresentado com 4 alternativas clicáveis.
+Regra de Navegação (Livre entre Cenas)
+UI de Diálogo (Nome do Falante)
+O sistema deve permitir ao usuário navegar livremente (ir e vir) entre cenas já desbloqueadas (RF012).
+A caixa de diálogo [RNF008, RF007] deve exibir o nome do personagem que está falando.
+UI de Diálogo (Animação de Texto)
+O texto do diálogo [RNF008, RF007] deve aparecer letra por letra.
+UI de Diálogo (Avanço de Texto)
+O comando de avanço [RF007] deve acelerar a animação do texto [RNF030] ou avançar para a próxima fala.
+UI de Aleatoriedade (Dado)
+A aleatoriedade [RNF045] deve ser representada graficamente por um dado.
+UI da HUD (Posicionamento)
+A HUD [RNF015, RF015] deve ser uma barra lateral, posicionada verticalmente à direita.
+UI da HUD (Comandos de Acesso)
+A HUD [RNF015] deve conter os comandos de acesso para Salvar [RF024], Álbum [RF010], Missão [RF009], Configurações [RF017] e Bloco de Notas [RF012].
+UI de Configurações (Acesso)
+A tela de Configurações [RNF017] deve ser acessível pelo Menu Principal [RF017] e pela HUD [RNF034].
+UI de Save (3 Slots)
+ Concluido
+A tela de Seleção de Save [RNF020] deve exibir 3 slots [RF018, RF025, RF026, RF027].
+UI do Álbum (Janela Modal)
+O Álbum [RF010] deve ser apresentado como uma janela sobrepondo o jogo, com um botão "Voltar" [RF011].
+UI do Álbum (Estado Vazio)
+Caso o Álbum [RF010] esteja vazio, o sistema deve exibir a mensagem "Falta muito a estudar ainda".
+UI do Bloco de Notas (Aparência)
+erro
+O Bloco de Notas [RF012] deve ser apresentado como uma janela sobrepondo o jogo, com aparência de caderno e um botão "Voltar" [RF013].
+UI do Bloco de Notas (Estado Vazio)
+Caso o Bloco de Notas [RF012] esteja vazio, o sistema deve exibir a mensagem "Falta muito a estudar ainda".
+UI de Missão (Caixa Colapsável)
+A visualização da missão [RF009] deve ser uma caixa colapsável na HUD [RNF015, RNF034].
+UI de Missão (Estado Vazio)
+Caso não haja missão ativa [RF009], o sistema deve exibir a mensagem "nenhum objetivo por agora".
+Regra de Avatares (Mínimo 2)
+O sistema deve disponibilizar pelo menos 2 avatares (um homem e uma mulher) para seleção [RF001].
+Regra do Quiz (Coerência com Objeto)
+O conteúdo do quiz [RF003] deve ser coerente com o objeto do cenário [RF005] ao qual está atrelado.
+O sistema deve aleatorizar o quiz [RF003] apresentado, variando entre os 6 pronomes.
+Regra de Colecionável (Recompensa Única)
+Cada quiz [RF003] (individual) confere um colecionável [RNF011, RF010] apenas uma única vez.
+Regra de Desbloqueio de Cena (Pós-Quizzes)
+O sistema deve manter uma porta [RF006] bloqueada até que o jogador resolva pelo menos 1 quiz [RF003] de cada objeto interativo da cena atual.
+Regra de Desbloqueio (Justificativa Narrativa)
+O bloqueio da porta [RF006, RNF047] deve ser justificado narrativamente.
+Regra de Missão (Limite de 1 Ativa)
+O sistema não deve permitir que o jogador tenha mais de uma missão [RF008] ativa por vez.
+Regra de Missão (Desbloqueio Secundário de Cenas)
+As missões [RF008] podem ser usadas como um método secundário para desbloquear cenas [RF006].
+Regra de Missão (Recompensa em Colecionável)
+As missões [RF008] podem conceder colecionáveis [RNF011, RF010] como recompensa.
+Regra de Idioma (Menus em Português)
+O Menu Principal [RNF016] e a tela de Configurações [RNF017] devem ser exibidos sempre em Português.
+Regra de Navegação (Voltar das Configurações)
+O comando "voltar" [RF022] deve retornar ao Menu Principal (se acessado de lá [RF017]) ou retomar o jogo (se acessado pela HUD [RNF034]).
+Regra de Save (Confirmação Dupla para Apagar)
+A ação de apagar um save [RF027] deve exigir uma confirmação em duas etapas (Coberto também por [RNF021]).
+Regra de Dificuldade (Progressiva por Cena/Ambiente)
+A dificuldade pedagógica dos quizzes [RF003] deve progredir de acordo com o ambiente [RNF004, RNF024].
+Interface Intuitiva
+O jogo deve garantir uma interface que seja amigável e intuitiva para o usuário seguindo os parâmetros ergonômicos da Interação Humano Computador (IHC).
+Performance
+O jogo deve garantir boa performance durante a execução do jogo. (Performance entre 45fps−60fps para qualidade entre 720p e 1080p).
+Portabilidade
+O jogo deve ser executável em sistemas operacionais Windows 10 e 11.
+Escalabilidade
+O sistema é escalável para suportar mais dados armazenados e novos usuários.
+Manutenibilidade
+O sistema deve ser fácil de modularizar e adicionar funcionalidades. (Um novo conjunto de 10 frases para o nível A1 pode ser inserido no banco de dados/arquivo de configuração em menos de 30 minutos).
+Usabilidade
+O jogo deve permitir que um jogador iniciante compreenda as regras básicas de conjugação e as mecânicas de gameplay e pontuação.
+Música de ambiente
+O sistema deve reproduzir uma música de fundo em loop, que deve ser de origem francesa. A música deve ser associada a cada ambiente [RNF004, RNF024] e seu volume deve ser controlável pela configuração [RF019].
+Feedback sonoro de interação
+O sistema deve reproduzir um feedback sonoro breve no momento em que o usuário inicia uma interação [RF005] (ex: com objetos, NPCs, portas). O som deve ser controlável pela configuração de volume [RF019].
+Feedback sonoro de quiz
+O sistema deve reproduzir um feedback sonoro distinto para acerto ou erro, disparado juntamente com o feedback visual [RNF002], após o usuário submeter uma resposta [RF003]. O som deve ser controlável pela configuração de volume [RF019].
+Sonorização de diálogo
+O sistema deve reproduzir um som curto ("blip") para cada letra que surge durante a animação de texto do diálogo [RNF030]. A frequência desses sons é impactada pela configuração de velocidade de texto [RF020] e seu volume pela configuração [RF019].
+Animação de Movimentação do Avatar
+O sistema deve exibir animações de caminhada para o avatar (parado, andando para cima, baixo, esquerda, direita) em resposta ao comando de movimentação [RF002].
+Animação de Transição de Cena
+A troca de cena [RF006] não deve ser um corte instantâneo. O sistema deve exibir uma animação de transição (ex: "fade-to-black" rápido) para suavizar a mudança entre ambientes [RNF004].
+UI - Estado de Foco/Hover
+Todos os elementos de UI clicáveis devem reagir visualmente quando o mouse passar por cima ("hover") ou quando forem selecionados (ex: mudar de cor, brilhar, aumentar de tamanho). Aplica-se a: alternativas de quiz [RNF028], comandos da HUD [RNF034], slots de save [RNF036], botões de paginação [RNF012, RNF014] e todos os botões de navegação de menu (ex: [RF022], [RF023]).
+Regra de "Onboarding" (Início do Jogo)
+Ao iniciar um novo jogo [RF026], o sistema deve colocar o jogador em uma cena introdutória controlada (ex: um "Quarto" dentro da "Maison" [RNF024]). Esta cena deve conter um NPC [RNF005] que oferece a primeira missão [RF008], servindo como um tutorial guiado.
+UI - Instruções de Tutorial Contextual
+Durante a cena introdutória [RNF069], o sistema deve exibir prompts de UI (textos de ajuda) contextuais e não-intrusivos para ensinar as mecânicas básicas: movimentação [RF002], interação [RF005] e como acessar a HUD [RF015].

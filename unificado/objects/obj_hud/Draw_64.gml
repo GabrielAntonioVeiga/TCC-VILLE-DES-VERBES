@@ -79,11 +79,11 @@ else {
         draw_set_color(c_white);
         draw_text(gui_w/2, 100, "BLOCO DE NOTAS");
         
-        // ================= LÓGICA DO BLOCO DE NOTAS =================
+      
         var _total = array_length(global.notas);
         
         if (_total == 0) {
-            // Se a pessoa não concluiu nenhum quiz ainda
+       
             draw_text(gui_w/2, gui_h/2, "Nenhuma anotação disponível ainda."); 
         } else {
             // Cálculos da paginação
@@ -92,12 +92,12 @@ else {
             
             // Desenha as notas da página atual
             for (var i = _inicio; i < _fim; i++) {
-                var _y = 200 + ((i - _inicio) * 120); // Espaçamento de 50 pixels entre linhas
+                var _y = 200 + ((i - _inicio) * 160);
                 draw_text(gui_w/2, _y, global.notas[i]);
             }
             
-            // --- BOTÕES DE PAGINAÇÃO ---
-            var pag_y = gui_h - 200; // Posição Y dos botões de página
+           
+            var pag_y = gui_h - 160; 
             
             // Botão "Anterior"
             if (pagina_notas > 0) {

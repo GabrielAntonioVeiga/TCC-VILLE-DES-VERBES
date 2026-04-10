@@ -5,7 +5,7 @@ var gui_w = display_get_gui_width();
 
 var hovered_index = -1;
 for (var i = 0; i < array_length(options); i++) {
-    var btn_y = 200 + i * 60;
+    var btn_y = 200 + i * 65;
     if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && 
         my > btn_y - 20 && my < btn_y + 20) {
         hovered_index = i;
@@ -22,27 +22,56 @@ if keyboard_check_pressed(vk_down) selected++;
 
 selected = clamp(selected,0,array_length(options)-1);
 
-if keyboard_check_pressed(vk_enter) || (hovered_index != -1 && mouse_check_button_pressed(mb_left))
+var act_right = keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_enter);
+var act_left = keyboard_check_pressed(vk_left);
+
+if (hovered_index != -1 && mouse_check_button_pressed(mb_left)) {
+    if (hovered_index <= 2) {
+        if (mx > gui_w/2) act_right = true;
+        else act_left = true;
+    } else {
+        act_right = true;
+    }
+}
+
+if (act_right || act_left)
 {
+    var dir = act_right ? 1 : -1;
     switch(selected)
     {
-        case 0:
-            global.volume = min(global.volume+0.1,1);
+        case 0: // Volume
+            global.volume = clamp(global.volume + (0.1 * dir), 0, 1);
+            audio_master_gain(global.volume);
         break;
 
-        case 1:
-            global.volume = max(global.volume-0.1,0);
-        break;
-
-        case 2:
-            //window_set_fullscreen(!window_get_fullscreen());
-        break;
-
-        case 3:
-            if (variable_global_exists("previous_room") && global.previous_room != rm_config) {
-                room_goto(global.previous_room);
+        case 1: // Velocidade do Texto (1=Rapido, 2=Normal, 4=Lento)
+            if (dir > 0) {
+                if (global.text_speed == 1) global.text_speed = 2;
+                else if (global.text_speed == 2) global.text_speed = 4;
+                else global.text_speed = 1;
             } else {
-                room_goto(rm_menu);
+                if (global.text_speed == 1) global.text_speed = 4;
+                else if (global.text_speed == 2) global.text_speed = 1;
+                else global.text_speed = 2;
+            }
+        break;
+
+        case 2: // Idioma
+            if (global.language == "pt") global.language = "fr";
+            else global.language = "pt";
+        break;
+
+        case 3: // Tela cheia
+            window_set_fullscreen(!window_get_fullscreen());
+        break;
+
+        case 4: // Voltar
+            if (act_right) { // apenas se confirmou (enter ou click)
+                if (variable_global_exists("previous_room") && global.previous_room != rm_config) {
+                    room_goto(global.previous_room);
+                } else {
+                    room_goto(rm_menu);
+                }
             }
         break;
     }

@@ -1,1 +1,1 @@
-carregar_jogo_slot(slot_selecionado);
+//carregar_jogo_slot(slot_selecionado);

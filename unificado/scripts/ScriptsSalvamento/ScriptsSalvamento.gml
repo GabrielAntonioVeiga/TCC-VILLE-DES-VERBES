@@ -14,7 +14,7 @@ function criar_feedback(texto_msg) {
 }
 
 function _filename_for_slot(slot) {
-    return "save" + string(slot) + ".sav";
+    return "save" + string(slot) + ".json";
 }
 
 function salvar_jogo_slot(slot) {
@@ -41,6 +41,7 @@ function salvar_jogo_slot(slot) {
     ini_close();
 
     criar_feedback("Jogo salvo com sucesso!");
+	show_debug_message(nomeArquivo);
     //audio_play_sound(global.snd_confirm,1,false);
 }
 

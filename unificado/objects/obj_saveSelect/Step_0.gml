@@ -1,63 +1,128 @@
 var mx = device_mouse_x_to_gui(0);
 var my = device_mouse_y_to_gui(0);
+
+var raw_click = mouse_check_button_pressed(mb_left);
+var click = raw_click && !click_lock;
+
+if (mouse_check_button_released(mb_left)) {
+    click_lock = false;
+}
+if (click) {
+    click_lock = true;
+}
+
 var gui_w = display_get_gui_width();
+var gui_h = display_get_gui_height();
 
+var total_width = (slots * slot_w) + ((slots - 1) * spacing);
+var base_x = (gui_w / 2) - (total_width / 2);
+
+var hovering = false;
+
+// ==========================
+// POPUP
+// ==========================
 if (confirm_mode) {
-    if (keyboard_check_pressed(vk_escape)) {
-        confirm_mode = false;
-        delete_target = -1;
-    }
-    if (keyboard_check_pressed(vk_enter)) {
-        apagar_save_slot(delete_target);
-        confirm_mode = false;
-        delete_target = -1;
-    }
-} else {
-    // Detecçao do Hitbox do mouse pelas palavras no Draw_64
-    var hovered_index = -1;
-    for (var i = 0; i <= slots; i++) {
-        var btn_y = 200 + i * 60;
-        // Caixa de colisão baseada na largura de 300 e altura 40
-        if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && 
-            my > btn_y - 20 && my < btn_y + 20) {
-            hovered_index = i;
-            break;
+    var px = gui_w / 2;
+    var py = gui_h / 2;
+
+    var sim = point_in_rectangle(mx, my, px - 160, py + 20, px - 20, py + 70);
+    var nao = point_in_rectangle(mx, my, px + 20, py + 20, px + 160, py + 70);
+
+    if (sim || nao) hovering = true;
+
+    if (click) {
+        if (sim) {
+            apagar_save_slot(delete_target);
+            confirm_mode = false;
+            delete_target = -1;
+            exit;
+        }
+
+        if (nao) {
+            confirm_mode = false;
+            delete_target = -1;
+            exit;
         }
     }
 
-    if (hovered_index != -1) {
-        selected = hovered_index;
-    }
+    window_set_cursor(hovering ? cr_handpoint : cr_default);
+    exit;
+}
 
-    if keyboard_check_pressed(vk_up) selected--;
-    if keyboard_check_pressed(vk_down) selected++;
+// ==========================
+// SLOTS
+// ==========================
+for (var i = 0; i < slots; i++) {
 
-    selected = clamp(selected,0,slots);
+    var start_x = base_x + (i * (slot_w + spacing));
+    var y_botoes = start_y + slot_h + 10;
 
-    // Deletar um save - Confirmação (2 etapas)
-    if (keyboard_check_pressed(vk_delete) || (hovered_index != -1 && mouse_check_button_pressed(mb_right))) {
-        if (selected < slots && file_exists("save"+string(selected)+".sav")) {
+    if (existe_save_slot(i)) {
+
+        // APAGAR
+        var apagar_x1 = start_x + slot_w - btn_w;
+        var apagar_x2 = start_x + slot_w;
+
+        var hover_apagar = point_in_rectangle(mx, my, apagar_x1, y_botoes, apagar_x2, y_botoes + btn_h);
+
+        if (hover_apagar) hovering = true;
+
+        if (click && hover_apagar) {
             confirm_mode = true;
-            delete_target = selected;
+            delete_target = i;
+            exit;
         }
-    }
 
-    // Ação Confirmar slot / Voltar
-    if keyboard_check_pressed(vk_enter) || (hovered_index != -1 && mouse_check_button_pressed(mb_left))
-    {
-        if selected < slots
-        {
-            global.save_slot = selected;
-            // Se o save existir, executa o método para setar dados, carregar e saltar pro Room 
-            if (file_exists("save"+string(selected)+".sav")) {
-                carregar_jogo_slot(selected);
-            } else {
-                room_goto(rm_CharacterSelection);
-            }
+        // CARREGAR
+        var carregar_x1 = start_x;
+        var carregar_x2 = start_x + btn_w;
+
+        var hover_carregar = point_in_rectangle(mx, my, carregar_x1, y_botoes, carregar_x2, y_botoes + btn_h);
+
+        if (hover_carregar) hovering = true;
+
+        if (click && hover_carregar) {
+            global.save_slot = i;
+            carregar_jogo_slot(i);
+            exit;
         }
-        else
-        {
-            room_goto(rm_menu);
+
+    } else {
+
+        // NOVO JOGO
+        var novo_x1 = start_x + (slot_w/2) - 75;
+        var novo_x2 = start_x + (slot_w/2) + 75;
+
+        var hover_novo = point_in_rectangle(mx, my, novo_x1, y_botoes, novo_x2, y_botoes + btn_h);
+
+        if (hover_novo) hovering = true;
+
+        if (click && hover_novo) {
+            global.save_slot = i;
+            room_goto(rm_CharacterSelection);
+            exit;
         }
     }
+}
+
+/// ==========================
+/// BOTÃO VOLTAR
+/// ==========================
+var voltar_w = 180;
+var voltar_h = 50;
+
+var voltar_x1 = gui_w/2 - voltar_w/2;
+var voltar_y1 = start_y + slot_h + 100;
+
+var voltar_x2 = voltar_x1 + voltar_w;
+var voltar_y2 = voltar_y1 + voltar_h;
+
+var hover_voltar = point_in_rectangle(mx, my, voltar_x1, voltar_y1, voltar_x2, voltar_y2);
+
+if (hover_voltar) hovering = true;
+
+if (click && hover_voltar) {
+    room_goto(rm_menu); // volta pro menu principal
+    exit;
 }

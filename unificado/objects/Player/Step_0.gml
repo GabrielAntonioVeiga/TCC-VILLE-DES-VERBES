@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1EA3E833
-/// @DnDArgument : "code" "// ================= INPUT =================$(13_10)var can_move = (global.dialogo == false);$(13_10)$(13_10)var RightKey = can_move ? keyboard_check(vk_right) : 0;$(13_10)var LeftKey  = can_move ? keyboard_check(vk_left) : 0;$(13_10)var UpKey    = can_move ? keyboard_check(vk_up) : 0;$(13_10)var DownKey  = can_move ? keyboard_check(vk_down) : 0;$(13_10)$(13_10)// ================= ACELERAÇÃO =================$(13_10)if (RightKey) xspeed += accel;$(13_10)if (LeftKey)  xspeed -= accel;$(13_10)if (DownKey)  yspeed += accel;$(13_10)if (UpKey)    yspeed -= accel;$(13_10)$(13_10)// ================= LIMITA VELOCIDADE =================$(13_10)xspeed = clamp(xspeed, -maxspd, maxspd);$(13_10)yspeed = clamp(yspeed, -maxspd, maxspd);$(13_10)$(13_10)// Limite velocidade na diagonal$(13_10)var spd = point_distance(0, 0, xspeed, yspeed);$(13_10)$(13_10)if (spd > maxspd) {$(13_10)    var dir = point_direction(0, 0, xspeed, yspeed);$(13_10)    xspeed = lengthdir_x(maxspd, dir);$(13_10)    yspeed = lengthdir_y(maxspd, dir);$(13_10)}$(13_10)$(13_10)// ================= ATRITO =================$(13_10)if (!RightKey && !LeftKey) {$(13_10)    if (abs(xspeed) < fric) xspeed = 0;$(13_10)    else xspeed -= sign(xspeed) * fric;$(13_10)}$(13_10)$(13_10)if (!UpKey && !DownKey) {$(13_10)    if (abs(yspeed) < fric) yspeed = 0;$(13_10)    else yspeed -= sign(yspeed) * fric;$(13_10)}$(13_10)$(13_10)// ================= DIREÇÃO =================$(13_10)if (RightKey)      facing = DIR.RIGHT;$(13_10)else if (LeftKey)  facing = DIR.LEFT;$(13_10)else if (UpKey)    facing = DIR.UP;$(13_10)else if (DownKey)  facing = DIR.DOWN;$(13_10)$(13_10)// ================= COLISÕES =================$(13_10)if (place_meeting(x + xspeed, y, Obstaculo)) {$(13_10)    xspeed = 0;$(13_10)}$(13_10)$(13_10)if (place_meeting(x, y + yspeed, Obstaculo)) {$(13_10)    yspeed = 0;$(13_10)}$(13_10)if (place_meeting(x + xspeed, y, ObjObstaculoQuiz)) {$(13_10)    xspeed = 0;$(13_10)}$(13_10)$(13_10)if (place_meeting(x, y + yspeed, ObjObstaculoQuiz)) {$(13_10)    yspeed = 0;$(13_10)}$(13_10)$(13_10)// ================= MOVIMENTO FINAL =================$(13_10)x += xspeed;$(13_10)y += yspeed;$(13_10)$(13_10)// ================= ESTADO DE MOVIMENTO =================$(13_10)moving = (abs(xspeed) > 0.05) || (abs(yspeed) > 0.05);$(13_10)$(13_10)// ================= ANIMAÇÃO =================$(13_10)// cada direção ocupa 4 frames$(13_10)// RIGHT=0, DOWN=1, LEFT=2, UP=3$(13_10)var dir_base = facing * 4;$(13_10)$(13_10)if (moving) {$(13_10)    anim_timer++;$(13_10)$(13_10)    if (anim_timer >= anim_delay) {$(13_10)        anim_timer = 0;$(13_10)        anim_frame = (anim_frame + 1) mod 4;$(13_10)    }$(13_10)}$(13_10)else {$(13_10)    // idle$(13_10)    anim_timer = 0;$(13_10)    anim_frame = 0;$(13_10)}$(13_10)$(13_10)// aplica frame correto$(13_10)image_index = dir_base + anim_frame;$(13_10)$(13_10)#region Diálogo e Quiz$(13_10)if (distance_to_object(ParenteNpc) <= global.range) {$(13_10)    if (keyboard_check_pressed(ord("E")) && global.dialogo == false && !instance_exists(Dialogo)) {$(13_10)        var npc = instance_nearest(x, y, ParenteNpc);$(13_10)        var _dialogoInst = instance_create_layer(x, y, "Dialogo", Dialogo);$(13_10)        _dialogoInst.nomeNpc = npc.nome;$(13_10)        $(13_10)        global.dialogo = true; $(13_10)    }$(13_10)}$(13_10)$(13_10)if (distance_to_object(ObjObstaculoQuiz) <= global.range) {$(13_10)    if (keyboard_check_pressed(ord("E")) && global.dialogo == false && !instance_exists(obj_quiz)) {$(13_10)        var obstaculo = instance_nearest(x, y, ObjObstaculoQuiz);$(13_10)        var lista_tempos = global.dados_quiz[$ obstaculo.quiz_id];$(13_10)        var sorteio_tempo = irandom(array_length(lista_tempos) - 1);$(13_10)        var dados_tempo_escolhido = lista_tempos[sorteio_tempo];$(13_10)        var sorteio_pronome = irandom(array_length(dados_tempo_escolhido.variacoes) - 1);$(13_10)        var quiz_sorteado = dados_tempo_escolhido.variacoes[sorteio_pronome];$(13_10)        var _quizInst = instance_create_layer(0, 0, "interacao", obj_quiz);$(13_10)        _quizInst.pergunta = quiz_sorteado.frase;$(13_10)        _quizInst.tempo_verbal = dados_tempo_escolhido.tempo_verbal; $(13_10)        _quizInst.opcoes = quiz_sorteado.opcoes;$(13_10)        _quizInst.resposta_correta = quiz_sorteado.resposta_correta;$(13_10)        global.dialogo = true; $(13_10)    }$(13_10)}"
+/// @DnDArgument : "code" "// ================= INPUT =================$(13_10)var can_move = (global.dialogo == false);$(13_10)$(13_10)var RightKey = can_move ? keyboard_check(vk_right) : 0;$(13_10)var LeftKey  = can_move ? keyboard_check(vk_left) : 0;$(13_10)var UpKey    = can_move ? keyboard_check(vk_up) : 0;$(13_10)var DownKey  = can_move ? keyboard_check(vk_down) : 0;$(13_10)$(13_10)// ================= ACELERAÇÃO =================$(13_10)if (RightKey) xspeed += accel;$(13_10)if (LeftKey)  xspeed -= accel;$(13_10)if (DownKey)  yspeed += accel;$(13_10)if (UpKey)    yspeed -= accel;$(13_10)$(13_10)// ================= LIMITA VELOCIDADE =================$(13_10)xspeed = clamp(xspeed, -maxspd, maxspd);$(13_10)yspeed = clamp(yspeed, -maxspd, maxspd);$(13_10)$(13_10)// Limite velocidade na diagonal$(13_10)var spd = point_distance(0, 0, xspeed, yspeed);$(13_10)$(13_10)if (spd > maxspd) {$(13_10)    var dir = point_direction(0, 0, xspeed, yspeed);$(13_10)    xspeed = lengthdir_x(maxspd, dir);$(13_10)    yspeed = lengthdir_y(maxspd, dir);$(13_10)}$(13_10)$(13_10)// ================= Mobilidade da Camera =========$(13_10)var x_view = camera_get_view_x(view_camera[0]);$(13_10)var y_view = camera_get_view_y(view_camera[0]);$(13_10)var w_view = camera_get_view_width(view_camera[0]);$(13_10)var h_view = camera_get_view_height(view_camera[0]);$(13_10)$(13_10)// Configurações de intensidade$(13_10)var suavidade = 0.1; // Quanto menor, mais lenta/suave é a camera$(13_10)var look_ahead = 50; // O quanto a camera olha para a frente/antecipa o movimento$(13_10)$(13_10)// Calculamos o destino ideal (Centro do player + um deslocamento baseado na velocidade)$(13_10)var go_to_x = (x - w_view / 2) + (xspeed * look_ahead / maxspd);$(13_10)var go_to_y = (y - h_view / 2) + (yspeed * look_ahead / maxspd);$(13_10)$(13_10)// Interpolação (suavização) entre a posição atual e a posição de destino$(13_10)var new_x = lerp(x_view, go_to_x, suavidade);$(13_10)var new_y = lerp(y_view, go_to_y, suavidade);$(13_10)$(13_10)// Impedir que a camera saia dos limites da sala (Room)$(13_10)new_x = clamp(new_x, 0, room_width - w_view);$(13_10)new_y = clamp(new_y, 0, room_height - h_view);$(13_10)$(13_10)// Aplica a nova posição à camera$(13_10)camera_set_view_pos(view_camera[0], new_x, new_y);$(13_10)$(13_10)// ================= ATRITO =================$(13_10)if (!RightKey && !LeftKey) {$(13_10)    if (abs(xspeed) < fric) xspeed = 0;$(13_10)    else xspeed -= sign(xspeed) * fric;$(13_10)}$(13_10)$(13_10)if (!UpKey && !DownKey) {$(13_10)    if (abs(yspeed) < fric) yspeed = 0;$(13_10)    else yspeed -= sign(yspeed) * fric;$(13_10)}$(13_10)$(13_10)// ================= DIREÇÃO =================$(13_10)if (RightKey)      facing = DIR.RIGHT;$(13_10)else if (LeftKey)  facing = DIR.LEFT;$(13_10)else if (UpKey)    facing = DIR.UP;$(13_10)else if (DownKey)  facing = DIR.DOWN;$(13_10)$(13_10)// ================= COLISÕES =================$(13_10)if (place_meeting(x + xspeed, y, Obstaculo)) {$(13_10)    xspeed = 0;$(13_10)}$(13_10)$(13_10)if (place_meeting(x, y + yspeed, Obstaculo)) {$(13_10)    yspeed = 0;$(13_10)}$(13_10)if (place_meeting(x + xspeed, y, ObjObstaculoQuiz)) {$(13_10)    xspeed = 0;$(13_10)}$(13_10)$(13_10)if (place_meeting(x, y + yspeed, ObjObstaculoQuiz)) {$(13_10)    yspeed = 0;$(13_10)}$(13_10)$(13_10)// ================= MOVIMENTO FINAL =================$(13_10)x += xspeed;$(13_10)y += yspeed;$(13_10)$(13_10)// ================= ESTADO DE MOVIMENTO =================$(13_10)moving = (abs(xspeed) > 0.05) || (abs(yspeed) > 0.05);$(13_10)$(13_10)// ================= ANIMAÇÃO =================$(13_10)// cada direção ocupa 4 frames$(13_10)// RIGHT=0, DOWN=1, LEFT=2, UP=3$(13_10)var dir_base = facing * 4;$(13_10)$(13_10)if (moving) {$(13_10)    anim_timer++;$(13_10)$(13_10)    if (anim_timer >= anim_delay) {$(13_10)        anim_timer = 0;$(13_10)        anim_frame = (anim_frame + 1) mod 4;$(13_10)    }$(13_10)}$(13_10)else {$(13_10)    // idle$(13_10)    anim_timer = 0;$(13_10)    anim_frame = 0;$(13_10)}$(13_10)$(13_10)// aplica frame correto$(13_10)image_index = dir_base + anim_frame;$(13_10)$(13_10)#region Diálogo e Quiz$(13_10)if (distance_to_object(ParenteNpc) <= global.range) {$(13_10)    if (keyboard_check_pressed(ord("E")) && global.dialogo == false && !instance_exists(Dialogo)) {$(13_10)        var npc = instance_nearest(x, y, ParenteNpc);$(13_10)        var _dialogoInst = instance_create_layer(x, y, "Dialogo", Dialogo);$(13_10)        _dialogoInst.nomeNpc = npc.nome;$(13_10)        $(13_10)        global.dialogo = true; $(13_10)    }$(13_10)}$(13_10)$(13_10)if (distance_to_object(ObjObstaculoQuiz) <= global.range) {$(13_10)    if (keyboard_check_pressed(ord("E")) && global.dialogo == false && !instance_exists(obj_quiz)) {$(13_10)        var obstaculo = instance_nearest(x, y, ObjObstaculoQuiz);$(13_10)        var lista_tempos = global.dados_quiz[$ obstaculo.quiz_id];$(13_10)        var sorteio_tempo = irandom(array_length(lista_tempos) - 1);$(13_10)        var dados_tempo_escolhido = lista_tempos[sorteio_tempo];$(13_10)        var sorteio_pronome = irandom(array_length(dados_tempo_escolhido.variacoes) - 1);$(13_10)        var quiz_sorteado = dados_tempo_escolhido.variacoes[sorteio_pronome];$(13_10)        var _quizInst = instance_create_layer(0, 0, "interacao", obj_quiz);$(13_10)        _quizInst.pergunta = quiz_sorteado.frase;$(13_10)        _quizInst.tempo_verbal = dados_tempo_escolhido.tempo_verbal; $(13_10)        _quizInst.opcoes = quiz_sorteado.opcoes;$(13_10)        _quizInst.resposta_correta = quiz_sorteado.resposta_correta;$(13_10)        global.dialogo = true; $(13_10)    }$(13_10)}"
 // ================= INPUT =================
 var can_move = (global.dialogo == false);
 
@@ -28,6 +28,31 @@ if (spd > maxspd) {
     xspeed = lengthdir_x(maxspd, dir);
     yspeed = lengthdir_y(maxspd, dir);
 }
+
+// ================= Mobilidade da Camera =========
+var x_view = camera_get_view_x(view_camera[0]);
+var y_view = camera_get_view_y(view_camera[0]);
+var w_view = camera_get_view_width(view_camera[0]);
+var h_view = camera_get_view_height(view_camera[0]);
+
+// Configurações de intensidade
+var suavidade = 0.1; // Quanto menor, mais lenta/suave é a camera
+var look_ahead = 50; // O quanto a camera olha para a frente/antecipa o movimento
+
+// Calculamos o destino ideal (Centro do player + um deslocamento baseado na velocidade)
+var go_to_x = (x - w_view / 2) + (xspeed * look_ahead / maxspd);
+var go_to_y = (y - h_view / 2) + (yspeed * look_ahead / maxspd);
+
+// Interpolação (suavização) entre a posição atual e a posição de destino
+var new_x = lerp(x_view, go_to_x, suavidade);
+var new_y = lerp(y_view, go_to_y, suavidade);
+
+// Impedir que a camera saia dos limites da sala (Room)
+new_x = clamp(new_x, 0, room_width - w_view);
+new_y = clamp(new_y, 0, room_height - h_view);
+
+// Aplica a nova posição à camera
+camera_set_view_pos(view_camera[0], new_x, new_y);
 
 // ================= ATRITO =================
 if (!RightKey && !LeftKey) {
@@ -103,40 +128,18 @@ if (distance_to_object(ParenteNpc) <= global.range) {
 }
 
 if (distance_to_object(ObjObstaculoQuiz) <= global.range) {
-  
-    var _instancia_perto = instance_nearest(x, y, ObjObstaculoQuiz);
-
-    if (keyboard_check_released(ord("E")) && global.dialogo == false) {
-        
-        var q_id = _instancia_perto.quiz_id;
-        var lista_tempos = global.dados_quiz[$ q_id];
-
-        if (_instancia_perto.pergunta_salva == -1) {
-            var s_tempo = irandom(array_length(lista_tempos) - 1);
-            var s_pronome = irandom(array_length(lista_tempos[s_tempo].variacoes) - 1);
-            
-         
-            _instancia_perto.pergunta_salva = { t: s_tempo, p: s_pronome };
-        }
-
-    
-        var dados = _instancia_perto.pergunta_salva;
-        var tempo_obj = lista_tempos[dados.t];
-        var var_obj = tempo_obj.variacoes[dados.p];
-
-     
-        var _q = instance_create_layer(0, 0, "interacao", obj_quiz);
-        _q.quiz_id = q_id;
-        _q.instancia_pai = _instancia_perto; 
-        
-        _q.pergunta = var_obj.frase;
-        _q.tempo_verbal = tempo_obj.tempo_verbal; 
-		_q.verbo = tempo_obj.verbo;
-        _q.opcoes = var_obj.opcoes;
-        _q.resposta_correta = var_obj.resposta_correta;
-        _q.pronome = var_obj.pronome;
-        _q.nome_quiz = var_obj.nome_quiz;
-        
+    if (keyboard_check_pressed(ord("E")) && global.dialogo == false && !instance_exists(obj_quiz)) {
+        var obstaculo = instance_nearest(x, y, ObjObstaculoQuiz);
+        var lista_tempos = global.dados_quiz[$ obstaculo.quiz_id];
+        var sorteio_tempo = irandom(array_length(lista_tempos) - 1);
+        var dados_tempo_escolhido = lista_tempos[sorteio_tempo];
+        var sorteio_pronome = irandom(array_length(dados_tempo_escolhido.variacoes) - 1);
+        var quiz_sorteado = dados_tempo_escolhido.variacoes[sorteio_pronome];
+        var _quizInst = instance_create_layer(0, 0, "interacao", obj_quiz);
+        _quizInst.pergunta = quiz_sorteado.frase;
+        _quizInst.tempo_verbal = dados_tempo_escolhido.tempo_verbal; 
+        _quizInst.opcoes = quiz_sorteado.opcoes;
+        _quizInst.resposta_correta = quiz_sorteado.resposta_correta;
         global.dialogo = true; 
     }
 }

@@ -66,7 +66,65 @@ else {
     if (state == "album") {
         draw_set_color(c_white);
         draw_text(gui_w/2, 100, "ÁLBUM DE PINTURAS");
-        draw_text(gui_w/2, gui_h/2, "Falta muito a estudar ainda"); // RNF27
+        
+        var total_albuns = 29;
+        var albuns_por_pagina = 6;
+        var cols = 3;
+        var slot_w = 260;
+        var slot_h = 180;
+        var spacing = 40;
+        
+        var total_w = (cols * slot_w) + ((cols - 1) * spacing);
+        var base_x = (gui_w / 2) - (total_w / 2);
+        var base_y = 220;
+        
+        var _inicio = pagina_album * albuns_por_pagina;
+        var _fim = min(_inicio + albuns_por_pagina, total_albuns);
+        
+        for (var i = _inicio; i < _fim; i++) {
+            var idx = i - _inicio;
+            var col = idx % cols;
+            var row = floor(idx / cols);
+            
+            var start_x = base_x + (col * (slot_w + spacing));
+            var start_y = base_y + (row * (slot_h + spacing));
+            
+            // Fundo escuro
+            draw_set_color(c_dkgray);
+            draw_set_alpha(0.5);
+            draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, false);
+            draw_set_alpha(1.0);
+            
+            // Borda
+            draw_set_color(c_white);
+            draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, true);
+            
+            // Texto
+            draw_text(start_x + slot_w/2, start_y + slot_h/2 - 10, "?" + " (" + string(i+1) + ")");
+            draw_text(start_x + slot_w/2, start_y + slot_h/2 + 20, "Bloqueado");
+        }
+        
+        // Paginação do Álbum
+        var pag_y = voltar_y; 
+        
+        // Botão "Anterior"
+        if (pagina_album > 0) {
+            if (mx > (gui_w/2) - 250 && mx < (gui_w/2) - 150 && my > pag_y - 20 && my < pag_y + 20) {
+                draw_set_color(c_yellow);
+                if (mouse_check_button_pressed(mb_left)) pagina_album--;
+            } else draw_set_color(c_white);
+            draw_text((gui_w/2) - 200, pag_y, "< Anterior");
+        }
+        
+        // Botão "Próximo"
+        if (_fim < total_albuns) {
+            if (mx > (gui_w/2) + 150 && mx < (gui_w/2) + 250 && my > pag_y - 20 && my < pag_y + 20) {
+                draw_set_color(c_yellow);
+                if (mouse_check_button_pressed(mb_left)) pagina_album++;
+            } else draw_set_color(c_white);
+            draw_text((gui_w/2) + 200, pag_y, "Próximo >");
+        }
+        draw_set_color(c_white);
         
         // Botão voltar hover do Album
         if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && my > voltar_y - 20 && my < voltar_y + 20) {

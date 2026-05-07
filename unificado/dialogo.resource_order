@@ -18,6 +18,7 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Cenarios","order":5,"path":"folders/Sprites/Cenarios.yy",},
     {"name":"Elementos gráficos","order":4,"path":"folders/Sprites/Elementos gráficos.yy",},
     {"name":"Personagens","order":3,"path":"folders/Sprites/Personagens.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
@@ -43,5 +44,6 @@
     {"name":"interacaoE","order":1,"path":"sprites/interacaoE/interacaoE.yy",},
     {"name":"jacques","order":1,"path":"sprites/jacques/jacques.yy",},
     {"name":"jerome","order":2,"path":"sprites/jerome/jerome.yy",},
+    {"name":"Maison_Atelier","order":1,"path":"sprites/Maison_Atelier/Maison_Atelier.yy",},
   ],
 }

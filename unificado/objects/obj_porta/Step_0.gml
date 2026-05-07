@@ -43,6 +43,7 @@ if (instance_exists(Player)) {
             if (can_transition) {
                 var inst_trans = instance_create_depth(0, 0, -9999, obj_transicao);
                 inst_trans.target_room = target_room;
+                inst_trans.source_room = room;
                 inst_trans.target_x = target_x;
                 inst_trans.target_y = target_y;
                 

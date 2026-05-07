@@ -10,3 +10,5 @@ current_mission = "nenhum objetivo por agora";
 // ================= VARIÁVEIS NOVAS (ADICIONA ISTO) =================
 pagina_notas = 0;      // Controla em que página do bloco de notas estamos
 itens_por_pagina = 3;  // Define quantas notas aparecem de cada vez
+
+pagina_album = 0;      // Controla em que página do álbum estamos

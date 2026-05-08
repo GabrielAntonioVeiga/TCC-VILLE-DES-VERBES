@@ -1,13 +1,8 @@
-function carregar_jogo()
-{
-    // exemplo simples de carregamento
-    if (file_exists("save0.json"))
-    {
-        show_message("Save carregado!");
-        return true;
-    }
-    else
-    {
+function carregar_jogo() {
+    // ESTA É A CORREÇÃO: Chamamos a função real que lê o JSON
+    if (existe_save_slot(0)) {
+        return carregar_jogo_slot(0); 
+    } else {
         show_message("Nenhum save encontrado.");
         return false;
     }

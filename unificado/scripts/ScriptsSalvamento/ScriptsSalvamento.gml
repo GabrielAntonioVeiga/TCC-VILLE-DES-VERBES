@@ -25,7 +25,11 @@ function salvar_jogo_slot(slot) {
         direcao: Player.facing,
         cenario: room_get_name(room),
         colecionaveisAdquiridos: "Colecionaveis",
-        quizzesConcluidos: variable_global_exists("quizzes_concluidos") ? global.quizzes_concluidos : {},
+        
+        // --- QUIZZES E BLOCO DE NOTAS AQUI ---
+       quizzesConcluidos: variable_global_exists("quizzes_concluidos") ? global.quizzes_concluidos : {},
+        notasNotebook: variable_global_exists("notas") ? global.notas : [],
+        perguntasEmAndamento: variable_global_exists("pergunta_atual_id") ? global.pergunta_atual_id : {}, // <-- ADICIONE ISTO
         portasDesbloqueadas: variable_global_exists("portas_desbloqueadas") ? global.portas_desbloqueadas : {}
     };
 
@@ -41,7 +45,7 @@ function salvar_jogo_slot(slot) {
     ini_close();
 
     criar_feedback("Jogo salvo com sucesso!");
-	show_debug_message(nomeArquivo);
+    show_debug_message(nomeArquivo);
     //audio_play_sound(global.snd_confirm,1,false);
 }
 
@@ -68,6 +72,18 @@ function carregar_jogo_slot(slot) {
             global.quizzes_concluidos = estruturaSalvamento.quizzesConcluidos;
         }
     }
+    
+    // --- RESTAURA BLOCO DE NOTAS ---
+    if (variable_struct_exists(estruturaSalvamento, "notasNotebook")) {
+        global.notas = estruturaSalvamento.notasNotebook;
+    }
+
+    // =========================================================
+    // --- RESTAURA PERGUNTAS EM ANDAMENTO (O QUE FALTAVA!) ---
+    if (variable_struct_exists(estruturaSalvamento, "perguntasEmAndamento")) {
+        global.pergunta_atual_id = estruturaSalvamento.perguntasEmAndamento;
+    }
+    // =========================================================
 
     // Restaura portas desbloqueadas
     if (variable_struct_exists(estruturaSalvamento, "portasDesbloqueadas")) {

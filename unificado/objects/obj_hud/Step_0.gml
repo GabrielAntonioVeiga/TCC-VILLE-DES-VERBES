@@ -13,14 +13,20 @@ if (state == "closed") {
             global.dialogo = false;
         }
     }
+	
+	var clicked_any = false;
 
     if (mouse_check_button_pressed(mb_left)) {
+		
         for(var i=0; i<array_length(hud_buttons); i++) {
             var by = start_y + (i * 50);
             
             // Intersecção Simples Botão HUD Lateral Ajustada para Margem Direito
             if (mx > gui_w - btn_w && mx < gui_w && my > by - 20 && my < by + 20) {
-                switch(i) {
+               
+			   clicked_any = true;
+			   
+			   switch(i) {
                     case 0: // Missão
                         mission_open = !mission_open;
                         break;
@@ -47,6 +53,10 @@ if (state == "closed") {
                 }
             }
         }
+		
+		if (clicked_any) {
+			audio_play_sound(snd_menu_select, 1, false);
+		}
     }
 } else {
     // Intersecção do Botão Voltar dos Overlays

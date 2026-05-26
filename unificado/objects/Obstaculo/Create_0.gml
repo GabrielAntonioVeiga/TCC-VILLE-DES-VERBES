@@ -1,7 +1,7 @@
 // Identificação e Balão
 nome = "Jerome";
 balao_e = noone;
-
+meu_quiz_id = "";
 // Missão
 missao_id = "missao_jerome_jantar";
 alvos_area = [

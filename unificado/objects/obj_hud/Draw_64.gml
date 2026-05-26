@@ -35,20 +35,25 @@ if (state == "closed") {
     draw_set_color(c_white);
     
     // 3. COLLAPSIBLE DE MISSAO (RF009)
-    if (mission_open) {
+   if (mission_open) {
         var m_w = 280;
         var m_h = 100;
-        var mission_btn_y = start_y + (0 * 50); // Posiçao Y exata do "Missão" (indice 0)
+        var mission_btn_y = start_y + (0 * 50); // Posiçao Y exata do "Missão"
         
         draw_set_alpha(0.8);
-        draw_set_color(c_ltgray); // Coloração diferente do menu
-        // Expande vindo da barra pra esquerda
+        draw_set_color(c_ltgray);
         draw_rectangle(gui_w - btn_w - m_w, mission_btn_y - (m_h/2), gui_w - btn_w, mission_btn_y + (m_h/2), false); 
         draw_set_alpha(1.0);
         
         draw_set_color(c_black);
-        draw_text(gui_w - btn_w - (m_w/2), mission_btn_y, current_mission);
-        draw_set_color(c_white);
+        
+        // A CORREÇÃO ESTÁ AQUI: Usa a variável global e quebra a linha para caber na caixa
+    var centro_x = gui_w - btn_w - (m_w/2);
+        
+        // Verifica se a variável existe. Se não existir, usa um texto provisório para não crashar!
+        var texto_missao = variable_global_exists("objetivo_atual") ? global.objetivo_atual : "Nenhum objetivo no momento. Explore livremente!";
+        
+        draw_text_ext(centro_x, mission_btn_y, texto_missao, 20, m_w - 20)
     }
 } 
 // ================= ESTADOS DE OVERLAY (ALBUM / NOTAS) =================

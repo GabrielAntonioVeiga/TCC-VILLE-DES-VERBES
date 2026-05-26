@@ -5,7 +5,7 @@ mission_open = false;
 hud_buttons = ["Missão", "Álbum", "Notas", "Config.", "Salvar", "Sair"];
 
 // Dados de missao vazios para RF009
-current_mission = "nenhum objetivo por agora";
+
 
 // ================= VARIÁVEIS NOVAS (ADICIONA ISTO) =================
 pagina_notas = 0;      // Controla em que página do bloco de notas estamos

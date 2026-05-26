@@ -38,6 +38,12 @@
     {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"quizzes_atelie.json","CopyToMask":-1,"filePath":"datafiles","name":"quizzes_atelie.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"quizzes_banheiro.json","CopyToMask":-1,"filePath":"datafiles","name":"quizzes_banheiro.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"quizzes_corredor.json","CopyToMask":-1,"filePath":"datafiles","name":"quizzes_corredor.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"quizzes_jantar.json","CopyToMask":-1,"filePath":"datafiles","name":"quizzes_jantar.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"quizzes_lavanderia.json","CopyToMask":-1,"filePath":"datafiles","name":"quizzes_lavanderia.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"quizzes_quarto.json","CopyToMask":-1,"filePath":"datafiles","name":"quizzes_quarto.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"quizzes.json","CopyToMask":-1,"filePath":"datafiles","name":"quizzes.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,

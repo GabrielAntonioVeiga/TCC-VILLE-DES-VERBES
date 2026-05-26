@@ -1,0 +1,192 @@
+{
+  "interacao_pilha_plier": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Plier",
+      "variacoes": [
+        { "nome_quiz": "Pile de vêtements", "pronome": "Je", "frase": "Je _______ les vêtements.", "opcoes": ["plie", "plies", "plions", "pliez"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Tu", "frase": "Tu _______ les vêtements.", "opcoes": ["plies", "plie", "plions", "plient"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Il/Elle", "frase": "Il _______ les vêtements.", "opcoes": ["plie", "plies", "pliez", "plient"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Nous", "frase": "Nous _______ les vêtements.", "opcoes": ["plions", "plie", "pliez", "plient"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Vous", "frase": "Vous _______ les vêtements.", "opcoes": ["pliez", "plions", "plies", "plient"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Ils/Elles", "frase": "Elles _______ les vêtements.", "opcoes": ["plient", "pliez", "plions", "plie"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Plier",
+      "variacoes": [
+        { "nome_quiz": "Pile de vêtements", "pronome": "Je", "frase": "J'_______ les vêtements.", "opcoes": ["ai plié", "as plié", "a plié", "avons plié"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Tu", "frase": "Tu _______ les vêtements.", "opcoes": ["as plié", "ai plié", "a plié", "avez plié"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Il/Elle", "frase": "Elle _______ les vêtements.", "opcoes": ["a plié", "ai plié", "as plié", "ont plié"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Nous", "frase": "Nous _______ les vêtements.", "opcoes": ["avons plié", "avez plié", "ont plié", "ai plié"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Vous", "frase": "Vous _______ les vêtements.", "opcoes": ["avez plié", "avons plié", "ont plié", "as plié"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Ils/Elles", "frase": "Ils _______ les vêtements.", "opcoes": ["ont plié", "avez plié", "avons plié", "a plié"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Plier",
+      "variacoes": [
+        { "nome_quiz": "Pile de vêtements", "pronome": "Je", "frase": "Je _______ les vêtements.", "opcoes": ["vais plier", "vas plier", "va plier", "allons plier"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Tu", "frase": "Tu _______ les vêtements.", "opcoes": ["vas plier", "vais plier", "va plier", "allez plier"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Il/Elle", "frase": "Il _______ les vêtements.", "opcoes": ["va plier", "vais plier", "vas plier", "vont plier"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Nous", "frase": "Nous _______ les vêtements.", "opcoes": ["allons plier", "allez plier", "vont plier", "vais plier"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Vous", "frase": "Vous _______ les vêtements.", "opcoes": ["allez plier", "allons plier", "vont plier", "vas plier"], "resposta_correta": 0 },
+        { "nome_quiz": "Pile de vêtements", "pronome": "Ils/Elles", "frase": "Elles _______ les vêtements.", "opcoes": ["vont plier", "allez plier", "allons plier", "va plier"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_vassoura_balayer": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Balayer",
+      "variacoes": [
+        { "nome_quiz": "Le Balai", "pronome": "Je", "frase": "Je _______ la pièce.", "opcoes": ["balaye", "balayes", "balayons", "balayez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Tu", "frase": "Tu _______ la pièce.", "opcoes": ["balayes", "balaye", "balayons", "balayent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Il/Elle", "frase": "Il _______ la pièce.", "opcoes": ["balaye", "balayes", "balayez", "balayent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Nous", "frase": "Nous _______ la pièce.", "opcoes": ["balayons", "balaye", "balayez", "balayent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Vous", "frase": "Vous _______ la pièce.", "opcoes": ["balayez", "balayons", "balayes", "balayent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Ils/Elles", "frase": "Elles _______ la pièce.", "opcoes": ["balayent", "balayez", "balayons", "balaye"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Balayer",
+      "variacoes": [
+        { "nome_quiz": "Le Balai", "pronome": "Je", "frase": "J'_______ la pièce.", "opcoes": ["ai balayé", "as balayé", "a balayé", "avons balayé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Tu", "frase": "Tu _______ la pièce.", "opcoes": ["as balayé", "ai balayé", "a balayé", "avez balayé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Il/Elle", "frase": "Elle _______ la pièce.", "opcoes": ["a balayé", "ai balayé", "as balayé", "ont balayé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Nous", "frase": "Nous _______ la pièce.", "opcoes": ["avons balayé", "avez balayé", "ont balayé", "ai balayé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Vous", "frase": "Vous _______ la pièce.", "opcoes": ["avez balayé", "avons balayé", "ont balayé", "as balayé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Ils/Elles", "frase": "Ils _______ la pièce.", "opcoes": ["ont balayé", "avez balayé", "avons balayé", "a balayé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Balayer",
+      "variacoes": [
+        { "nome_quiz": "Le Balai", "pronome": "Je", "frase": "Je _______ la pièce.", "opcoes": ["vais balayer", "vas balayer", "va balayer", "allons balayer"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Tu", "frase": "Tu _______ la pièce.", "opcoes": ["vas balayer", "vais balayer", "va balayer", "allez balayer"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Il/Elle", "frase": "Il _______ la pièce.", "opcoes": ["va balayer", "vais balayer", "vas balayer", "vont balayer"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Nous", "frase": "Nous _______ la pièce.", "opcoes": ["allons balayer", "allez balayer", "vont balayer", "vais balayer"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Vous", "frase": "Vous _______ la pièce.", "opcoes": ["allez balayer", "allons balayer", "vont balayer", "vas balayer"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Balai", "pronome": "Ils/Elles", "frase": "Ils _______ la pièce.", "opcoes": ["vont balayer", "allez balayer", "allons balayer", "va balayer"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_maquina_remplir": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Remplir",
+      "variacoes": [
+        { "nome_quiz": "Machine à laver", "pronome": "Je", "frase": "Je _______ la machine d'eau.", "opcoes": ["remplis", "remplit", "remplissons", "remplissez"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Tu", "frase": "Tu _______ la machine d'eau.", "opcoes": ["remplis", "remplit", "remplissons", "remplissent"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Il/Elle", "frase": "Il _______ la machine d'eau.", "opcoes": ["remplit", "remplis", "remplissez", "remplissent"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Nous", "frase": "Nous _______ la machine d'eau.", "opcoes": ["remplissons", "remplis", "remplissez", "remplissent"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Vous", "frase": "Vous _______ la machine d'eau.", "opcoes": ["remplissez", "remplissons", "remplis", "remplissent"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Ils/Elles", "frase": "Elles _______ la machine d'eau.", "opcoes": ["remplissent", "remplissez", "remplissons", "remplit"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Remplir",
+      "variacoes": [
+        { "nome_quiz": "Machine à laver", "pronome": "Je", "frase": "J'_______ la machine d'eau.", "opcoes": ["ai rempli", "as rempli", "a rempli", "avons rempli"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Tu", "frase": "Tu _______ la machine d'eau.", "opcoes": ["as rempli", "ai rempli", "a rempli", "avez rempli"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Il/Elle", "frase": "Elle _______ la machine d'eau.", "opcoes": ["a rempli", "ai rempli", "as rempli", "ont rempli"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Nous", "frase": "Nous _______ la machine d'eau.", "opcoes": ["avons rempli", "avez rempli", "ont rempli", "ai rempli"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Vous", "frase": "Vous _______ la machine d'eau.", "opcoes": ["avez rempli", "avons rempli", "ont rempli", "as rempli"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Ils/Elles", "frase": "Ils _______ la machine d'eau.", "opcoes": ["ont rempli", "avez rempli", "avons rempli", "a rempli"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Remplir",
+      "variacoes": [
+        { "nome_quiz": "Machine à laver", "pronome": "Je", "frase": "Je _______ la machine d'eau.", "opcoes": ["vais remplir", "vas remplir", "va remplir", "allons remplir"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Tu", "frase": "Tu _______ la machine d'eau.", "opcoes": ["vas remplir", "vais remplir", "va remplir", "allez remplir"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Il/Elle", "frase": "Il _______ la machine d'eau.", "opcoes": ["va remplir", "vais remplir", "vas remplir", "vont remplir"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Nous", "frase": "Nous _______ la machine d'eau.", "opcoes": ["allons remplir", "allez remplir", "vont remplir", "vais remplir"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Vous", "frase": "Vous _______ la machine d'eau.", "opcoes": ["allez remplir", "allons remplir", "vont remplir", "vas remplir"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Ils/Elles", "frase": "Ils _______ la machine d'eau.", "opcoes": ["vont remplir", "allez remplir", "allons remplir", "va remplir"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_maquina_vider": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Vider",
+      "variacoes": [
+        { "nome_quiz": "Machine à laver", "pronome": "Je", "frase": "Je _______ la machine.", "opcoes": ["vide", "vides", "vidons", "videz"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Tu", "frase": "Tu _______ la machine.", "opcoes": ["vides", "vide", "vidons", "vident"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Il/Elle", "frase": "Il _______ la machine.", "opcoes": ["vide", "vides", "videz", "vident"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Nous", "frase": "Nous _______ la machine.", "opcoes": ["vidons", "vide", "videz", "vident"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Vous", "frase": "Vous _______ la machine.", "opcoes": ["videz", "vidons", "vides", "vident"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Ils/Elles", "frase": "Elles _______ la machine.", "opcoes": ["vident", "videz", "vidons", "vide"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Vider",
+      "variacoes": [
+        { "nome_quiz": "Machine à laver", "pronome": "Je", "frase": "J'_______ la machine.", "opcoes": ["ai vidé", "as vidé", "a vidé", "avons vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Tu", "frase": "Tu _______ la machine.", "opcoes": ["as vidé", "ai vidé", "a vidé", "avez vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Il/Elle", "frase": "Elle _______ la machine.", "opcoes": ["a vidé", "ai vidé", "as vidé", "ont vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Nous", "frase": "Nous _______ la machine.", "opcoes": ["avons vidé", "avez vidé", "ont vidé", "ai vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Vous", "frase": "Vous _______ la machine.", "opcoes": ["avez vidé", "avons vidé", "ont vidé", "as vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Ils/Elles", "frase": "Ils _______ la machine.", "opcoes": ["ont vidé", "avez vidé", "avons vidé", "a vidé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Vider",
+      "variacoes": [
+        { "nome_quiz": "Machine à laver", "pronome": "Je", "frase": "Je _______ la machine.", "opcoes": ["vais vider", "vas vider", "va vider", "allons vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Tu", "frase": "Tu _______ la machine.", "opcoes": ["vas vider", "vais vider", "va vider", "allez vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Il/Elle", "frase": "Il _______ la machine.", "opcoes": ["va vider", "vais vider", "vas vider", "vont vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Nous", "frase": "Nous _______ la machine.", "opcoes": ["allons vider", "allez vider", "vont vider", "vais vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Vous", "frase": "Vous _______ la machine.", "opcoes": ["allez vider", "allons vider", "vont vider", "vas vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Machine à laver", "pronome": "Ils/Elles", "frase": "Ils _______ la machine.", "opcoes": ["vont vider", "allez vider", "allons vider", "va vider"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_ferro_repasser": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Repasser",
+      "variacoes": [
+        { "nome_quiz": "Fer à repasser", "pronome": "Je", "frase": "Je _______ une chemise.", "opcoes": ["repasse", "repasses", "repassons", "repassez"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Tu", "frase": "Tu _______ une chemise.", "opcoes": ["repasses", "repasse", "repassons", "repassent"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Il/Elle", "frase": "Il _______ une chemise.", "opcoes": ["repasse", "repasses", "repassez", "repassent"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Nous", "frase": "Nous _______ une chemise.", "opcoes": ["repassons", "repasse", "repassez", "repassent"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Vous", "frase": "Vous _______ une chemise.", "opcoes": ["repassez", "repassons", "repasses", "repassent"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Ils/Elles", "frase": "Elles _______ une chemise.", "opcoes": ["repassent", "repassez", "repassons", "repasse"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Repasser",
+      "variacoes": [
+        { "nome_quiz": "Fer à repasser", "pronome": "Je", "frase": "J'_______ une chemise.", "opcoes": ["ai repassé", "as repassé", "a repassé", "avons repassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Tu", "frase": "Tu _______ une chemise.", "opcoes": ["as repassé", "ai repassé", "a repassé", "avez repassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Il/Elle", "frase": "Elle _______ une chemise.", "opcoes": ["a repassé", "ai repassé", "as repassé", "ont repassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Nous", "frase": "Nous _______ une chemise.", "opcoes": ["avons repassé", "avez repassé", "ont repassé", "ai repassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Vous", "frase": "Vous _______ une chemise.", "opcoes": ["avez repassé", "avons repassé", "ont repassé", "as repassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Ils/Elles", "frase": "Ils _______ une chemise.", "opcoes": ["ont repassé", "avez repassé", "avons repassé", "a repassé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Repasser",
+      "variacoes": [
+        { "nome_quiz": "Fer à repasser", "pronome": "Je", "frase": "Je _______ une chemise.", "opcoes": ["vais repasser", "vas repasser", "va repasser", "allons repasser"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Tu", "frase": "Tu _______ une chemise.", "opcoes": ["vas repasser", "vais repasser", "va repasser", "allez repasser"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Il/Elle", "frase": "Il _______ une chemise.", "opcoes": ["va repasser", "vais repasser", "vas repasser", "vont repasser"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Nous", "frase": "Nous _______ une chemise.", "opcoes": ["allons repasser", "allez repasser", "vont repasser", "vais repasser"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Vous", "frase": "Vous _______ une chemise.", "opcoes": ["allez repasser", "allons repasser", "vont repasser", "vas repasser"], "resposta_correta": 0 },
+        { "nome_quiz": "Fer à repasser", "pronome": "Ils/Elles", "frase": "Ils _______ une chemise.", "opcoes": ["vont repasser", "allez repasser", "allons repasser", "va repasser"], "resposta_correta": 0 }
+      ]
+    }
+  ]
+}

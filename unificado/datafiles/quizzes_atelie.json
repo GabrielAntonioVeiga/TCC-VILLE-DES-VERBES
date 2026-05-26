@@ -1,0 +1,382 @@
+{
+  "interacao_cavalete_peindre": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Peindre",
+      "variacoes": [
+        { "nome_quiz": "Chevalet", "pronome": "Je", "frase": "Je _______ une toile.", "opcoes": ["peins", "peint", "peignons", "peignez"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Tu", "frase": "Tu _______ une toile.", "opcoes": ["peins", "peint", "peignons", "peignent"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Il/Elle", "frase": "Il _______ une toile.", "opcoes": ["peint", "peins", "peignez", "peignent"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Nous", "frase": "Nous _______ une toile.", "opcoes": ["peignons", "peins", "peignez", "peignent"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Vous", "frase": "Vous _______ une toile.", "opcoes": ["peignez", "peignons", "peins", "peignent"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Ils/Elles", "frase": "Elles _______ une toile.", "opcoes": ["peignent", "peignez", "peignons", "peint"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Peindre",
+      "variacoes": [
+        { "nome_quiz": "Chevalet", "pronome": "Je", "frase": "J'_______ une toile.", "opcoes": ["ai peint", "as peint", "a peint", "avons peint"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Tu", "frase": "Tu _______ une toile.", "opcoes": ["as peint", "ai peint", "a peint", "avez peint"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Il/Elle", "frase": "Elle _______ une toile.", "opcoes": ["a peint", "ai peint", "as peint", "ont peint"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Nous", "frase": "Nous _______ une toile.", "opcoes": ["avons peint", "avez peint", "ont peint", "ai peint"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Vous", "frase": "Vous _______ une toile.", "opcoes": ["avez peint", "avons peint", "ont peint", "as peint"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Ils/Elles", "frase": "Ils _______ une toile.", "opcoes": ["ont peint", "avez peint", "avons peint", "a peint"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Peindre",
+      "variacoes": [
+        { "nome_quiz": "Chevalet", "pronome": "Je", "frase": "Je _______ une toile.", "opcoes": ["vais peindre", "vas peindre", "va peindre", "allons peindre"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Tu", "frase": "Tu _______ une toile.", "opcoes": ["vas peindre", "vais peindre", "va peindre", "allez peindre"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Il/Elle", "frase": "Il _______ une toile.", "opcoes": ["va peindre", "vais peindre", "vas peindre", "vont peindre"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Nous", "frase": "Nous _______ une toile.", "opcoes": ["allons peindre", "allez peindre", "vont peindre", "vais peindre"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Vous", "frase": "Vous _______ une toile.", "opcoes": ["allez peindre", "allons peindre", "vont peindre", "vas peindre"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Ils/Elles", "frase": "Elles _______ une toile.", "opcoes": ["vont peindre", "allez peindre", "allons peindre", "va peindre"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_cavalete_dessiner": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Dessiner",
+      "variacoes": [
+        { "nome_quiz": "Chevalet", "pronome": "Je", "frase": "Je _______ un paysage.", "opcoes": ["dessine", "dessines", "dessinons", "dessinez"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Tu", "frase": "Tu _______ un paysage.", "opcoes": ["dessines", "dessine", "dessinons", "dessinent"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Il/Elle", "frase": "Elle _______ un paysage.", "opcoes": ["dessine", "dessines", "dessinez", "dessinent"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Nous", "frase": "Nous _______ un paysage.", "opcoes": ["dessinons", "dessine", "dessinez", "dessinent"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Vous", "frase": "Vous _______ un paysage.", "opcoes": ["dessinez", "dessinons", "dessines", "dessinent"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Ils/Elles", "frase": "Ils _______ un paysage.", "opcoes": ["dessinent", "dessinez", "dessinons", "dessine"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Dessiner",
+      "variacoes": [
+        { "nome_quiz": "Chevalet", "pronome": "Je", "frase": "J'_______ un paysage.", "opcoes": ["ai dessiné", "as dessiné", "a dessiné", "avons dessiné"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Tu", "frase": "Tu _______ un paysage.", "opcoes": ["as dessiné", "ai dessiné", "a dessiné", "avez dessiné"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Il/Elle", "frase": "Il _______ un paysage.", "opcoes": ["a dessiné", "ai dessiné", "as dessiné", "ont dessiné"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Nous", "frase": "Nous _______ un paysage.", "opcoes": ["avons dessiné", "avez dessiné", "ont dessiné", "ai dessiné"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Vous", "frase": "Vous _______ un paysage.", "opcoes": ["avez dessiné", "avons dessiné", "ont dessiné", "as dessiné"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Ils/Elles", "frase": "Elles _______ un paysage.", "opcoes": ["ont dessiné", "avez dessiné", "avons dessiné", "a dessiné"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Dessiner",
+      "variacoes": [
+        { "nome_quiz": "Chevalet", "pronome": "Je", "frase": "Je _______ un paysage.", "opcoes": ["vais dessiner", "vas dessiner", "va dessiner", "allons dessiner"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Tu", "frase": "Tu _______ un paysage.", "opcoes": ["vas dessiner", "vais dessiner", "va dessiner", "allez dessiner"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Il/Elle", "frase": "Il _______ un paysage.", "opcoes": ["va dessiner", "vais dessiner", "vas dessiner", "vont dessiner"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Nous", "frase": "Nous _______ un paysage.", "opcoes": ["allons dessiner", "allez dessiner", "vont dessiner", "vais dessiner"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Vous", "frase": "Vous _______ un paysage.", "opcoes": ["allez dessiner", "allons dessiner", "vont dessiner", "vas dessiner"], "resposta_correta": 0 },
+        { "nome_quiz": "Chevalet", "pronome": "Ils/Elles", "frase": "Ils _______ un paysage.", "opcoes": ["vont dessiner", "allez dessiner", "allons dessiner", "va dessiner"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_estante_lire": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Lire",
+      "variacoes": [
+        { "nome_quiz": "Étagère de livres", "pronome": "Je", "frase": "Je _______ un roman.", "opcoes": ["lis", "lit", "lisons", "lisez"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Tu", "frase": "Tu _______ un roman.", "opcoes": ["lis", "lit", "lisons", "lisent"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Il/Elle", "frase": "Elle _______ un roman.", "opcoes": ["lit", "lis", "lisez", "lisent"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Nous", "frase": "Nous _______ un roman.", "opcoes": ["lisons", "lis", "lisez", "lisent"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Vous", "frase": "Vous _______ un roman.", "opcoes": ["lisez", "lisons", "lis", "lisent"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Ils/Elles", "frase": "Ils _______ un roman.", "opcoes": ["lisent", "lisez", "lisons", "lis"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Lire",
+      "variacoes": [
+        { "nome_quiz": "Étagère de livres", "pronome": "Je", "frase": "J'_______ un roman.", "opcoes": ["ai lu", "as lu", "a lu", "avons lu"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Tu", "frase": "Tu _______ un roman.", "opcoes": ["as lu", "ai lu", "a lu", "avez lu"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Il/Elle", "frase": "Il _______ un roman.", "opcoes": ["a lu", "ai lu", "as lu", "ont lu"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Nous", "frase": "Nous _______ un roman.", "opcoes": ["avons lu", "avez lu", "ont lu", "ai lu"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Vous", "frase": "Vous _______ un roman.", "opcoes": ["avez lu", "avons lu", "ont lu", "as lu"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Ils/Elles", "frase": "Elles _______ un roman.", "opcoes": ["ont lu", "avez lu", "avons lu", "a lu"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Lire",
+      "variacoes": [
+        { "nome_quiz": "Étagère de livres", "pronome": "Je", "frase": "Je _______ un roman.", "opcoes": ["vais lire", "vas lire", "va lire", "allons lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Tu", "frase": "Tu _______ un roman.", "opcoes": ["vas lire", "vais lire", "va lire", "allez lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Il/Elle", "frase": "Elle _______ un roman.", "opcoes": ["va lire", "vais lire", "vas lire", "vont lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Nous", "frase": "Nous _______ un roman.", "opcoes": ["allons lire", "allez lire", "vont lire", "vais lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Vous", "frase": "Vous _______ un roman.", "opcoes": ["allez lire", "allons lire", "vont lire", "vas lire"], "resposta_correta": 0 },
+        { "nome_quiz": "Étagère de livres", "pronome": "Ils/Elles", "ils": "Ils _______ un roman.", "opcoes": ["vont lire", "allez lire", "allons lire", "va lire"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_caderno_ecrire": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Écrire",
+      "variacoes": [
+        { "nome_quiz": "Carnet", "pronome": "Je", "frase": "J'_______ mes idées.", "opcoes": ["écris", "écrit", "écrivons", "écrivez"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Tu", "frase": "Tu _______ mes idées.", "opcoes": ["écris", "écrit", "écrivons", "écrivent"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Il/Elle", "frase": "Il _______ mes idées.", "opcoes": ["écrit", "écris", "écrivez", "écrivent"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Nous", "frase": "Nous _______ mes idées.", "opcoes": ["écrivons", "écris", "écrivez", "écrivent"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Vous", "frase": "Vous _______ mes idées.", "opcoes": ["écrivez", "écrivons", "écris", "écrivent"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Ils/Elles", "frase": "Ils _______ mes idées.", "opcoes": ["écrivent", "écrivez", "écrivons", "écris"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Écrire",
+      "variacoes": [
+        { "nome_quiz": "Carnet", "pronome": "Je", "frase": "J'_______ mes idées.", "opcoes": ["ai écrit", "as écrit", "a écrit", "avons écrit"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Tu", "frase": "Tu _______ mes idées.", "opcoes": ["as écrit", "ai écrit", "a écrit", "avez écrit"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Il/Elle", "frase": "Elle _______ mes idées.", "opcoes": ["a écrit", "ai écrit", "as écrit", "ont écrit"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Nous", "frase": "Nous _______ mes idées.", "opcoes": ["avons écrit", "avez écrit", "ont écrit", "ai écrit"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Vous", "frase": "Vous _______ mes idées.", "opcoes": ["avez écrit", "avons écrit", "ont écrit", "as écrit"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Ils/Elles", "frase": "Ils _______ mes idées.", "opcoes": ["ont écrit", "avez écrit", "avons écrit", "a écrit"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Écrire",
+      "variacoes": [
+        { "nome_quiz": "Carnet", "pronome": "Je", "frase": "Je _______ mes idées.", "opcoes": ["vais écrire", "vas écrire", "va écrire", "allons écrire"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Tu", "frase": "Tu _______ mes idées.", "opcoes": ["vas écrire", "vais écrire", "va écrire", "allez écrire"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Il/Elle", "frase": "Il _______ mes idées.", "opcoes": ["va écrire", "vais écrire", "vas écrire", "vont écrire"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Nous", "frase": "Nous _______ mes idées.", "opcoes": ["allons écrire", "allez écrire", "vont écrire", "vais écrire"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Vous", "frase": "Vous _______ mes idées.", "opcoes": ["allez écrire", "allons écrire", "vont écrire", "vas écrire"], "resposta_correta": 0 },
+        { "nome_quiz": "Carnet", "pronome": "Ils/Elles", "frase": "Elles _______ mes idées.", "opcoes": ["vont écrire", "allez écrire", "allons écrire", "va écrire"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_mesa_arranger": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Arranger",
+      "variacoes": [
+        { "nome_quiz": "Table de travail", "pronome": "Je", "frase": "Je _______ les outils.", "opcoes": ["arrange", "arranges", "arrangeons", "arrangez"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Tu", "frase": "Tu _______ les outils.", "opcoes": ["arranges", "arrange", "arrangeons", "arrangent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Il/Elle", "frase": "Il _______ les outils.", "opcoes": ["arrange", "arranges", "arrangez", "arrangent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Nous", "frase": "Nous _______ les outils.", "opcoes": ["arrangeons", "arrange", "arrangez", "arrangent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Vous", "frase": "Vous _______ les outils.", "opcoes": ["arrangez", "arrangeons", "arranges", "arrangent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Ils/Elles", "frase": "Ils _______ les outils.", "opcoes": ["arrangent", "arrangez", "arrangeons", "arrange"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Arranger",
+      "variacoes": [
+        { "nome_quiz": "Table de travail", "pronome": "Je", "frase": "J'_______ les outils.", "opcoes": ["ai arrangé", "as arrangé", "a arrangé", "avons arrangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Tu", "frase": "Tu _______ les outils.", "opcoes": ["as arrangé", "ai arrangé", "a arrangé", "avez arrangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Il/Elle", "frase": "Elle _______ les outils.", "opcoes": ["a arrangé", "ai arrangé", "as arrangé", "ont arrangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Nous", "frase": "Nous _______ les outils.", "opcoes": ["avons arrangé", "avez arrangé", "ont arrangé", "ai arrangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Vous", "frase": "Vous _______ les outils.", "opcoes": ["avez arrangé", "avons arrangé", "ont arrangé", "as arrangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Ils/Elles", "frase": "Elles _______ les outils.", "opcoes": ["ont arrangé", "avez arrangé", "avons arrangé", "a arrangé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Arranger",
+      "variacoes": [
+        { "nome_quiz": "Table de travail", "pronome": "Je", "frase": "Je _______ les outils.", "opcoes": ["vais arranger", "vas arranger", "va arranger", "allons arranger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Tu", "frase": "Tu _______ les outils.", "opcoes": ["vas arranger", "vais arranger", "va arranger", "allez arranger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Il/Elle", "frase": "Il _______ les outils.", "opcoes": ["va arranger", "vais arranger", "vas arranger", "vont arranger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Nous", "frase": "Nous _______ les outils.", "opcoes": ["allons arranger", "allez arranger", "vont arranger", "vais arranger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Vous", "frase": "Vous _______ les outils.", "opcoes": ["allez arranger", "allons arranger", "vont arranger", "vas arranger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table de travail", "pronome": "Ils/Elles", "frase": "Elles _______ les outils.", "opcoes": ["vont arranger", "allez arranger", "allons arranger", "va arranger"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_tintas_choisir": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Choisir",
+      "variacoes": [
+        { "nome_quiz": "Peintures", "pronome": "Je", "frase": "Je _______ une couleur.", "opcoes": ["choisis", "choisit", "choisissons", "choisissez"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Tu", "frase": "Tu _______ une couleur.", "opcoes": ["choisis", "choisit", "choisissons", "choisissent"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Il/Elle", "frase": "Il _______ une couleur.", "opcoes": ["choisit", "choisis", "choisissez", "choisissent"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Nous", "frase": "Nous _______ une couleur.", "opcoes": ["choisissons", "choisis", "choisissez", "choisissent"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Vous", "frase": "Vous _______ une couleur.", "opcoes": ["choisissez", "choisissons", "choisis", "choisissent"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Ils/Elles", "frase": "Elles _______ une couleur.", "opcoes": ["choisissent", "choisissez", "choisissons", "choisit"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Choisir",
+      "variacoes": [
+        { "nome_quiz": "Peintures", "pronome": "Je", "frase": "J'_______ une couleur.", "opcoes": ["ai choisi", "as choisi", "a choisi", "avons choisi"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Tu", "frase": "Tu _______ une couleur.", "opcoes": ["as choisi", "ai choisi", "a choisi", "avez choisi"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Il/Elle", "frase": "Elle _______ une couleur.", "opcoes": ["a choisi", "ai choisi", "as choisi", "ont choisi"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Nous", "frase": "Nous _______ une couleur.", "opcoes": ["avons choisi", "avez choisi", "ont choisi", "ai choisi"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Vous", "frase": "Vous _______ une couleur.", "opcoes": ["avez choisi", "avons choisi", "ont choisi", "as choisi"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Ils/Elles", "frase": "Ils _______ une couleur.", "opcoes": ["ont choisi", "avez choisi", "avons choisi", "a choisi"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Choisir",
+      "variacoes": [
+        { "nome_quiz": "Peintures", "pronome": "Je", "frase": "Je _______ une couleur.", "opcoes": ["vais choisir", "vas choisir", "va choisir", "allons choisir"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Tu", "frase": "Tu _______ une couleur.", "opcoes": ["vas choisir", "vais choisir", "va choisir", "allez choisir"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Il/Elle", "frase": "Il _______ une couleur.", "opcoes": ["va choisir", "vais choisir", "vas choisir", "vont choisir"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Nous", "frase": "Nous _______ une couleur.", "opcoes": ["allons choisir", "allez choisir", "vont choisir", "vais choisir"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Vous", "frase": "Vous _______ une couleur.", "opcoes": ["allez choisir", "allons choisir", "vont choisir", "vas choisir"], "resposta_correta": 0 },
+        { "nome_quiz": "Peintures", "pronome": "Ils/Elles", "frase": "Ils _______ une couleur.", "opcoes": ["vont choisir", "allez choisir", "allons choisir", "va choisir"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_armario_ouvrir": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Ouvrir",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "J'_______ l'armoire.", "opcoes": ["ouvre", "ouvres", "ouvrons", "ouvrez"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ l'armoire.", "opcoes": ["ouvres", "ouvre", "ouvrons", "ouvrent"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Il _______ l'armoire.", "opcoes": ["ouvre", "ouvres", "ouvrez", "ouvrent"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ l'armoire.", "opcoes": ["ouvrons", "ouvre", "ouvrez", "ouvrent"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ l'armoire.", "opcoes": ["ouvrez", "ouvrons", "ouvres", "ouvrent"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Elles _______ l'armoire.", "opcoes": ["ouvrent", "ouvrez", "ouvrons", "ouvre"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Ouvrir",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "J'_______ l'armoire.", "opcoes": ["ai ouvert", "as ouvert", "a ouvert", "avons ouvert"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ l'armoire.", "opcoes": ["as ouvert", "ai ouvert", "a ouvert", "avez ouvert"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Elle _______ l'armoire.", "opcoes": ["a ouvert", "ai ouvert", "as ouvert", "ont ouvert"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ l'armoire.", "opcoes": ["avons ouvert", "avez ouvert", "ont ouvert", "ai ouvert"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ l'armoire.", "opcoes": ["avez ouvert", "avons ouvert", "ont ouvert", "as ouvert"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Ils _______ l'armoire.", "opcoes": ["ont ouvert", "avez ouvert", "avons ouvert", "a ouvert"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Ouvrir",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "Je _______ l'armoire.", "opcoes": ["vais ouvrir", "vas ouvrir", "va ouvrir", "allons ouvrir"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ l'armoire.", "opcoes": ["vas ouvrir", "vais ouvrir", "va ouvrir", "allez ouvrir"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Il _______ l'armoire.", "opcoes": ["va ouvrir", "vais ouvrir", "vas ouvrir", "vont ouvrir"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ l'armoire.", "opcoes": ["allons ouvrir", "allez ouvrir", "vont ouvrir", "vais ouvrir"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ l'armoire.", "opcoes": ["allez ouvrir", "allons ouvrir", "vont ouvrir", "vas ouvrir"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Ils _______ l'armoire.", "opcoes": ["vont ouvrir", "allez ouvrir", "allons ouvrir", "va ouvrir"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_armario_fermer": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Fermer",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "Je _______ l'armoire.", "opcoes": ["ferme", "fermes", "fermons", "fermez"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ l'armoire.", "opcoes": ["fermes", "ferme", "fermons", "ferment"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Elle _______ l'armoire.", "opcoes": ["ferme", "fermes", "fermez", "ferment"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ l'armoire.", "opcoes": ["fermons", "ferme", "fermez", "ferment"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ l'armoire.", "opcoes": ["fermez", "fermons", "fermes", "ferment"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Ils _______ l'armoire.", "opcoes": ["ferment", "fermez", "fermons", "ferme"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Fermer",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "J'_______ l'armoire.", "opcoes": ["ai fermé", "as fermé", "a fermé", "avons fermé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ l'armoire.", "opcoes": ["as fermé", "ai fermé", "a fermé", "avez fermé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Il _______ l'armoire.", "opcoes": ["a fermé", "ai fermé", "as fermé", "ont fermé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ l'armoire.", "opcoes": ["avons fermé", "avez fermé", "ont fermé", "ai fermé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ l'armoire.", "opcoes": ["avez fermé", "avons fermé", "ont fermé", "as fermé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Elles _______ l'armoire.", "opcoes": ["ont fermé", "avez fermé", "avons fermé", "a fermé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Fermer",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "Je _______ l'armoire.", "opcoes": ["vais fermer", "vas fermer", "va fermer", "allons fermer"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ l'armoire.", "opcoes": ["vas fermer", "vais fermer", "va fermer", "allez fermer"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Il _______ l'armoire.", "opcoes": ["va fermer", "vais fermer", "vas fermer", "vont fermer"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ l'armoire.", "opcoes": ["allons fermer", "allez fermer", "vont fermer", "vais fermer"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ l'armoire.", "opcoes": ["allez fermer", "allons fermer", "vont fermer", "vas fermer"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Elles _______ l'armoire.", "opcoes": ["vont fermer", "allez fermer", "allons fermer", "va fermer"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_armario_verrouiller": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Verrouiller",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "Je _______ la porte.", "opcoes": ["verrouille", "verrouilles", "verrouillons", "verrouillez"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ la porte.", "opcoes": ["verrouilles", "verrouille", "verrouillons", "verrouillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Il _______ la porte.", "opcoes": ["verrouille", "verrouilles", "verrouillez", "verrouillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ la porte.", "opcoes": ["verrouillons", "verrouille", "verrouillez", "verrouillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ la porte.", "opcoes": ["verrouillez", "verrouillons", "verrouilles", "verrouillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Elles _______ la porte.", "opcoes": ["verrouillent", "verrouillez", "verrouillons", "verrouille"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Verrouiller",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "J'_______ la porte.", "opcoes": ["ai verrouillé", "as verrouillé", "a verrouillé", "avons verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ la porte.", "opcoes": ["as verrouillé", "ai verrouillé", "a verrouillé", "avez verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Elle _______ la porte.", "opcoes": ["a verrouillé", "ai verrouillé", "as verrouillé", "ont verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ la porte.", "opcoes": ["avons verrouillé", "avez verrouillé", "ont verrouillé", "ai verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ la porte.", "opcoes": ["avez verrouillé", "avons verrouillé", "ont verrouillé", "as verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Ils _______ la porte.", "opcoes": ["ont verrouillé", "avez verrouillé", "avons verrouillé", "a verrouillé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Verrouiller",
+      "variacoes": [
+        { "nome_quiz": "Armoire", "pronome": "Je", "frase": "Je _______ la porte.", "opcoes": ["vais verrouiller", "vas verrouiller", "va verrouiller", "allons verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Tu", "frase": "Tu _______ la porte.", "opcoes": ["vas verrouiller", "vais verrouiller", "va verrouiller", "allez verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Il/Elle", "frase": "Il _______ la porte.", "opcoes": ["va verrouiller", "vais verrouiller", "vas verrouiller", "vont verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Nous", "frase": "Nous _______ la porte.", "opcoes": ["allons verrouiller", "allez verrouiller", "vont verrouiller", "vais verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Vous", "frase": "Vous _______ la porte.", "opcoes": ["allez verrouiller", "allons verrouiller", "vont verrouiller", "vas verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Armoire", "pronome": "Ils/Elles", "frase": "Ils _______ la porte.", "opcoes": ["vont verrouiller", "allez verrouiller", "allons verrouiller", "va verrouiller"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_lixeira_vider": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Vider",
+      "variacoes": [
+        { "nome_quiz": "Poubelle", "pronome": "Je", "frase": "Je _______ la poubelle.", "opcoes": ["vide", "vides", "vidons", "videz"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Tu", "frase": "Tu _______ la poubelle.", "opcoes": ["vides", "vide", "vidons", "vident"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Il/Elle", "frase": "Il _______ la poubelle.", "opcoes": ["vide", "vides", "videz", "vident"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Nous", "frase": "Nous _______ la poubelle.", "opcoes": ["vidons", "vide", "visez", "vident"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Vous", "frase": "Vous _______ la poubelle.", "opcoes": ["videz", "vidons", "vides", "vident"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Ils/Elles", "frase": "Elles _______ la poubelle.", "opcoes": ["vident", "videz", "vidons", "vide"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Vider",
+      "variacoes": [
+        { "nome_quiz": "Poubelle", "pronome": "Je", "frase": "J'_______ la poubelle.", "opcoes": ["ai vidé", "as vidé", "a vidé", "avons vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Tu", "frase": "Tu _______ la poubelle.", "opcoes": ["as vidé", "ai vidé", "a vidé", "avez vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Il/Elle", "frase": "Elle _______ la poubelle.", "opcoes": ["a vidé", "ai vidé", "as vidé", "ont vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Nous", "frase": "Nous _______ la poubelle.", "opcoes": ["avons vidé", "avez vidé", "ont vidé", "ai vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Vous", "frase": "Vous _______ la poubelle.", "opcoes": ["avez vidé", "avons vidé", "ont vidé", "as vidé"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Ils/Elles", "frase": "Ils _______ la poubelle.", "opcoes": ["ont vidé", "avez vidé", "avons vidé", "a vidé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Vider",
+      "variacoes": [
+        { "nome_quiz": "Poubelle", "pronome": "Je", "frase": "Je _______ la poubelle.", "opcoes": ["vais vider", "vas vider", "va vider", "allons vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Tu", "frase": "Tu _______ la poubelle.", "opcoes": ["vas vider", "vais vider", "va vider", "allez vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Il/Elle", "frase": "Il _______ la poubelle.", "opcoes": ["va vider", "vais vider", "vas vider", "vont vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Nous", "frase": "Nous _______ la poubelle.", "opcoes": ["allons vider", "allez vider", "vont vider", "vais vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Vous", "frase": "Vous _______ la poubelle.", "opcoes": ["allez vider", "allons vider", "vont vider", "vas vider"], "resposta_correta": 0 },
+        { "nome_quiz": "Poubelle", "pronome": "Ils/Elles", "frase": "Ils _______ la poubelle.", "opcoes": ["vont vider", "allez vider", "allons vider", "va vider"], "resposta_correta": 0 }
+      ]
+    }
+  ]
+}

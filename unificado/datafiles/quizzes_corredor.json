@@ -1,0 +1,116 @@
+{
+  "interacao_escada_monter": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Monter",
+      "variacoes": [
+        { "nome_quiz": "L'escalier", "pronome": "Je", "frase": "Je _______ les escaliers.", "opcoes": ["monte", "montes", "montons", "montez"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Tu", "frase": "Tu _______ les escaliers.", "opcoes": ["montes", "monte", "montons", "montent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Il/Elle", "frase": "Il _______ les escaliers.", "opcoes": ["monte", "montes", "montez", "montent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Nous", "frase": "Nous _______ les escaliers.", "opcoes": ["montons", "monte", "montez", "montent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Vous", "frase": "Vous _______ les escaliers.", "opcoes": ["montez", "montons", "montes", "montent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Ils/Elles", "frase": "Elles _______ les escaliers.", "opcoes": ["montent", "montez", "montons", "monte"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Monter",
+      "variacoes": [
+        { "nome_quiz": "L'escalier", "pronome": "Je", "frase": "J'_______ les escaliers.", "opcoes": ["ai monté", "as monté", "a monté", "avons monté"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Tu", "frase": "Tu _______ les escaliers.", "opcoes": ["as monté", "ai monté", "a monté", "avez monté"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Il/Elle", "frase": "Elle _______ les escaliers.", "opcoes": ["a monté", "ai monté", "as monté", "ont monté"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Nous", "frase": "Nous _______ les escaliers.", "opcoes": ["avons monté", "avez monté", "ont monté", "ai monté"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Vous", "frase": "Vous _______ les escaliers.", "opcoes": ["avez monté", "avons monté", "ont monté", "as monté"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Ils/Elles", "frase": "Ils _______ les escaliers.", "opcoes": ["ont monté", "avez monté", "avons monté", "a monté"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Monter",
+      "variacoes": [
+        { "nome_quiz": "L'escalier", "pronome": "Je", "frase": "Je _______ les escaliers.", "opcoes": ["vais monter", "vas monter", "va monter", "allons monter"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Tu", "frase": "Tu _______ les escaliers.", "opcoes": ["vas monter", "vais monter", "va monter", "allez monter"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Il/Elle", "frase": "Il _______ les escaliers.", "opcoes": ["va monter", "vais monter", "vas monter", "vont monter"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Nous", "frase": "Nous _______ les escaliers.", "opcoes": ["allons monter", "allez monter", "vont monter", "vais monter"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Vous", "frase": "Vous _______ les escaliers.", "opcoes": ["allez monter", "allons monter", "vont monter", "vas monter"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Ils/Elles", "frase": "Elles _______ les escaliers.", "opcoes": ["vont monter", "allez monter", "allons monter", "va monter"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_escada_descendre": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Descendre",
+      "variacoes": [
+        { "nome_quiz": "L'escalier", "pronome": "Je", "frase": "Je _______ les escaliers.", "opcoes": ["descends", "descend", "descendons", "descendez"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Tu", "frase": "Tu _______ les escaliers.", "opcoes": ["descends", "descend", "descendons", "descendent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Il/Elle", "frase": "Il _______ les escaliers.", "opcoes": ["descend", "descends", "descendez", "descendent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Nous", "frase": "Nous _______ les escaliers.", "opcoes": ["descendons", "descends", "descendez", "descendent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Vous", "frase": "Vous _______ les escaliers.", "opcoes": ["descendez", "descendons", "descends", "descendent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Ils/Elles", "frase": "Elles _______ les escaliers.", "opcoes": ["descendent", "descendez", "descendons", "descend"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Descendre",
+      "variacoes": [
+        { "nome_quiz": "L'escalier", "pronome": "Je", "frase": "J'_______ les escaliers.", "opcoes": ["ai descendu", "as descendu", "a descendu", "avons descendu"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Tu", "frase": "Tu _______ les escaliers.", "opcoes": ["as descendu", "ai descendu", "a descendu", "avez descendu"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Il/Elle", "frase": "Elle _______ les escaliers.", "opcoes": ["a descendu", "ai descendu", "as descendu", "ont descendu"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Nous", "frase": "Nous _______ les escaliers.", "opcoes": ["avons descendu", "avez descendu", "ont descendu", "ai descendu"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Vous", "frase": "Vous _______ les escaliers.", "opcoes": ["avez descendu", "avons descendu", "ont descendu", "as descendu"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Ils/Elles", "frase": "Ils _______ les escaliers.", "opcoes": ["ont descendu", "avez descendu", "avons descendu", "a descendu"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Descendre",
+      "variacoes": [
+        { "nome_quiz": "L'escalier", "pronome": "Je", "frase": "Je _______ les escaliers.", "opcoes": ["vais descendre", "vas descendre", "va descendre", "allons descendre"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Tu", "frase": "Tu _______ les escaliers.", "opcoes": ["vas descendre", "vais descendre", "va descendre", "allez descendre"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Il/Elle", "frase": "Il _______ les escaliers.", "opcoes": ["va descendre", "vais descendre", "vas descendre", "vont descendre"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Nous", "frase": "Nous _______ les escaliers.", "opcoes": ["allons descendre", "allez descendre", "vont descendre", "vais descendre"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Vous", "frase": "Vous _______ les escaliers.", "opcoes": ["allez descendre", "allons descendre", "vont descendre", "vas descendre"], "resposta_correta": 0 },
+        { "nome_quiz": "L'escalier", "pronome": "Ils/Elles", "frase": "Elles _______ les escaliers.", "opcoes": ["vont descendre", "allez descendre", "allons descendre", "va descendre"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_janela_aerer": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Aérer",
+      "variacoes": [
+        { "nome_quiz": "La Fenêtre", "pronome": "Je", "frase": "J'_______ le couloir.", "opcoes": ["aère", "aères", "aérons", "aérez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Tu", "frase": "Tu _______ le couloir.", "opcoes": ["aères", "aère", "aérons", "aèrent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Il/Elle", "frase": "Elle _______ le couloir.", "opcoes": ["aère", "aères", "aérez", "aèrent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Nous", "frase": "Nous _______ le couloir.", "opcoes": ["aérons", "aère", "aérez", "aèrent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Vous", "frase": "Vous _______ le couloir.", "opcoes": ["aérez", "aérons", "aères", "aèrent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Ils/Elles", "frase": "Ils _______ le couloir.", "opcoes": ["aèrent", "aérez", "aérons", "aère"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Aérer",
+      "variacoes": [
+        { "nome_quiz": "La Fenêtre", "pronome": "Je", "frase": "J'_______ le couloir.", "opcoes": ["ai aéré", "as aéré", "a aéré", "avons aéré"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Tu", "frase": "Tu _______ le couloir.", "opcoes": ["as aéré", "ai aéré", "a aéré", "avez aéré"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Il/Elle", "frase": "Il _______ le couloir.", "opcoes": ["a aéré", "ai aéré", "as aéré", "ont aéré"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Nous", "frase": "Nous _______ le couloir.", "opcoes": ["avons aéré", "avez aéré", "ont aéré", "ai aéré"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Vous", "frase": "Vous _______ le couloir.", "opcoes": ["avez aéré", "avons aéré", "ont aéré", "as aéré"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Ils/Elles", "frase": "Elles _______ le couloir.", "opcoes": ["ont aéré", "avez aéré", "avons aéré", "a aéré"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Aérer",
+      "variacoes": [
+        { "nome_quiz": "La Fenêtre", "pronome": "Je", "frase": "Je _______ le couloir.", "opcoes": ["vais aérer", "vas aérer", "va aérer", "allons aérer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Tu", "frase": "Tu _______ le couloir.", "opcoes": ["vas aérer", "vais aérer", "va aérer", "allez aérer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Il/Elle", "frase": "Elle _______ le couloir.", "opcoes": ["va aérer", "vais aérer", "vas aérer", "vont aérer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Nous", "frase": "Nous _______ le couloir.", "opcoes": ["allons aérer", "allez aérer", "vont aérer", "vais aérer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Vous", "frase": "Vous _______ le couloir.", "opcoes": ["allez aérer", "allons aérer", "vont aérer", "vas aérer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Fenêtre", "pronome": "Ils/Elles", "frase": "Ils _______ le couloir.", "opcoes": ["vont aérer", "allez aérer", "allons aérer", "va aérer"], "resposta_correta": 0 }
+      ]
+    }
+  ]
+}

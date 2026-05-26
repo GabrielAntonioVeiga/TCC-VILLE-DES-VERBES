@@ -1,4 +1,7 @@
 //efeito grafico que faz um "E" aparecer e desaparecer a cima  do objeto para indicar a interação
+// Instâncias invisíveis (colisões de mobília) não exibem o balão
+if (!visible) exit;
+
 if (collision_circle(x, y, global.range, Player, false, true)) {
     if (balao_e == noone) {
         balao_e = instance_create_layer(x, y, "interacao", interacao);

@@ -17,3 +17,28 @@ if (variable_global_exists("loaded_save")) {
         global.loaded_save = -1; 
     }
 }
+
+// ================= AJUSTE DE CAMERA E SALA =================
+if (room == Room1) {
+    room_width = 2552;
+    room_height = 1612;
+    
+    view_enabled = true;
+    view_visible[0] = true;
+    camera_set_view_size(view_camera[0], 1000, 1000);
+}
+else if (room == Room2) {
+    room_width = 2552;
+    room_height = 1640;
+    
+    view_enabled = true;
+    view_visible[0] = true;
+    camera_set_view_size(view_camera[0], 1000, 1000);
+}
+
+// Centraliza a câmera no player imediatamente ao entrar na room
+var w_view = camera_get_view_width(view_camera[0]);
+var h_view = camera_get_view_height(view_camera[0]);
+var target_x = clamp(x - w_view / 2, 0, room_width - w_view);
+var target_y = clamp(y - h_view / 2, 0, room_height - h_view);
+camera_set_view_pos(view_camera[0], target_x, target_y);

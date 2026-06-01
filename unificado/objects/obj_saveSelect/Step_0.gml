@@ -34,6 +34,7 @@ if (confirm_mode) {
     if (click) {
         if (sim) {
             apagar_save_slot(delete_target);
+            slot_playtime[delete_target] = "00:00:00";
             confirm_mode = false;
             delete_target = -1;
             exit;
@@ -100,6 +101,11 @@ for (var i = 0; i < slots; i++) {
 
         if (click && hover_novo) {
             global.save_slot = i;
+            global.pergunta_atual_id = {}; 
+            global.notas = [];
+            global.quizzes_concluidos = {};
+            global.portas_desbloqueadas = {};
+            global.tempo_jogado = 0;
             room_goto(rm_CharacterSelection);
             exit;
         }

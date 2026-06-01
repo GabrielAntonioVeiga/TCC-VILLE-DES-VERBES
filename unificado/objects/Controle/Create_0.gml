@@ -5,6 +5,10 @@ if (!variable_global_exists("pergunta_atual_id")) {
     global.quizzes_concluidos = {};
 }
 
+if (!variable_global_exists("tempo_jogado")) {
+    global.tempo_jogado = 0;
+}
+
 global.dialogo = false;
 global.range = 90;
 global.dados_quiz = {}; 

@@ -42,6 +42,7 @@ if (state == "closed") {
                         break;
                     case 3: // Configurações
                         global.previous_room = room; 
+                        salvar_jogo_temp(global.save_slot);
                         room_goto(rm_config);
                         break;
                     case 4: // Salvar

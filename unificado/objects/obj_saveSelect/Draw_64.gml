@@ -31,6 +31,9 @@ for (var i = 0; i < slots; i++) {
     draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, true);
 
     if (existe) {
+        
+        draw_set_color(c_white);
+        draw_text(start_x + slot_w/2, start_y + slot_h/2, "Tempo de jogo " + slot_playtime[i]);
 
         // CARREGAR
         var hover = point_in_rectangle(mx, my, start_x, y_botoes, start_x + btn_w, y_botoes + btn_h);

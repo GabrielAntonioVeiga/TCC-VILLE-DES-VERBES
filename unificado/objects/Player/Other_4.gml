@@ -1,3 +1,10 @@
+if (variable_global_exists("previous_room") && global.previous_room == room) {
+    global.previous_room = -1;
+    if (variable_global_exists("save_slot")) {
+        carregar_jogo_temp(global.save_slot);
+    }
+}
+
 if (variable_global_exists("loaded_save")) {
     if (global.loaded_save != -1) {
         x = global.loaded_save.posicaoX;
@@ -25,7 +32,7 @@ if (room == Room1) {
     
     view_enabled = true;
     view_visible[0] = true;
-    camera_set_view_size(view_camera[0], 1000, 1000);
+    camera_set_view_size(view_camera[0], 1100, 1100);
 }
 else if (room == Room2) {
     room_width = 2552;
@@ -33,7 +40,7 @@ else if (room == Room2) {
     
     view_enabled = true;
     view_visible[0] = true;
-    camera_set_view_size(view_camera[0], 1000, 1000);
+    camera_set_view_size(view_camera[0], 1100, 1100);
 }
 
 // Centraliza a câmera no player imediatamente ao entrar na room

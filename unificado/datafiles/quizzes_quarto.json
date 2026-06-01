@@ -1,0 +1,306 @@
+{
+  "interacao_cama_reveiller": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Se réveiller",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ tôt le matin.", "opcoes": ["me réveille", "te réveilles", "se réveille", "nous réveillons"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ tôt le matin.", "opcoes": ["me réveille", "te réveilles", "se réveille", "vous réveillez"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Elle _______ tôt le matin.", "opcoes": ["se réveille", "me réveille", "te réveilles", "se réveillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ tôt le matin.", "opcoes": ["nous réveillons", "vous réveillez", "se réveillent", "se réveille"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ tôt le matin.", "opcoes": ["vous réveillez", "nous réveillons", "se réveillent", "me réveille"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Ils _______ tôt le matin.", "opcoes": ["se réveillent", "vous réveillez", "nous réveillons", "se réveille"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Se réveiller",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ tôt le matin.", "opcoes": ["me suis réveillé", "t'es réveillé", "s'est réveillé", "nous sommes réveillés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ tôt le matin.", "opcoes": ["me suis réveillé", "t'es réveillé", "s'est réveillé", "vous êtes réveillés"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Il _______ tôt le matin.", "opcoes": ["s'est réveillé", "me suis réveillé", "t'es réveillé", "se sont réveillés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ tôt le matin.", "opcoes": ["nous sommes réveillés", "vous êtes réveillés", "se sont réveillés", "s'est réveillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ tôt le matin.", "opcoes": ["vous êtes réveillés", "nous sommes réveillés", "se sont réveillés", "t'es réveillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Elles _______ tôt le matin.", "opcoes": ["se sont réveillées", "vous êtes réveillés", "nous sommes réveillés", "s'est réveillé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Se réveiller",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ tôt le matin.", "opcoes": ["vais me réveiller", "vas te réveiller", "va se réveiller", "allons nous réveiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ tôt le matin.", "opcoes": ["vas te réveiller", "vais me réveiller", "va se réveiller", "allez vous réveiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Elle _______ tôt le matin.", "opcoes": ["va se réveiller", "vais me réveiller", "vas te réveiller", "vont se réveiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ tôt le matin.", "opcoes": ["allons nous réveiller", "allez vous réveiller", "vont se réveiller", "vais me réveiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ tôt le matin.", "opcoes": ["allez vous réveiller", "allons nous réveiller", "vont se réveiller", "vas te réveiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Ils _______ tôt le matin.", "opcoes": ["vont se réveiller", "allez vous réveiller", "allons nous réveiller", "va se réveiller"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_cama_dormir": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Dormir",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ profondément.", "opcoes": ["dors", "dort", "dormons", "dormez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ profondément.", "opcoes": ["dort", "dors", "dormons", "dorment"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Il _______ profondément.", "opcoes": ["dors", "dort", "dormez", "dorment"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ profondément.", "opcoes": ["dormons", "dors", "dormez", "dorment"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ profondément.", "opcoes": ["dormez", "dormons", "dors", "dorment"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Elles _______ profondément.", "opcoes": ["dorment", "dormez", "dormons", "dort"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Dormir",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "J'_______ profondément.", "opcoes": ["ai dormi", "as dormi", "a dormi", "avons dormi"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ profondément.", "opcoes": ["ai dormi", "as dormi", "a dormi", "avez dormi"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Elle _______ profondément.", "opcoes": ["a dormi", "ai dormi", "ont dormi", "avons dormi"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ profondément.", "opcoes": ["avons dormi", "avez dormi", "ont dormi", "ai dormi"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ profondément.", "opcoes": ["avez dormi", "avons dormi", "ont dormi", "as dormi"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Ils _______ profondément.", "opcoes": ["ont dormi", "avez dormi", "avons dormi", "a dormi"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Dormir",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ profondément.", "opcoes": ["vais dormir", "vas dormir", "va dormir", "allons dormir"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ profondément.", "opcoes": ["vas dormir", "vais dormir", "va dormir", "allez dormir"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Il _______ profondément.", "opcoes": ["va dormir", "vais dormir", "vas dormir", "vont dormir"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ profondément.", "opcoes": ["allons dormir", "allez dormir", "vont dormir", "vais dormir"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ profondément.", "opcoes": ["allez dormir", "allons dormir", "vont dormir", "vas dormir"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Elles _______ profondément.", "opcoes": ["vont dormir", "allez dormir", "allons dormir", "va dormir"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_cama_coucher": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Se coucher",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ tard ce soir.", "opcoes": ["me couche", "te couches", "se couche", "nous couchons"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ tard ce soir.", "opcoes": ["me couche", "te couches", "se couche", "vous couchez"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Elle _______ tard ce soir.", "opcoes": ["se couche", "me couche", "te couches", "se couchent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ tard ce soir.", "opcoes": ["nous couchons", "vous couchez", "se couchent", "se couche"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ tard ce soir.", "opcoes": ["vous couchez", "nous couchons", "se couchent", "me couche"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Ils _______ tard ce soir.", "opcoes": ["se couchent", "vous couchez", "nous couchons", "se couche"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Se coucher",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ tard ce soir.", "opcoes": ["me suis couché", "t'es couché", "s'est couché", "nous sommes couchés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ tard ce soir.", "opcoes": ["me suis couché", "t'es couché", "s'est couché", "vous êtes couchés"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Il _______ tard ce soir.", "opcoes": ["s'est couché", "me suis couché", "t'es couché", "se sont couchés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ tard ce soir.", "opcoes": ["nous sommes couchés", "vous êtes couchés", "se sont couchés", "s'est couché"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ tard ce soir.", "opcoes": ["vous êtes couchés", "nous sommes couchés", "se sont couchés", "t'es couché"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Elles _______ tard ce soir.", "opcoes": ["se sont couchées", "vous êtes couchés", "nous sommes couchés", "s'est couché"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Se coucher",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ tard ce soir.", "opcoes": ["vais me coucher", "vas te coucher", "va se coucher", "allons nous coucher"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ tard ce soir.", "opcoes": ["vas te coucher", "vais me coucher", "va se coucher", "allez vous coucher"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Elle _______ tard ce soir.", "opcoes": ["va se coucher", "vais me coucher", "vas te coucher", "vont se coucher"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ tard ce soir.", "opcoes": ["allons nous coucher", "allez vous coucher", "vont se coucher", "vais me coucher"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ tard ce soir.", "opcoes": ["allez vous coucher", "allons nous coucher", "vont se coucher", "vas te coucher"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Ils _______ tard ce soir.", "opcoes": ["vont se coucher", "allez vous coucher", "allons nous coucher", "va se coucher"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_cama_rever": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Rêver",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ chaque nuit.", "opcoes": ["rêve", "rêves", "rêvons", "rêvez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ chaque nuit.", "opcoes": ["rêve", "rêves", "rêvons", "rêvent"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Il _______ chaque nuit.", "opcoes": ["rêve", "rêves", "rêvez", "rêvent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ chaque nuit.", "opcoes": ["rêve", "rêves", "rêvons", "rêvent"], "resposta_correta": 2 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ chaque nuit.", "opcoes": ["rêvez", "rêvons", "rêves", "rêvent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Elles _______ chaque nuit.", "opcoes": ["rêvent", "rêvez", "rêvons", "rêve"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Rêver",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "J'_______ chaque nuit.", "opcoes": ["ai rêvé", "as rêvé", "a rêvé", "avons rêvé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ chaque nuit.", "opcoes": ["ai rêvé", "as rêvé", "a rêvé", "avez rêvé"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Elle _______ chaque nuit.", "opcoes": ["a rêvé", "ai rêvé", "ont rêvé", "avons rêvé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ chaque nuit.", "opcoes": ["avons rêvé", "avez rêvé", "ont rêvé", "ai rêvé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ chaque nuit.", "opcoes": ["avez rêvé", "avons rêvé", "ont rêvé", "as rêvé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Ils _______ chaque nuit.", "opcoes": ["ont rêvé", "avez rêvé", "avons rêvé", "a rêvé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Rêver",
+      "variacoes": [
+        { "nome_quiz": "Le Lit", "pronome": "Je", "frase": "Je _______ chaque nuit.", "opcoes": ["vais rêver", "vas rêver", "va rêver", "allons rêver"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Tu", "frase": "Tu _______ chaque nuit.", "opcoes": ["vas rêver", "vais rêver", "va rêver", "allez rêver"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Il/Elle", "frase": "Il _______ chaque nuit.", "opcoes": ["va rêver", "vais rêver", "vas rêver", "vont rêver"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Nous", "frase": "Nous _______ chaque nuit.", "opcoes": ["allons rêver", "allez rêver", "vont rêver", "vais rêver"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Vous", "frase": "Vous _______ chaque nuit.", "opcoes": ["allez rêver", "allons rêver", "vont rêver", "vas rêver"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lit", "pronome": "Ils/Elles", "frase": "Elles _______ chaque nuit.", "opcoes": ["vont rêver", "allez rêver", "allons rêver", "va rêver"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_guardaroupa_habiller": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "S'habiller",
+      "variacoes": [
+        { "nome_quiz": "L'Armoire", "pronome": "Je", "frase": "Je _______ rapidement.", "opcoes": ["m'habille", "t'habilles", "s'habille", "nous habillons"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Tu", "frase": "Tu _______ rapidement.", "opcoes": ["m'habille", "t'habilles", "s'habille", "vous habillez"], "resposta_correta": 1 },
+        { "nome_quiz": "L'Armoire", "pronome": "Il/Elle", "frase": "Elle _______ rapidement.", "opcoes": ["s'habille", "m'habille", "t'habilles", "s'habillent"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Nous", "frase": "Nous _______ rapidement.", "opcoes": ["nous habillons", "vous habillez", "s'habillent", "s'habille"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Vous", "frase": "Vous _______ rapidement.", "opcoes": ["vous habillez", "nous habillons", "s'habillent", "m'habille"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Ils/Elles", "frase": "Ils _______ rapidement.", "opcoes": ["s'habillent", "vous habillez", "nous habillons", "s'habille"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "S'habiller",
+      "variacoes": [
+        { "nome_quiz": "L'Armoire", "pronome": "Je", "frase": "Je _______ rapidement.", "opcoes": ["me suis habillé", "t'es habillé", "s'est habillé", "nous sommes habillés"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Tu", "frase": "Tu _______ rapidement.", "opcoes": ["me suis habillé", "t'es habillé", "s'est habillé", "vous êtes habillés"], "resposta_correta": 1 },
+        { "nome_quiz": "L'Armoire", "pronome": "Il/Elle", "frase": "Il _______ rapidement.", "opcoes": ["s'est habillé", "me suis habillé", "t'es habillé", "se sont habillés"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Nous", "frase": "Nous _______ rapidement.", "opcoes": ["nous sommes habillés", "vous êtes habillés", "se sont habillés", "s'est habillé"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Vous", "frase": "Vous _______ rapidement.", "opcoes": ["vous êtes habillés", "nous sommes habillés", "se sont habillés", "t'es habillé"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Ils/Elles", "frase": "Elles _______ rapidement.", "opcoes": ["se sont habillées", "vous êtes habillés", "nous sommes habillés", "s'est habillé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "S'habiller",
+      "variacoes": [
+        { "nome_quiz": "L'Armoire", "pronome": "Je", "frase": "Je _______ rapidement.", "opcoes": ["vais m'habiller", "vas t'habiller", "va s'habiller", "allons nous habiller"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Tu", "frase": "Tu _______ rapidement.", "opcoes": ["vas t'habiller", "vais m'habiller", "va s'habiller", "allez vous habiller"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Il/Elle", "frase": "Elle _______ rapidement.", "opcoes": ["va s'habiller", "vais m'habiller", "vas t'habiller", "vont s'habiller"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Nous", "frase": "Nous _______ rapidement.", "opcoes": ["allons nous habiller", "allez vous habiller", "vont s'habiller", "vais m'habiller"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Vous", "frase": "Vous _______ rapidement.", "opcoes": ["allez vous habiller", "allons nous habiller", "vont s'habiller", "vas t'habiller"], "resposta_correta": 0 },
+        { "nome_quiz": "L'Armoire", "pronome": "Ils/Elles", "frase": "Ils _______ rapidement.", "opcoes": ["vont s'habiller", "allez vous habiller", "allons nous habiller", "va s'habiller"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_abajur_allumer": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Allumer",
+      "variacoes": [
+        { "nome_quiz": "La Lampe", "pronome": "Je", "frase": "J'_______ la lampe.", "opcoes": ["allume", "allumes", "allumons", "allumez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Tu", "frase": "Tu _______ la lampe.", "opcoes": ["allumes", "allume", "allumons", "allument"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Il/Elle", "frase": "Elle _______ la lampe.", "opcoes": ["allume", "allumes", "allumez", "allument"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Nous", "frase": "Nous _______ la lampe.", "opcoes": ["allumons", "allume", "allumez", "allument"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Vous", "frase": "Vous _______ la lampe.", "opcoes": ["allumez", "allumons", "allumes", "allument"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Ils/Elles", "frase": "Ils _______ la lampe.", "opcoes": ["allument", "allumez", "allumons", "allume"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Allumer",
+      "variacoes": [
+        { "nome_quiz": "La Lampe", "pronome": "Je", "frase": "J'_______ la lampe.", "opcoes": ["ai allumé", "as allumé", "a allumé", "avons allumé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Tu", "frase": "Tu _______ la lampe.", "opcoes": ["as allumé", "ai allumé", "a allumé", "avez allumé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Il/Elle", "frase": "Il _______ la lampe.", "opcoes": ["a allumé", "ai allumé", "as allumé", "ont allumé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Nous", "frase": "Nous _______ la lampe.", "opcoes": ["avons allumé", "avez allumé", "ont allumé", "ai allumé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Vous", "frase": "Vous _______ la lampe.", "opcoes": ["avez allumé", "avons allumé", "ont allumé", "as allumé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Ils/Elles", "frase": "Elles _______ la lampe.", "opcoes": ["ont allumé", "avez allumé", "avons allumé", "a allumé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Allumer",
+      "variacoes": [
+        { "nome_quiz": "La Lampe", "pronome": "Je", "frase": "Je _______ la lampe.", "opcoes": ["vais allumer", "vas allumer", "va allumer", "allons allumer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Tu", "frase": "Tu _______ la lampe.", "opcoes": ["vas allumer", "vais allumer", "va allumer", "allez allumer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Il/Elle", "frase": "Il _______ la lampe.", "opcoes": ["va allumer", "vais allumer", "vas allumer", "vont allumer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Nous", "frase": "Nous _______ la lampe.", "opcoes": ["allons allumer", "allez allumer", "vont allumer", "vais allumer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Vous", "frase": "Vous _______ la lampe.", "opcoes": ["allez allumer", "allons allumer", "vont allumer", "vas allumer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Ils/Elles", "frase": "Elles _______ la lampe.", "opcoes": ["vont allumer", "allez allumer", "allons allumer", "va allumer"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_abajur_eteindre": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Éteindre",
+      "variacoes": [
+        { "nome_quiz": "La Lampe", "pronome": "Je", "frase": "J'_______ la lumière.", "opcoes": ["éteins", "éteint", "éteignons", "éteignez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Tu", "frase": "Tu _______ la lumière.", "opcoes": ["éteins", "éteint", "éteignons", "éteignent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Il/Elle", "frase": "Elle _______ la lumière.", "opcoes": ["éteint", "éteins", "éteignez", "éteignent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Nous", "frase": "Nous _______ la lumière.", "opcoes": ["éteignons", "éteins", "éteignez", "éteignent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Vous", "frase": "Vous _______ la lumière.", "opcoes": ["éteignez", "éteignons", "éteins", "éteignent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Ils/Elles", "frase": "Ils _______ la lumière.", "opcoes": ["éteignent", "éteignez", "éteignons", "éteint"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Éteindre",
+      "variacoes": [
+        { "nome_quiz": "La Lampe", "pronome": "Je", "frase": "J'_______ la lumière.", "opcoes": ["ai éteint", "as éteint", "a éteint", "avons éteint"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Tu", "frase": "Tu _______ la lumière.", "opcoes": ["as éteint", "ai éteint", "a éteint", "avez éteint"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Il/Elle", "frase": "Il _______ la lumière.", "opcoes": ["a éteint", "ai éteint", "as éteint", "ont éteint"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Nous", "frase": "Nous _______ la lumière.", "opcoes": ["avons éteint", "avez éteint", "ont éteint", "ai éteint"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Vous", "frase": "Vous _______ la lumière.", "opcoes": ["avez éteint", "avons éteint", "ont éteint", "as éteint"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Ils/Elles", "frase": "Elles _______ la lumière.", "opcoes": ["ont éteint", "avez éteint", "avons éteint", "a éteint"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Éteindre",
+      "variacoes": [
+        { "nome_quiz": "La Lampe", "pronome": "Je", "frase": "Je _______ la lumière.", "opcoes": ["vais éteindre", "vas éteindre", "va éteindre", "allons éteindre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Tu", "frase": "Tu _______ la lumière.", "opcoes": ["vas éteindre", "vais éteindre", "va éteindre", "allez éteindre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Il/Elle", "frase": "Il _______ la lumière.", "opcoes": ["va éteindre", "vais éteindre", "vas éteindre", "vont éteindre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Nous", "frase": "Nous _______ la lumière.", "opcoes": ["allons éteindre", "allez éteindre", "vont éteindre", "vais éteindre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Vous", "frase": "Vous _______ la lumière.", "opcoes": ["allez éteindre", "allons éteindre", "vont éteindre", "vas éteindre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Lampe", "pronome": "Ils/Elles", "frase": "Elles _______ la lumière.", "opcoes": ["vont éteindre", "allez éteindre", "allons éteindre", "va éteindre"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_cofre_verrouiller": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Verrouiller",
+      "variacoes": [
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Je", "frase": "Je _______ le coffre.", "opcoes": ["verrouille", "verrouilles", "verrouillons", "verrouillez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Tu", "frase": "Tu _______ le coffre.", "opcoes": ["verrouilles", "verrouille", "verrouillons", "verrouillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Il/Elle", "frase": "Elle _______ le coffre.", "opcoes": ["verrouille", "verrouilles", "verrouillez", "verrouillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Nous", "frase": "Nous _______ le coffre.", "opcoes": ["verrouillons", "verrouille", "verrouillez", "verrouillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Vous", "frase": "Vous _______ le coffre.", "opcoes": ["verrouillez", "verrouillons", "verrouilles", "verrouillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Ils/Elles", "frase": "Ils _______ le coffre.", "opcoes": ["verrouillent", "verrouillez", "verrouillons", "verrouille"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Verrouiller",
+      "variacoes": [
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Je", "frase": "J'_______ le coffre.", "opcoes": ["ai verrouillé", "as verrouillé", "a verrouillé", "avons verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Tu", "frase": "Tu _______ le coffre.", "opcoes": ["as verrouillé", "ai verrouillé", "a verrouillé", "avez verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Il/Elle", "frase": "Il _______ le coffre.", "opcoes": ["a verrouillé", "ai verrouillé", "as verrouillé", "ont verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Nous", "frase": "Nous _______ le coffre.", "opcoes": ["avons verrouillé", "avez verrouillé", "ont verrouillé", "ai verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Vous", "frase": "Vous _______ le coffre.", "opcoes": ["avez verrouillé", "avons verrouillé", "ont verrouillé", "as verrouillé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Ils/Elles", "frase": "Elles _______ le coffre.", "opcoes": ["ont verrouillé", "avez verrouillé", "avons verrouillé", "a verrouillé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Verrouiller",
+      "variacoes": [
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Je", "frase": "Je _______ le coffre.", "opcoes": ["vais verrouiller", "vas verrouiller", "va verrouiller", "allons verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Tu", "frase": "Tu _______ le coffre.", "opcoes": ["vas verrouiller", "vais verrouiller", "va verrouiller", "allez verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Il/Elle", "frase": "Elle _______ le coffre.", "opcoes": ["va verrouiller", "vais verrouiller", "vas verrouiller", "vont verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Nous", "frase": "Nous _______ le coffre.", "opcoes": ["allons verrouiller", "allez verrouiller", "vont verrouiller", "vais verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Vous", "frase": "Vous _______ le coffre.", "opcoes": ["allez verrouiller", "allons verrouiller", "vont verrouiller", "vas verrouiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Coffre-fort", "pronome": "Ils/Elles", "frase": "Ils _______ le coffre.", "opcoes": ["vont verrouiller", "allez verrouiller", "allons verrouiller", "va verrouiller"], "resposta_correta": 0 }
+      ]
+    }
+  ]
+}

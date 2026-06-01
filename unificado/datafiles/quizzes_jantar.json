@@ -1,0 +1,344 @@
+{
+  "interacao_mesa_manger": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Manger",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "Je _______ le dîner.", "opcoes": ["mange", "manges", "mangeons", "mangez"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ le dîner.", "opcoes": ["mange", "manges", "mangeons", "mangent"], "resposta_correta": 1 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Il _______ le dîner.", "opcoes": ["mange", "manges", "mangez", "mangent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ le dîner.", "opcoes": ["mange", "manges", "mangeons", "mangent"], "resposta_correta": 2 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ le dîner.", "opcoes": ["mangez", "mangeons", "manges", "mangent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Elles _______ le dîner.", "opcoes": ["mangent", "mangez", "mangeons", "mange"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Manger",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "J'_______ le dîner.", "opcoes": ["ai mangé", "as mangé", "a mangé", "avons mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ le dîner.", "opcoes": ["ai mangé", "as mangé", "a mangé", "avez mangé"], "resposta_correta": 1 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Elle _______ le dîner.", "opcoes": ["a mangé", "ai mangé", "ont mangé", "avons mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ le dîner.", "opcoes": ["avons mangé", "avez mangé", "ont mangé", "ai mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ le dîner.", "opcoes": ["avez mangé", "avons mangé", "ont mangé", "as mangé"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Ils _______ le dîner.", "opcoes": ["ont mangé", "avez mangé", "avons mangé", "a mangé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Manger",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "Je _______ le dîner.", "opcoes": ["vais manger", "vas manger", "va manger", "allons manger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ le dîner.", "opcoes": ["vas manger", "vais manger", "va manger", "allez manger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Il _______ le dîner.", "opcoes": ["va manger", "vais manger", "vas manger", "vont manger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ le dîner.", "opcoes": ["allons manger", "allez manger", "vont manger", "vais manger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ le dîner.", "opcoes": ["allez manger", "allons manger", "vont manger", "vas manger"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Elles _______ le dîner.", "opcoes": ["vont manger", "allez manger", "allons manger", "va manger"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_mesa_boire": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Boire",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "Je _______ de l'eau.", "opcoes": ["bois", "boit", "buvons", "buvez"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ de l'eau.", "opcoes": ["bois", "boit", "buvons", "boivent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Elle _______ de l'eau.", "opcoes": ["boit", "bois", "buvons", "buvez"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ de l'eau.", "opcoes": ["buvons", "bois", "boit", "boivent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ de l'eau.", "opcoes": ["buvez", "buvons", "bois", "boivent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Ils _______ de l'eau.", "opcoes": ["boivent", "buvez", "buvons", "bois"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Boire",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "J'_______ de l'eau.", "opcoes": ["ai bu", "as bu", "a bu", "avons bu"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ de l'eau.", "opcoes": ["as bu", "ai bu", "a bu", "avez bu"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Il _______ de l'eau.", "opcoes": ["a bu", "ai bu", "as bu", "ont bu"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ de l'eau.", "opcoes": ["avons bu", "avez bu", "ont bu", "ai bu"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ de l'eau.", "opcoes": ["avez bu", "avons bu", "ont bu", "as bu"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Elles _______ de l'eau.", "opcoes": ["ont bu", "avez bu", "avons bu", "a bu"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Boire",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "Je _______ de l'eau.", "opcoes": ["vais boire", "vas boire", "va boire", "allons boire"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ de l'eau.", "opcoes": ["vas boire", "vais boire", "va boire", "allez boire"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Elle _______ de l'eau.", "opcoes": ["va boire", "vais boire", "vas boire", "vont boire"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ de l'eau.", "opcoes": ["allons boire", "allez boire", "vont boire", "vais boire"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ de l'eau.", "opcoes": ["allez boire", "allons boire", "vont boire", "vas boire"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Ils _______ de l'eau.", "opcoes": ["vont boire", "allez boire", "allons boire", "va boire"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_mesa_dejeuner": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Déjeuner",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "Je _______ à midi.", "opcoes": ["déjeune", "déjeunes", "déjeunons", "déjeunez"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ à midi.", "opcoes": ["déjeune", "déjeunes", "déjeunons", "déjeunent"], "resposta_correta": 1 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Il _______ à midi.", "opcoes": ["déjeune", "déjeunes", "déjeunez", "déjeunent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ à midi.", "opcoes": ["déjeune", "déjeunes", "déjeunons", "déjeunent"], "resposta_correta": 2 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ à midi.", "opcoes": ["déjeunez", "déjeunons", "déjeunes", "déjeunent"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Elles _______ à midi.", "opcoes": ["déjeunent", "déjeunez", "déjeunons", "déjeune"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Déjeuner",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "J'_______ à midi.", "opcoes": ["ai déjeuné", "as déjeuné", "a déjeuné", "avons déjeuné"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ à midi.", "opcoes": ["ai déjeuné", "as déjeuné", "a déjeuné", "avez déjeuné"], "resposta_correta": 1 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Elle _______ à midi.", "opcoes": ["a déjeuné", "ai déjeuné", "ont déjeuné", "avons déjeuné"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ à midi.", "opcoes": ["avons déjeuné", "avez déjeuné", "ont déjeuné", "ai déjeuné"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ à midi.", "opcoes": ["avez déjeuné", "avons déjeuné", "ont déjeuné", "as déjeuné"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Ils _______ à midi.", "opcoes": ["ont déjeuné", "avez déjeuné", "avons déjeuné", "a déjeuné"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Déjeuner",
+      "variacoes": [
+        { "nome_quiz": "Table à manger", "pronome": "Je", "frase": "Je _______ à midi.", "opcoes": ["vais déjeuner", "vas déjeuner", "va déjeuner", "allons déjeuner"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Tu", "frase": "Tu _______ à midi.", "opcoes": ["vas déjeuner", "vais déjeuner", "va déjeuner", "allez déjeuner"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Il/Elle", "frase": "Il _______ à midi.", "opcoes": ["va déjeuner", "vais déjeuner", "vas déjeuner", "vont déjeuner"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Nous", "frase": "Nous _______ à midi.", "opcoes": ["allons déjeuner", "allez déjeuner", "vont déjeuner", "vais déjeuner"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Vous", "frase": "Vous _______ à midi.", "opcoes": ["allez déjeuner", "allons déjeuner", "vont déjeuner", "vas déjeuner"], "resposta_correta": 0 },
+        { "nome_quiz": "Table à manger", "pronome": "Ils/Elles", "frase": "Elles _______ à midi.", "opcoes": ["vont déjeuner", "allez déjeuner", "allons déjeuner", "va déjeuner"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_cadeira_asseoir": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "S'asseoir",
+      "variacoes": [
+        { "nome_quiz": "La Chaise", "pronome": "Je", "frase": "Je _______ sur la chaise.", "opcoes": ["m'assieds", "t'assieds", "s'assied", "nous asseyons"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Tu", "frase": "Tu _______ sur la chaise.", "opcoes": ["m'assieds", "t'assieds", "s'assied", "vous asseyez"], "resposta_correta": 1 },
+        { "nome_quiz": "La Chaise", "pronome": "Il/Elle", "frase": "Elle _______ sur la chaise.", "opcoes": ["s'assied", "m'assieds", "t'assieds", "s'asseyent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Nous", "frase": "Nous _______ sur la chaise.", "opcoes": ["nous asseyons", "vous asseyez", "s'asseyent", "s'assied"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Vous", "frase": "Vous _______ sur la chaise.", "opcoes": ["vous asseyez", "nous asseyons", "s'asseyent", "m'assieds"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Ils/Elles", "frase": "Ils _______ sur la chaise.", "opcoes": ["s'asseyent", "vous asseyez", "nous asseyons", "s'assied"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "S'asseoir",
+      "variacoes": [
+        { "nome_quiz": "La Chaise", "pronome": "Je", "frase": "Je _______ sur la chaise.", "opcoes": ["me suis assis", "t'es assis", "s'est assis", "nous sommes assis"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Tu", "frase": "Tu _______ sur la chaise.", "opcoes": ["me suis assis", "t'es assis", "s'est assis", "vous êtes assis"], "resposta_correta": 1 },
+        { "nome_quiz": "La Chaise", "pronome": "Il/Elle", "frase": "Il _______ sur la chaise.", "opcoes": ["s'est assis", "me suis assis", "t'es assis", "se sont assis"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Nous", "frase": "Nous _______ sur la chaise.", "opcoes": ["nous sommes assis", "vous êtes assis", "se sont assis", "s'est assis"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Vous", "frase": "Vous _______ sur la chaise.", "opcoes": ["vous êtes assis", "nous sommes assis", "se sont assis", "t'es assis"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Ils/Elles", "frase": "Elles _______ sur la chaise.", "opcoes": ["se sont assises", "vous êtes assis", "nous sommes assis", "s'est assis"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "S'asseoir",
+      "variacoes": [
+        { "nome_quiz": "La Chaise", "pronome": "Je", "frase": "Je _______ sur la chaise.", "opcoes": ["vais m'asseoir", "vas t'asseoir", "va s'asseoir", "allons nous asseoir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Tu", "frase": "Tu _______ sur la chaise.", "opcoes": ["vas t'asseoir", "vais m'asseoir", "va s'asseoir", "allez vous asseoir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Il/Elle", "frase": "Elle _______ sur la chaise.", "opcoes": ["va s'asseoir", "vais m'asseoir", "vas t'asseoir", "vont s'asseoir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Nous", "frase": "Nous _______ sur la chaise.", "opcoes": ["allons nous asseoir", "allez vous asseoir", "vont s'asseoir", "vais m'asseoir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Vous", "frase": "Vous _______ sur la chaise.", "opcoes": ["allez vous asseoir", "allons nous asseoir", "vont s'asseoir", "vas t'asseoir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Chaise", "pronome": "Ils/Elles", "frase": "Ils _______ sur la chaise.", "opcoes": ["vont s'asseoir", "allez vous asseoir", "allons nous asseoir", "va s'asseoir"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_vaso_casser": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Casser",
+      "variacoes": [
+        { "nome_quiz": "Le Vase", "pronome": "Je", "frase": "Je _______ le vase.", "opcoes": ["casse", "casses", "cassons", "cassez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Tu", "frase": "Tu _______ le vase.", "opcoes": ["casses", "casse", "cassons", "cassent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Il/Elle", "frase": "Il _______ le vase.", "opcoes": ["casse", "casses", "cassons", "cassent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Nous", "frase": "Nous _______ le vase.", "opcoes": ["cassons", "casses", "cassez", "cassent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Vous", "frase": "Vous _______ le vase.", "opcoes": ["cassez", "casses", "cassons", "cassent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Ils/Elles", "frase": "Elles _______ le vase.", "opcoes": ["cassent", "casses", "cassons", "cassez"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Casser",
+      "variacoes": [
+        { "nome_quiz": "Le Vase", "pronome": "Je", "frase": "J'_______ le vase.", "opcoes": ["ai cassé", "as cassé", "a cassé", "avons cassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Tu", "frase": "Tu _______ le vase.", "opcoes": ["as cassé", "ai cassé", "a cassé", "avez cassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Il/Elle", "frase": "Elle _______ le vase.", "opcoes": ["a cassé", "ai cassé", "as cassé", "ont cassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Nous", "frase": "Nous _______ le vase.", "opcoes": ["avons cassé", "avez cassé", "ont cassé", "ai cassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Vous", "frase": "Vous _______ le vase.", "opcoes": ["avez cassé", "avons cassé", "ont cassé", "as cassé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Ils/Elles", "frase": "Ils _______ le vase.", "opcoes": ["ont cassé", "avez cassé", "avons cassé", "a cassé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Casser",
+      "variacoes": [
+        { "nome_quiz": "Le Vase", "pronome": "Je", "frase": "Je _______ le vase.", "opcoes": ["vais casser", "vas casser", "va casser", "allons casser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Tu", "frase": "Tu _______ le vase.", "opcoes": ["vas casser", "vais casser", "va casser", "allez casser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Il/Elle", "frase": "Il _______ le vase.", "opcoes": ["va casser", "vais casser", "vas casser", "vont casser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Nous", "frase": "Nous _______ le vase.", "opcoes": ["allons casser", "allez casser", "vont casser", "vais casser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Vous", "frase": "Vous _______ le vase.", "opcoes": ["allez casser", "allons casser", "vont casser", "vas casser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Vase", "pronome": "Ils/Elles", "frase": "Elles _______ le vase.", "opcoes": ["vont casser", "allez casser", "allons casser", "va casser"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_radio_ecouter": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Écouter",
+      "variacoes": [
+        { "nome_quiz": "La Radio", "pronome": "Je", "frase": "J'_______ la musique.", "opcoes": ["écoute", "écoutes", "écoutons", "écoutez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Tu", "frase": "Tu _______ la musique.", "opcoes": ["écoutes", "écoute", "écoutons", "écoutent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Il/Elle", "frase": "Elle _______ la musique.", "opcoes": ["écoute", "écoutes", "écoutons", "écoutent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Nous", "frase": "Nous _______ la musique.", "opcoes": ["écoutons", "écoutes", "écoutez", "écoutent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Vous", "frase": "Vous _______ la musique.", "opcoes": ["écoutez", "écoutes", "écoutons", "écoutent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Ils/Elles", "frase": "Ils _______ la musique.", "opcoes": ["écoutent", "écoutes", "écoutons", "écoutez"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Écouter",
+      "variacoes": [
+        { "nome_quiz": "La Radio", "pronome": "Je", "frase": "J'_______ la musique.", "opcoes": ["ai écouté", "as écouté", "a écouté", "avons écouté"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Tu", "frase": "Tu _______ la musique.", "opcoes": ["as écouté", "ai écouté", "a écouté", "avez écouté"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Il/Elle", "frase": "Il _______ la musique.", "opcoes": ["a écouté", "ai écouté", "as écouté", "ont écouté"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Nous", "frase": "Nous _______ la musique.", "opcoes": ["avons écouté", "avez écouté", "ont écouté", "ai écouté"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Vous", "frase": "Vous _______ la musique.", "opcoes": ["avez écouté", "avons écouté", "ont écouté", "as écouté"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Ils/Elles", "frase": "Elles _______ la musique.", "opcoes": ["ont écouté", "avez écouté", "avons écouté", "a écouté"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Écouter",
+      "variacoes": [
+        { "nome_quiz": "La Radio", "pronome": "Je", "frase": "Je _______ la musique.", "opcoes": ["vais écouter", "vas écouter", "va écouter", "allons écouter"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Tu", "frase": "Tu _______ la musique.", "opcoes": ["vas écouter", "vais écouter", "va écouter", "allez écouter"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Il/Elle", "frase": "Elle _______ la musique.", "opcoes": ["va écouter", "vais écouter", "vas écouter", "vont écouter"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Nous", "frase": "Nous _______ la musique.", "opcoes": ["allons écouter", "allez écouter", "vont écouter", "vais écouter"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Vous", "frase": "Vous _______ la musique.", "opcoes": ["allez écouter", "allons écouter", "vont écouter", "vas écouter"], "resposta_correta": 0 },
+        { "nome_quiz": "La Radio", "pronome": "Ils/Elles", "frase": "Ils _______ la musique.", "opcoes": ["vont écouter", "allez écouter", "allons écouter", "va écouter"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_tapecaria_regarder": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Regarder",
+      "variacoes": [
+        { "nome_quiz": "La Tapisserie", "pronome": "Je", "frase": "Je _______ les détails.", "opcoes": ["regarde", "regardes", "regardons", "regardez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Tu", "frase": "Tu _______ les détails.", "opcoes": ["regarde", "regardes", "regardons", "regardent"], "resposta_correta": 1 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Il/Elle", "frase": "Il _______ les détails.", "opcoes": ["regarde", "regardes", "regardez", "regardent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Nous", "frase": "Nous _______ les détails.", "opcoes": ["regarde", "regardes", "regardons", "regardent"], "resposta_correta": 2 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Vous", "frase": "Vous _______ les détails.", "opcoes": ["regardez", "regardons", "regardes", "regardent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Ils/Elles", "frase": "Elles _______ les détails.", "opcoes": ["regardent", "regardez", "regardons", "regarde"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Regarder",
+      "variacoes": [
+        { "nome_quiz": "La Tapisserie", "pronome": "Je", "frase": "J'_______ les détails.", "opcoes": ["ai regardé", "as regardé", "a regardé", "avons regardé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Tu", "frase": "Tu _______ les détails.", "opcoes": ["ai regardé", "as regardé", "a regardé", "avez regardé"], "resposta_correta": 1 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Il/Elle", "frase": "Elle _______ les détails.", "opcoes": ["a regardé", "ai regardé", "ont regardé", "avons regardé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Nous", "frase": "Nous _______ les détails.", "opcoes": ["avons regardé", "avez regardé", "ont regardé", "ai regardé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Vous", "frase": "Vous _______ les détails.", "opcoes": ["avez regardé", "avons regardé", "ont regardé", "as regardé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Ils/Elles", "frase": "Ils _______ les détails.", "opcoes": ["ont regardé", "avez regardé", "avons regardé", "a regardé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Regarder",
+      "variacoes": [
+        { "nome_quiz": "La Tapisserie", "pronome": "Je", "frase": "Je _______ les détails.", "opcoes": ["vais regarder", "vas regarder", "va regarder", "allons regarder"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Tu", "frase": "Tu _______ les détails.", "opcoes": ["vas regarder", "vais regarder", "va regarder", "allez regarder"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Il/Elle", "frase": "Il _______ les détails.", "opcoes": ["va regarder", "vais regarder", "vas regarder", "vont regarder"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Nous", "frase": "Nous _______ les détails.", "opcoes": ["allons regarder", "allez regarder", "vont regarder", "vais regarder"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Vous", "frase": "Vous _______ les détails.", "opcoes": ["allez regarder", "allons regarder", "vont regarder", "vas regarder"], "resposta_correta": 0 },
+        { "nome_quiz": "La Tapisserie", "pronome": "Ils/Elles", "frase": "Elles _______ les détails.", "opcoes": ["vont regarder", "allez regarder", "allons regarder", "va regarder"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_porta_entrer": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Entrer",
+      "variacoes": [
+        { "nome_quiz": "La Porte", "pronome": "Je", "frase": "J'_______ dans la salle.", "opcoes": ["entre", "entres", "entrons", "entrez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Tu", "frase": "Tu _______ dans la salle.", "opcoes": ["entres", "entre", "entrons", "entrent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Il/Elle", "frase": "Elle _______ dans la salle.", "opcoes": ["entre", "entres", "entrons", "entrent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Nous", "frase": "Nous _______ dans la salle.", "opcoes": ["entrons", "entres", "entrez", "entrent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Vous", "frase": "Vous _______ dans la salle.", "opcoes": ["entrez", "entres", "entrons", "entrent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Ils/Elles", "frase": "Ils _______ dans la salle.", "opcoes": ["entrent", "entres", "entrons", "entrez"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Entrer",
+      "variacoes": [
+        { "nome_quiz": "La Porte", "pronome": "Je", "frase": "Je _______ dans la salle.", "opcoes": ["suis entré", "es entré", "est entré", "sommes entrés"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Tu", "frase": "Tu _______ dans la salle.", "opcoes": ["es entré", "suis entré", "est entré", "êtes entrés"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Il/Elle", "frase": "Il _______ dans la salle.", "opcoes": ["est entré", "suis entré", "es entré", "sont entrés"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Nous", "frase": "Nous _______ dans la salle.", "opcoes": ["sommes entrés", "êtes entrés", "sont entrés", "suis entré"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Vous", "frase": "Vous _______ dans la salle.", "opcoes": ["êtes entrés", "sommes entrés", "sont entrés", "es entré"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Ils/Elles", "frase": "Elles _______ dans la salle.", "opcoes": ["sont entrées", "êtes entrés", "sommes entrés", "est entré"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Entrer",
+      "variacoes": [
+        { "nome_quiz": "La Porte", "pronome": "Je", "frase": "Je _______ dans la salle.", "opcoes": ["vais entrer", "vas entrer", "va entrer", "allons entrer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Tu", "frase": "Tu _______ dans la salle.", "opcoes": ["vas entrer", "vais entrer", "va entrer", "allez entrer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Il/Elle", "frase": "Elle _______ dans la salle.", "opcoes": ["va entrer", "vais entrer", "vas entrer", "vont entrer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Nous", "frase": "Nous _______ dans la salle.", "opcoes": ["allons entrer", "allez entrer", "vont entrer", "vais entrer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Vous", "frase": "Vous _______ dans la salle.", "opcoes": ["allez entrer", "allons entrer", "vont entrer", "vas entrer"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Ils/Elles", "frase": "Ils _______ dans la salle.", "opcoes": ["vont entrer", "allez entrer", "allons entrer", "va entrer"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_porta_sortir": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Sortir",
+      "variacoes": [
+        { "nome_quiz": "La Porte", "pronome": "Je", "frase": "Je _______ de la pièce.", "opcoes": ["sors", "sort", "sortons", "sortez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Tu", "frase": "Tu _______ de la pièce.", "opcoes": ["sors", "sort", "sortons", "sortent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Il/Elle", "frase": "Il _______ de la pièce.", "opcoes": ["sort", "sors", "sortons", "sortez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Nous", "frase": "Nous _______ de la pièce.", "opcoes": ["sortons", "sors", "sort", "sortent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Vous", "frase": "Vous _______ de la pièce.", "opcoes": ["sortez", "sortons", "sors", "sortent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Ils/Elles", "frase": "Elles _______ de la pièce.", "opcoes": ["sortent", "sortez", "sortons", "sors"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Sortir",
+      "variacoes": [
+        { "nome_quiz": "La Porte", "pronome": "Je", "frase": "Je _______ de la pièce.", "opcoes": ["suis sorti", "es sorti", "est sorti", "sommes sortis"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Tu", "frase": "Tu _______ de la pièce.", "opcoes": ["es sorti", "suis sorti", "est sorti", "êtes sortis"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Il/Elle", "frase": "Elle _______ de la pièce.", "opcoes": ["est sortie", "suis sorti", "es sorti", "sont sortis"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Nous", "frase": "Nous _______ de la pièce.", "opcoes": ["sommes sortis", "êtes sortis", "sont sortis", "suis sorti"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Vous", "frase": "Vous _______ de la pièce.", "opcoes": ["êtes sortis", "sommes sortis", "sont sortis", "es sorti"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Ils/Elles", "frase": "Ils _______ de la pièce.", "opcoes": ["sont sortis", "êtes sortis", "sommes sortis", "est sorti"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Sortir",
+      "variacoes": [
+        { "nome_quiz": "La Porte", "pronome": "Je", "frase": "Je _______ de la pièce.", "opcoes": ["vais sortir", "vas sortir", "va sortir", "allons sortir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Tu", "frase": "Tu _______ de la pièce.", "opcoes": ["vas sortir", "vais sortir", "va sortir", "allez sortir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Il/Elle", "frase": "Il _______ de la pièce.", "opcoes": ["va sortir", "vais sortir", "vas sortir", "vont sortir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Nous", "frase": "Nous _______ de la pièce.", "opcoes": ["allons sortir", "allez sortir", "vont sortir", "vais sortir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Vous", "frase": "Vous _______ de la pièce.", "opcoes": ["allez sortir", "allons sortir", "vont sortir", "vas sortir"], "resposta_correta": 0 },
+        { "nome_quiz": "La Porte", "pronome": "Ils/Elles", "frase": "Elles _______ de la pièce.", "opcoes": ["vont sortir", "allez sortir", "allons sortir", "va sortir"], "resposta_correta": 0 }
+      ]
+    }
+  ]
+}

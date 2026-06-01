@@ -1,0 +1,230 @@
+{
+  "interacao_pia_peigner": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Se peigner",
+      "variacoes": [
+        { "nome_quiz": "Le Miroir", "pronome": "Je", "frase": "Je _______ les cheveux.", "opcoes": ["me peigne", "te peignes", "se peigne", "nous peignons"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Tu", "frase": "Tu _______ les cheveux.", "opcoes": ["te peignes", "me peigne", "se peigne", "vous peignez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Il/Elle", "frase": "Elle _______ les cheveux.", "opcoes": ["se peigne", "me peigne", "te peignes", "se peignent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Nous", "frase": "Nous _______ les cheveux.", "opcoes": ["nous peignons", "vous peignez", "se peignent", "se peigne"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Vous", "frase": "Vous _______ les cheveux.", "opcoes": ["vous peignez", "nous peignons", "se peignent", "te peignes"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Ils/Elles", "frase": "Ils _______ les cheveux.", "opcoes": ["se peignent", "vous peignez", "nous peignons", "se peigne"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Se peigner",
+      "variacoes": [
+        { "nome_quiz": "Le Miroir", "pronome": "Je", "frase": "Je _______ les cheveux.", "opcoes": ["me suis peigné", "t'es peigné", "s'est peigné", "nous sommes peignés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Tu", "frase": "Tu _______ les cheveux.", "opcoes": ["me suis peigné", "t'es peigné", "s'est peigné", "vous êtes peignés"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Miroir", "pronome": "Il/Elle", "frase": "Il _______ les cheveux.", "opcoes": ["s'est peigné", "me suis peigné", "t'es peigné", "se sont peignés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Nous", "frase": "Nous _______ les cheveux.", "opcoes": ["nous sommes peignés", "vous êtes peignés", "se sont peignés", "s'est peigné"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Vous", "frase": "Vous _______ les cheveux.", "opcoes": ["vous êtes peignés", "nous sommes peignés", "se sont peignés", "t'es peigné"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Ils/Elles", "frase": "Elles _______ les cheveux.", "opcoes": ["se sont peignées", "vous êtes peignés", "nous sommes peignés", "s'est peigné"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Se peigner",
+      "variacoes": [
+        { "nome_quiz": "Le Miroir", "pronome": "Je", "frase": "Je _______ les cheveux.", "opcoes": ["vais me peigner", "vas te peigner", "va se peigner", "allons nous peigner"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Tu", "frase": "Tu _______ les cheveux.", "opcoes": ["vas te peigner", "vais me peigner", "va se peigner", "allez vous peigner"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Il/Elle", "frase": "Elle _______ les cheveux.", "opcoes": ["va se peigner", "vais me peigner", "vas te peigner", "vont se peigner"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Nous", "frase": "Nous _______ les cheveux.", "opcoes": ["allons nous peigner", "allez vous peigner", "vont se peigner", "vais me peigner"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Vous", "frase": "Vous _______ les cheveux.", "opcoes": ["allez vous peigner", "allons nous peigner", "vont se peigner", "vas te peigner"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Ils/Elles", "frase": "Ils _______ les cheveux.", "opcoes": ["vont se peigner", "allez vous peigner", "allons nous peigner", "va se peigner"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_pia_raser": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Se raser",
+      "variacoes": [
+        { "nome_quiz": "Le Lavabo", "pronome": "Je", "frase": "Je _______ la barbe.", "opcoes": ["me rase", "te rases", "se rase", "nous rasons"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Tu", "frase": "Tu _______ la barbe.", "opcoes": ["te rases", "me rase", "se rase", "vous rasez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Il/Elle", "frase": "Il _______ la barbe.", "opcoes": ["se rase", "me rase", "te rases", "se rasent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Nous", "frase": "Nous _______ la barbe.", "opcoes": ["nous rasons", "vous rasez", "se rasent", "se rase"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Vous", "frase": "Vous _______ la barbe.", "opcoes": ["vous rasez", "nous rasons", "se rasent", "te rases"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Ils/Elles", "frase": "Ils _______ la barbe.", "opcoes": ["se rasent", "vous rasez", "nous rasons", "se rase"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Se raser",
+      "variacoes": [
+        { "nome_quiz": "Le Lavabo", "pronome": "Je", "frase": "Je _______ la barbe.", "opcoes": ["me suis rasé", "t'es rasé", "s'est rasé", "nous sommes rasés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Tu", "frase": "Tu _______ la barbe.", "opcoes": ["me suis rasé", "t'es rasé", "s'est rasé", "vous êtes rasés"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Il/Elle", "frase": "Il _______ la barbe.", "opcoes": ["s'est rasé", "me suis rasé", "t'es rasé", "se sont rasés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Nous", "frase": "Nous _______ la barbe.", "opcoes": ["nous sommes rasés", "vous êtes rasés", "se sont rasés", "s'est rasé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Vous", "frase": "Vous _______ la barbe.", "opcoes": ["vous êtes rasés", "nous sommes rasés", "se sont rasés", "t'es rasé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Ils/Elles", "frase": "Ils _______ la barbe.", "opcoes": ["se sont rasés", "vous êtes rasés", "nous sommes rasés", "s'est rasé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Se raser",
+      "variacoes": [
+        { "nome_quiz": "Le Lavabo", "pronome": "Je", "frase": "Je _______ la barbe.", "opcoes": ["vais me raser", "vas te raser", "va se raser", "allons nous raser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Tu", "frase": "Tu _______ la barbe.", "opcoes": ["vas te raser", "vais me raser", "va se raser", "allez vous raser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Il/Elle", "frase": "Il _______ la barbe.", "opcoes": ["va se raser", "vais me raser", "vas te raser", "vont se raser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Nous", "frase": "Nous _______ la barbe.", "opcoes": ["allons nous raser", "allez vous raser", "vont se raser", "vais me raser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Vous", "frase": "Vous _______ la barbe.", "opcoes": ["allez vous raser", "allons nous raser", "vont se raser", "vas te raser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Ils/Elles", "frase": "Ils _______ la barbe.", "opcoes": ["vont se raser", "allez vous raser", "allons nous raser", "va se raser"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_pia_maquiller": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Se maquiller",
+      "variacoes": [
+        { "nome_quiz": "Le Miroir", "pronome": "Je", "frase": "Je _______ devant le miroir.", "opcoes": ["me maquille", "te maquilles", "se maquille", "nous maquillons"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Tu", "frase": "Tu _______ devant le miroir.", "opcoes": ["te maquilles", "me maquille", "se maquille", "vous maquillez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Il/Elle", "frase": "Elle _______ devant le miroir.", "opcoes": ["se maquille", "me maquille", "te maquilles", "se maquillent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Nous", "frase": "Nous _______ devant le miroir.", "opcoes": ["nous maquillons", "vous maquillez", "se maquillent", "se maquille"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Vous", "frase": "Vous _______ devant le miroir.", "opcoes": ["vous maquillez", "nous maquillons", "se maquillent", "te maquilles"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Ils/Elles", "frase": "Elles _______ devant le miroir.", "opcoes": ["se maquillent", "vous maquillez", "nous maquillons", "se maquille"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Se maquiller",
+      "variacoes": [
+        { "nome_quiz": "Le Miroir", "pronome": "Je", "frase": "Je _______ devant le miroir.", "opcoes": ["me suis maquillée", "t'es maquillée", "s'est maquillée", "nous sommes maquillées"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Tu", "frase": "Tu _______ devant le miroir.", "opcoes": ["me suis maquillée", "t'es maquillée", "s'est maquillée", "vous êtes maquillées"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Miroir", "pronome": "Il/Elle", "frase": "Elle _______ devant le miroir.", "opcoes": ["s'est maquillée", "me suis maquillée", "t'es maquillée", "se sont maquillées"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Nous", "frase": "Nous _______ devant le miroir.", "opcoes": ["nous sommes maquillées", "vous êtes maquillées", "se sont maquillées", "s'est maquillée"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Vous", "frase": "Vous _______ devant le miroir.", "opcoes": ["vous êtes maquillées", "nous sommes maquillées", "se sont maquillées", "t'es maquillée"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Ils/Elles", "frase": "Elles _______ devant le miroir.", "opcoes": ["se sont maquillées", "vous êtes maquillées", "nous sommes maquillées", "s'est maquillée"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Se maquiller",
+      "variacoes": [
+        { "nome_quiz": "Le Miroir", "pronome": "Je", "frase": "Je _______ devant le miroir.", "opcoes": ["vais me maquiller", "vas te maquiller", "va se maquiller", "allons nous maquiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Tu", "frase": "Tu _______ devant le miroir.", "opcoes": ["vas te maquiller", "vais me maquiller", "va se maquiller", "allez vous maquiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Il/Elle", "frase": "Elle _______ devant le miroir.", "opcoes": ["va se maquiller", "vais me maquiller", "vas te maquiller", "vont se maquiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Nous", "frase": "Nous _______ devant le miroir.", "opcoes": ["allons nous maquiller", "allez vous maquiller", "vont se maquiller", "vais me maquiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Vous", "frase": "Vous _______ devant le miroir.", "opcoes": ["allez vous maquiller", "allons nous maquiller", "vont se maquiller", "vas te maquiller"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Miroir", "pronome": "Ils/Elles", "frase": "Elles _______ devant le miroir.", "opcoes": ["vont se maquiller", "allez vous maquiller", "allons nous maquiller", "va se maquiller"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_pia_brosser": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Se brosser",
+      "variacoes": [
+        { "nome_quiz": "Le Lavabo", "pronome": "Je", "frase": "Je _______ les dents.", "opcoes": ["me brosse", "te brosses", "se brosse", "nous brossons"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Tu", "frase": "Tu _______ les dents.", "opcoes": ["te brosses", "me brosse", "se brosse", "vous brossez"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Il/Elle", "frase": "Il _______ les dents.", "opcoes": ["se brosse", "me brosse", "te brosses", "se brossent"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Nous", "frase": "Nous _______ les dents.", "opcoes": ["nous brossons", "vous brossez", "se brossent", "se brosse"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Vous", "frase": "Vous _______ les dents.", "opcoes": ["vous brossez", "nous brossons", "se brossent", "te brosses"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Ils/Elles", "frase": "Ils _______ les dents.", "opcoes": ["se brossent", "vous brossez", "nous brossons", "se brosse"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Se brosser",
+      "variacoes": [
+        { "nome_quiz": "Le Lavabo", "pronome": "Je", "frase": "Je _______ les dents.", "opcoes": ["me suis brossé", "t'es brossé", "s'est brossé", "nous sommes brossés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Tu", "frase": "Tu _______ les dents.", "opcoes": ["me suis brossé", "t'es brossé", "s'est brossé", "vous êtes brossés"], "resposta_correta": 1 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Il/Elle", "frase": "Elle _______ les dents.", "opcoes": ["s'est brossé", "me suis brossé", "t'es brossé", "se sont brossés"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Nous", "frase": "Nous _______ les dents.", "opcoes": ["nous sommes brossés", "vous êtes brossés", "se sont brossés", "s'est brossé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Vous", "frase": "Vous _______ les dents.", "opcoes": ["vous êtes brossés", "nous sommes brossés", "se sont brossés", "t'es brossé"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Ils/Elles", "frase": "Ils _______ les dents.", "opcoes": ["se sont brossés", "vous êtes brossés", "nous sommes brossés", "s'est brossé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Se brosser",
+      "variacoes": [
+        { "nome_quiz": "Le Lavabo", "pronome": "Je", "frase": "Je _______ les dents.", "opcoes": ["vais me brosser", "vas te brosser", "va se brosser", "allons nous brosser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Tu", "frase": "Tu _______ les dents.", "opcoes": ["vas te brosser", "vais me brosser", "va se brosser", "allez vous brosser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Il/Elle", "frase": "Il _______ les dents.", "opcoes": ["va se brosser", "vais me brosser", "vas te brosser", "vont se brosser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Nous", "frase": "Nous _______ les dents.", "opcoes": ["allons nous brosser", "allez vous brosser", "vont se brosser", "vais me brosser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Vous", "frase": "Vous _______ les dents.", "opcoes": ["allez vous brosser", "allons nous brosser", "vont se brosser", "vas te brosser"], "resposta_correta": 0 },
+        { "nome_quiz": "Le Lavabo", "pronome": "Ils/Elles", "frase": "Elles _______ les dents.", "opcoes": ["vont se brosser", "allez vous brosser", "allons nous brosser", "va se brosser"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_chuveiro_laver": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Se laver",
+      "variacoes": [
+        { "nome_quiz": "La Douche", "pronome": "Je", "frase": "Je _______ le visage.", "opcoes": ["me lave", "te laves", "se lave", "nous lavons"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Tu", "frase": "Tu _______ le visage.", "opcoes": ["te laves", "me lave", "se lave", "vous lavez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Il/Elle", "frase": "Elle _______ le visage.", "opcoes": ["se lave", "me lave", "te laves", "se lavent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Nous", "frase": "Nous _______ le visage.", "opcoes": ["nous lavons", "vous lavez", "se lavent", "se lave"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Vous", "frase": "Vous _______ le visage.", "opcoes": ["vous lavez", "nous lavons", "se lavent", "te laves"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Ils/Elles", "frase": "Ils _______ le visage.", "opcoes": ["se lavent", "vous lavez", "nous lavons", "se lave"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Se laver",
+      "variacoes": [
+        { "nome_quiz": "La Douche", "pronome": "Je", "frase": "Je _______ le visage.", "opcoes": ["me suis lavé", "t'es lavé", "s'est lavé", "nous sommes lavés"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Tu", "frase": "Tu _______ le visage.", "opcoes": ["me suis lavé", "t'es lavé", "s'est lavé", "vous êtes lavés"], "resposta_correta": 1 },
+        { "nome_quiz": "La Douche", "pronome": "Il/Elle", "frase": "Il _______ le visage.", "opcoes": ["s'est lavé", "me suis lavé", "t'es lavé", "se sont lavés"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Nous", "frase": "Nous _______ le visage.", "opcoes": ["nous sommes lavés", "vous êtes lavés", "se sont lavés", "s'est lavé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Vous", "frase": "Vous _______ le visage.", "opcoes": ["vous êtes lavés", "nous sommes lavés", "se sont lavés", "t'es lavé"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Ils/Elles", "frase": "Elles _______ le visage.", "opcoes": ["se sont lavées", "vous êtes lavés", "nous sommes lavés", "s'est lavé"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Se laver",
+      "variacoes": [
+        { "nome_quiz": "La Douche", "pronome": "Je", "frase": "Je _______ le visage.", "opcoes": ["vais me laver", "vas te laver", "va se laver", "allons nous laver"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Tu", "frase": "Tu _______ le visage.", "opcoes": ["vas te laver", "vais me laver", "va se laver", "allez vous laver"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Il/Elle", "frase": "Elle _______ le visage.", "opcoes": ["va se laver", "vais me laver", "vas te laver", "vont se laver"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Nous", "frase": "Nous _______ le visage.", "opcoes": ["allons nous laver", "allez vous laver", "vont se laver", "vais me laver"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Vous", "frase": "Vous _______ le visage.", "opcoes": ["allez vous laver", "allons nous laver", "vont se laver", "vas te laver"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Ils/Elles", "frase": "Ils _______ le visage.", "opcoes": ["vont se laver", "allez vous laver", "allons nous laver", "va se laver"], "resposta_correta": 0 }
+      ]
+    }
+  ],
+  "interacao_chuveiro_prendre": [
+    {
+      "tempo_verbal": "Présent",
+      "verbo": "Prendre",
+      "variacoes": [
+        { "nome_quiz": "La Douche", "pronome": "Je", "frase": "Je _______ une douche.", "opcoes": ["prends", "prend", "prenons", "prenez"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Tu", "frase": "Tu _______ une douche.", "opcoes": ["prends", "prend", "prenons", "prennent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Il/Elle", "frase": "Il _______ une douche.", "opcoes": ["prend", "prends", "prenez", "prennent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Nous", "frase": "Nous _______ une douche.", "opcoes": ["prenons", "prend", "prenez", "prennent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Vous", "frase": "Vous _______ une douche.", "opcoes": ["prenez", "prenons", "prends", "prennent"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Ils/Elles", "frase": "Elles _______ une douche.", "opcoes": ["prennent", "prenez", "prenons", "prend"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Passé Composé",
+      "verbo": "Prendre",
+      "variacoes": [
+        { "nome_quiz": "La Douche", "pronome": "Je", "frase": "J'_______ une douche.", "opcoes": ["ai pris", "as pris", "a pris", "avons pris"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Tu", "frase": "Tu _______ une douche.", "opcoes": ["as pris", "ai pris", "a pris", "avez pris"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Il/Elle", "frase": "Elle _______ une douche.", "opcoes": ["a pris", "ai pris", "as pris", "ont pris"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Nous", "frase": "Nous _______ une douche.", "opcoes": ["avons pris", "avez pris", "ont pris", "ai pris"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Vous", "frase": "Vous _______ une douche.", "opcoes": ["avez pris", "avons pris", "ont pris", "as pris"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Ils/Elles", "frase": "Ils _______ une douche.", "opcoes": ["ont pris", "avez pris", "avons pris", "a pris"], "resposta_correta": 0 }
+      ]
+    },
+    {
+      "tempo_verbal": "Futur Proche",
+      "verbo": "Prendre",
+      "variacoes": [
+        { "nome_quiz": "La Douche", "pronome": "Je", "frase": "Je _______ une douche.", "opcoes": ["vais prendre", "vas prendre", "va prendre", "allons prendre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Tu", "frase": "Tu _______ une douche.", "opcoes": ["vas prendre", "vais prendre", "va prendre", "allez prendre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Il/Elle", "frase": "Il _______ une douche.", "opcoes": ["va prendre", "vais prendre", "vas prendre", "vont prendre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Nous", "frase": "Nous _______ une douche.", "opcoes": ["allons prendre", "allez prendre", "vont prendre", "vais prendre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Vous", "frase": "Vous _______ une douche.", "opcoes": ["allez prendre", "allons prendre", "vont prendre", "vas prendre"], "resposta_correta": 0 },
+        { "nome_quiz": "La Douche", "pronome": "Ils/Elles", "frase": "Elles _______ une douche.", "opcoes": ["vont prendre", "allez prendre", "allons prendre", "va prendre"], "resposta_correta": 0 }
+      ]
+    }
+  ]
+}

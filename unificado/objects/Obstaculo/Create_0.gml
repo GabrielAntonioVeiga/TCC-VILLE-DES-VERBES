@@ -30,9 +30,15 @@ texto_concluido = [
 texto_pos_missao = [
     "Fique à vontade para continuar praticando com os outros objetos, ou siga em frente."
 ];
-
+taxa_minima = 70; // O jogador precisa de pelo menos 70% de acerto
+texto_falha = [
+    "Mon Dieu! Sua taxa de acerto foi muito baixa...", 
+    "Você precisa de pelo menos 70% para passar.", 
+    "Vou bagunçar as mobílias de novo. Refaça a missão com mais atenção!"
+];
 // Puxa a memória do Save
 estado = 0;
 if (variable_global_exists("status_missoes") && global.status_missoes[$ missao_id] != undefined) {
     estado = global.status_missoes[$ missao_id];
 }
+

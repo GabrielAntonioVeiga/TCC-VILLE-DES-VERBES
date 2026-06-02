@@ -7,6 +7,11 @@ if (!variable_global_exists("pergunta_atual_id")) {
 	global.objetivo_atual = "Nenhum objetivo no momento. Explore livremente!"; 
 
 }
+if (!variable_global_exists("acertos_gerais")) {
+    global.acertos_gerais = 0; 
+    global.erros_gerais = 0;   
+    global.erros_quiz = {};    
+}
 
 if (!variable_global_exists("tempo_jogado")) {
     global.tempo_jogado = 0;

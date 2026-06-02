@@ -29,6 +29,7 @@
     {"name":"interacao","order":1,"path":"objects/interacao/interacao.yy",},
     {"name":"obj_creditos","order":1,"path":"objects/obj_creditos/obj_creditos.yy",},
     {"name":"obj_menu","order":2,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"obj_npc_missao","order":10,"path":"objects/obj_npc_missao/obj_npc_missao.yy",},
     {"name":"obj_saveSelect","order":3,"path":"objects/obj_saveSelect/obj_saveSelect.yy",},
     {"name":"ObjObstaculoQuiz","order":1,"path":"objects/ObjObstaculoQuiz/ObjObstaculoQuiz.yy",},
     {"name":"Obstaculo","order":1,"path":"objects/Obstaculo/Obstaculo.yy",},

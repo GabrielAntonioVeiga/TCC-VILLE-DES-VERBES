@@ -42,6 +42,6 @@ if (keyboard_check_pressed(vk_enter)) || (keyboard_check_pressed(vk_space)) || (
         room_goto(rm_menu);
     } else {
         global.player_char = chars[selected];
-        room_goto(Room1);
+        room_goto(rm_dining);
     }
 }

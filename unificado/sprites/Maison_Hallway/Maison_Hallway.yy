@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Maison_Atelier",
+  "%Name":"Maison_Hallway",
   "bboxMode":0,
-  "bbox_bottom":1085,
+  "bbox_bottom":1599,
   "bbox_left":0,
-  "bbox_right":1399,
+  "bbox_right":648,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9d7aed21-1456-45c5-b95b-725d39e5fd3d","name":"9d7aed21-1456-45c5-b95b-725d39e5fd3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b08df689-b3c7-49fc-93ec-2f09ffe22004","name":"b08df689-b3c7-49fc-93ec-2f09ffe22004","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1086,
+  "height":1600,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f1428ee2-c1b1-44bb-a815-cb40a2410bdd","blendMode":0,"displayName":"default","isLocked":false,"name":"f1428ee2-c1b1-44bb-a815-cb40a2410bdd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"89e7b89c-992f-418f-9e1d-346a4570a8e5","blendMode":0,"displayName":"default","isLocked":false,"name":"89e7b89c-992f-418f-9e1d-346a4570a8e5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Maison_Atelier",
+  "name":"Maison_Hallway",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Maison_Atelier",
+    "%Name":"Maison_Hallway",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Maison_Atelier",
+    "name":"Maison_Hallway",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d7aed21-1456-45c5-b95b-725d39e5fd3d","path":"sprites/Maison_Atelier/Maison_Atelier.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"41c2cf53-e92f-4a34-b3ae-bf14cc235665","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b08df689-b3c7-49fc-93ec-2f09ffe22004","path":"sprites/Maison_Hallway/Maison_Hallway.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c3258e7e-678a-4eb0-b7cc-ca2eba9dd9a8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1400,
+  "width":649,
 }

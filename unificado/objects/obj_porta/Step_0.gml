@@ -1,10 +1,12 @@
 // RF006 & RF029 - Troca de Sala & Livre movimentação entre cenas desbloqueadas
 if (instance_exists(Player)) {
-    if (point_distance(x, y, Player.x, Player.y) < 150) {
+    if (point_distance(x, y, Player.x, Player.y) < distancia_interacao) {
         if (keyboard_check_pressed(ord("E"))) {
-            var can_transition = false;
+			// Voltar para false e descomentar regra de bloqueio
+            var can_transition = true;
             
             // RF029 Regra de Desbloqueio: checa TODOS os quizzes da sala
+			/*
             if (desbloqueada) {
                 can_transition = true;
             } else {
@@ -39,6 +41,7 @@ if (instance_exists(Player)) {
                     }
                 }
             }
+			*/
             
             if (can_transition) {
                 var inst_trans = instance_create_depth(0, 0, -9999, obj_transicao);

@@ -26,21 +26,21 @@ if (variable_global_exists("loaded_save")) {
 }
 
 // ================= AJUSTE DE CAMERA E SALA =================
-if (room == Room1) {
+if (room == rm_dining) {
     room_width = 2552;
     room_height = 1612;
     
     view_enabled = true;
     view_visible[0] = true;
-    camera_set_view_size(view_camera[0], 1100, 1100);
+    camera_set_view_size(view_camera[0], 1500, 1500);
 }
-else if (room == Room2) {
+else if (room == rm_atelier) {
     room_width = 2552;
     room_height = 1640;
     
     view_enabled = true;
     view_visible[0] = true;
-    camera_set_view_size(view_camera[0], 1100, 1100);
+    camera_set_view_size(view_camera[0], 1500, 1500);
 }
 
 // Centraliza a câmera no player imediatamente ao entrar na room

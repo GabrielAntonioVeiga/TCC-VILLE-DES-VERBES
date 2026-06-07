@@ -42,6 +42,14 @@ else if (room == rm_atelier) {
     view_visible[0] = true;
     camera_set_view_size(view_camera[0], 1500, 1500);
 }
+else if (room == rm_hallway) {
+    room_width = 700;
+    room_height = 2552;
+    
+    view_enabled = true;
+    view_visible[0] = true;
+    camera_set_view_size(view_camera[0], 1500, 1500);
+}
 
 // Centraliza a câmera no player imediatamente ao entrar na room
 var w_view = camera_get_view_width(view_camera[0]);

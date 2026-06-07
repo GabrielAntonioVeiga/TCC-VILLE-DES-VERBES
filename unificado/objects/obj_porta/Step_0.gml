@@ -1,6 +1,6 @@
 // RF006 & RF029 - Troca de Sala & Livre movimentação entre cenas desbloqueadas
 if (instance_exists(Player)) {
-    if (point_distance(x, y, Player.x, Player.y) < distancia_interacao) {
+    if (distance_to_object(Player) < distancia_interacao) {
         if (keyboard_check_pressed(ord("E"))) {
 			// Voltar para false e descomentar regra de bloqueio
             var can_transition = true;
@@ -50,7 +50,7 @@ if (instance_exists(Player)) {
                 inst_trans.target_x = target_x;
                 inst_trans.target_y = target_y;
                 
-                var snd = asset_get_index("snd_porta");
+                var snd = asset_get_index(snd_opening_door);
                 if (snd != -1) audio_play_sound(snd, 1, false);
             } else {
                 if (!instance_exists(obj_porta_aviso)) {

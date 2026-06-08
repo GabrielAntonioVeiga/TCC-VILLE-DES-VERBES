@@ -20,6 +20,17 @@ if (variable_global_exists("loaded_save")) {
             facing = global.loaded_save.direcao;
         }
         
+        // Redireciona para a room salva se for diferente da atual
+        if (variable_struct_exists(global.loaded_save, "cenario")) {
+            var r_id = asset_get_index(global.loaded_save.cenario);
+            if (r_id != -1 && r_id != room) {
+                // Previne loop infinito: limpa loaded_save ANTES do room_goto
+                global.loaded_save = -1;
+                room_goto(r_id);
+                exit;
+            }
+        }
+        
         // Previne dele carregar infinitamente na proxima troca de room
         global.loaded_save = -1; 
     }
@@ -43,12 +54,28 @@ else if (room == rm_atelier) {
     camera_set_view_size(view_camera[0], 1500, 1500);
 }
 else if (room == rm_hallway) {
-    room_width = 700;
-    room_height = 2552;
+    room_width = 768;
+    room_height = 1894;
     
     view_enabled = true;
     view_visible[0] = true;
-    camera_set_view_size(view_camera[0], 1500, 1500);
+    camera_set_view_size(view_camera[0], 768, 432);
+}
+else if (room == rm_bathroom) {
+    room_width = 2552;
+    room_height = 1501;
+    
+    view_enabled = true;
+    view_visible[0] = true;
+    camera_set_view_size(view_camera[0], 1366, 768);
+}
+else if (room == rm_washing) {
+    room_width = 1375;
+    room_height = 769;
+    
+    view_enabled = true;
+    view_visible[0] = true;
+    camera_set_view_size(view_camera[0], 1366, 768);
 }
 
 // Centraliza a câmera no player imediatamente ao entrar na room

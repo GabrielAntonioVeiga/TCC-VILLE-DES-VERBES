@@ -113,9 +113,8 @@ function carregar_jogo_slot(slot) {
         if (r_id != -1 && r_id != room) room_goto(r_id);
     } else {
         global.loaded_save = estruturaSalvamento;
-        // Vai para rm_dining onde o Player é instanciado.
-        // O Other_4.gml do Player vai ler loaded_save e redirecionar para a room correta.
-        room_goto(rm_dining);
+        var r_id = asset_get_index(estruturaSalvamento.cenario);
+        if (r_id != -1) room_goto(r_id);
     }
 
     ini_open("settings.ini");
@@ -225,9 +224,8 @@ function carregar_jogo_temp(slot) {
         if (r_id != -1 && r_id != room) room_goto(r_id);
     } else {
         global.loaded_save = estruturaSalvamento;
-        // Vai para rm_dining onde o Player é instanciado.
-        // O Other_4.gml do Player vai ler loaded_save e redirecionar para a room correta.
-        room_goto(rm_dining);
+        var r_id = asset_get_index(estruturaSalvamento.cenario);
+        if (r_id != -1) room_goto(r_id);
     }
 
     // Apaga o save temporário após carregar com sucesso para evitar reuso indevido

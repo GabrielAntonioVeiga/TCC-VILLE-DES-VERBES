@@ -40,6 +40,9 @@
     "name":"francine",
     "path":"sprites/francine/francine.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"francine",
+    "path":"sprites/francine/francine.yy",
+  },
   "visible":true,
 }

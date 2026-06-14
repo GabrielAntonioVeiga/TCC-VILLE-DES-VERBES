@@ -59,10 +59,15 @@ else if (room == rm_hallway) {
     
     view_enabled = true;
     view_visible[0] = true;
-    camera_set_view_size(view_camera[0], 768, 432);
+    // Aumenta a altura da view para permitir seguimento vertical mais cedo
+    camera_set_view_size(view_camera[0], 768, 700);
+
+    // Ajusta a escala do Player apenas no corredor (reduzido para não parecer gigante)
+    image_xscale = 0.8;
+    image_yscale = 0.8;
 }
 else if (room == rm_bathroom) {
-    room_width = 2552;
+    room_width = 1400;
     room_height = 1501;
     
     view_enabled = true;
@@ -70,12 +75,23 @@ else if (room == rm_bathroom) {
     camera_set_view_size(view_camera[0], 1366, 768);
 }
 else if (room == rm_washing) {
-    room_width = 1375;
-    room_height = 769;
+    room_width = 1400;
+    room_height = 768;
     
     view_enabled = true;
     view_visible[0] = true;
     camera_set_view_size(view_camera[0], 1366, 768);
+	
+
+    image_xscale = 0.9;
+    image_yscale = 0.95;    
+} else if (room == rm_bedroom) {
+	room_width = 1400;
+    room_height = 1501;
+    
+    view_enabled = true;
+    view_visible[0] = true;
+    camera_set_view_size(view_camera[0], 1400, 1088);
 }
 
 // Centraliza a câmera no player imediatamente ao entrar na room
@@ -84,3 +100,9 @@ var h_view = camera_get_view_height(view_camera[0]);
 var target_x = clamp(x - w_view / 2, 0, room_width - w_view);
 var target_y = clamp(y - h_view / 2, 0, room_height - h_view);
 camera_set_view_pos(view_camera[0], target_x, target_y);
+
+// Restaura escala padrão do Player quando não estiver no corredor
+if (room != rm_hallway && room != rm_washing) {
+    image_xscale = 1;
+    image_yscale = 1.6153846;
+}

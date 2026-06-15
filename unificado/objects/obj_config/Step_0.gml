@@ -5,7 +5,7 @@ var gui_w = display_get_gui_width();
 
 var hovered_index = -1;
 for (var i = 0; i < array_length(options); i++) {
-    var btn_y = 200 + i * 65;
+    var btn_y = 200 + i * 90;
     if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && 
         my > btn_y - 20 && my < btn_y + 20) {
         hovered_index = i;

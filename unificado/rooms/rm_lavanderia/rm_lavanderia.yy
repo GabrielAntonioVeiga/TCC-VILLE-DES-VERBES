@@ -1,18 +1,18 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_washing",
+  "%Name":"rm_lavanderia",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_WASH_PORTA","path":"rooms/rm_washing/rm_washing.yy",},
-    {"name":"inst_6DB5609C","path":"rooms/rm_washing/rm_washing.yy",},
-    {"name":"inst_6B30BB3A","path":"rooms/rm_washing/rm_washing.yy",},
-    {"name":"inst_6C9E8E56","path":"rooms/rm_washing/rm_washing.yy",},
-    {"name":"inst_15EEDEC1","path":"rooms/rm_washing/rm_washing.yy",},
-    {"name":"inst_7F0E4D7A","path":"rooms/rm_washing/rm_washing.yy",},
-    {"name":"inst_653B86AD","path":"rooms/rm_washing/rm_washing.yy",},
+    {"name":"inst_WASH_PORTA","path":"rooms/rm_lavanderia/rm_lavanderia.yy",},
+    {"name":"inst_6DB5609C","path":"rooms/rm_lavanderia/rm_lavanderia.yy",},
+    {"name":"inst_6B30BB3A","path":"rooms/rm_lavanderia/rm_lavanderia.yy",},
+    {"name":"inst_6C9E8E56","path":"rooms/rm_lavanderia/rm_lavanderia.yy",},
+    {"name":"inst_15EEDEC1","path":"rooms/rm_lavanderia/rm_lavanderia.yy",},
+    {"name":"inst_7F0E4D7A","path":"rooms/rm_lavanderia/rm_lavanderia.yy",},
+    {"name":"inst_653B86AD","path":"rooms/rm_lavanderia/rm_lavanderia.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,7 +28,7 @@
       ],"layers":[],"name":"interacao","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_WASH_PORTA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_WASH_PORTA","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"target_room","path":"objects/obj_porta/obj_porta.yy",},"resource":{"name":"rm_hallway","path":"rooms/rm_hallway/rm_hallway.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_hallway",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"target_room","path":"objects/obj_porta/obj_porta.yy",},"resource":{"name":"rm_corredor","path":"rooms/rm_corredor/rm_corredor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_corredor",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"target_x","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"315",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"target_y","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"970",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"desbloqueada","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
@@ -41,7 +41,7 @@
       ],"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Maison_washing","path":"sprites/Maison_washing/Maison_washing.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_washing",
+  "name":"rm_lavanderia",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

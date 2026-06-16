@@ -115,7 +115,7 @@ function carregar_jogo_slot(slot) {
         global.loaded_save = estruturaSalvamento;
         // Vai para rm_dining onde o Player é instanciado.
         // O Other_4.gml do Player vai ler loaded_save e redirecionar para a room correta.
-        room_goto(rm_dining);
+        room_goto(rm_jantar);
     }
 
     ini_open("settings.ini");
@@ -227,7 +227,7 @@ function carregar_jogo_temp(slot) {
         global.loaded_save = estruturaSalvamento;
         // Vai para rm_dining onde o Player é instanciado.
         // O Other_4.gml do Player vai ler loaded_save e redirecionar para a room correta.
-        room_goto(rm_dining);
+        room_goto(rm_jantar);
     }
 
     // Apaga o save temporário após carregar com sucesso para evitar reuso indevido

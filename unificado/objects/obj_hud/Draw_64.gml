@@ -35,10 +35,10 @@ if (state == "closed") {
     draw_set_color(c_white);
     
     // 3. COLLAPSIBLE DE MISSAO (RF009)
-   if (mission_open) {
+    if (mission_open) {
         var m_w = 280;
-        var m_h = 100;
-        var mission_btn_y = start_y + (0 * 50); // Posiçao Y exata do "Missão"
+        var m_h = 130; 
+        var mission_btn_y = start_y + (0 * 50); 
         
         draw_set_alpha(0.8);
         draw_set_color(c_ltgray);
@@ -46,16 +46,23 @@ if (state == "closed") {
         draw_set_alpha(1.0);
         
         draw_set_color(c_black);
+        var centro_x = gui_w - btn_w - (m_w/2);
         
-        // A CORREÇÃO ESTÁ AQUI: Usa a variável global e quebra a linha para caber na caixa
-    var centro_x = gui_w - btn_w - (m_w/2);
+        // 1. Pega a missão da História
+        var texto_npc = variable_global_exists("objetivo_atual") ? global.objetivo_atual : "História: Livre no momento.";
         
-        // Verifica se a variável existe. Se não existir, usa um texto provisório para não crashar!
-        var texto_missao = variable_global_exists("objetivo_atual") ? global.objetivo_atual : "Nenhum objetivo no momento. Explore livremente!";
+        // 2. Pega a missão do Ambiente
+        var texto_amb = variable_global_exists("objetivo_ambiente") ? global.objetivo_ambiente : "";
         
-        draw_text_ext(centro_x, mission_btn_y, texto_missao, 20, m_w - 20)
+        // 3. Junta os dois textos (com uma quebra de linha dupla no meio)
+        var texto_final = texto_npc;
+        if (texto_amb != "") {
+            texto_final += "\n\n" + texto_amb;
+        }
+        
+        draw_text_ext(centro_x, mission_btn_y, texto_final, 20, m_w - 20);
     }
-} 
+}
 // ================= ESTADOS DE OVERLAY (ALBUM / NOTAS) =================
 else {
     // Escurece o fundo pra focar no Painel

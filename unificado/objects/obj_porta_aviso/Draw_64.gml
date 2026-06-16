@@ -14,5 +14,5 @@ draw_set_color(c_red);
 draw_set_halign(fa_center);
 draw_text(cx, cy - 80, "PORTA TRANCADA!");
 draw_set_color(c_black);
-draw_text(cx, cy, "Voce precisa resolver um quiz\nou completar o objetivo da sala atual\npara prosseguir para o proximo nivel.");
+draw_text(cx, cy, "Voce precisa completar o objetivo da sala atual\npara prosseguir para o proximo nivel.");
 draw_text(cx, cy + 80, "(Aperte ENTER ou clique para fechar)");

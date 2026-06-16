@@ -37,7 +37,7 @@ if (variable_global_exists("loaded_save")) {
 }
 
 // ================= AJUSTE DE CAMERA E SALA =================
-if (room == rm_dining) {
+if (room == rm_jantar) {
     room_width = 2552;
     room_height = 1612;
     
@@ -45,7 +45,7 @@ if (room == rm_dining) {
     view_visible[0] = true;
     camera_set_view_size(view_camera[0], 1500, 1500);
 }
-else if (room == rm_atelier) {
+else if (room == rm_atelie) {
     room_width = 2552;
     room_height = 1640;
     
@@ -53,7 +53,7 @@ else if (room == rm_atelier) {
     view_visible[0] = true;
     camera_set_view_size(view_camera[0], 1500, 1500);
 }
-else if (room == rm_hallway) {
+else if (room == rm_corredor) {
     room_width = 768;
     room_height = 1894;
     
@@ -66,7 +66,7 @@ else if (room == rm_hallway) {
     image_xscale = 0.8;
     image_yscale = 0.8;
 }
-else if (room == rm_bathroom) {
+else if (room == rm_banheiro) {
     room_width = 1400;
     room_height = 1501;
     
@@ -74,7 +74,7 @@ else if (room == rm_bathroom) {
     view_visible[0] = true;
     camera_set_view_size(view_camera[0], 1366, 768);
 }
-else if (room == rm_washing) {
+else if (room == rm_lavanderia) {
     room_width = 1400;
     room_height = 768;
     
@@ -85,7 +85,7 @@ else if (room == rm_washing) {
 
     image_xscale = 0.9;
     image_yscale = 0.95;    
-} else if (room == rm_bedroom) {
+} else if (room == rm_quarto) {
 	room_width = 1400;
     room_height = 1501;
     
@@ -102,7 +102,7 @@ var target_y = clamp(y - h_view / 2, 0, room_height - h_view);
 camera_set_view_pos(view_camera[0], target_x, target_y);
 
 // Restaura escala padrão do Player quando não estiver no corredor
-if (room != rm_hallway && room != rm_washing) {
+if (room != rm_corredor && room != rm_lavanderia) {
     image_xscale = 1;
     image_yscale = 1.6153846;
 }

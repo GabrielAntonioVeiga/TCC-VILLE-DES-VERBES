@@ -33,7 +33,7 @@
   ],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"target_room","filters":[],"listItems":[],"multiselect":false,"name":"target_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_hallway","path":"rooms/rm_hallway/rm_hallway.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_hallway","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"target_room","filters":[],"listItems":[],"multiselect":false,"name":"target_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_corredor","path":"rooms/rm_corredor/rm_corredor.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_corredor","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"target_x","filters":[],"listItems":[],"multiselect":false,"name":"target_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"120","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"target_y","filters":[],"listItems":[],"multiselect":false,"name":"target_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"450","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"desbloqueada","filters":[],"listItems":[],"multiselect":false,"name":"desbloqueada","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},

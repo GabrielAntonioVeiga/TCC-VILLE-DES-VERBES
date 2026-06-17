@@ -7,6 +7,17 @@ if (!variable_global_exists("pergunta_atual_id")) {
 	global.objetivo_atual = "Nenhum objetivo no momento. Explore livremente!"; 
 
 }
+if (!variable_global_exists("quadros_coletados")) {
+   global.quadros_coletados = {
+    rm_jantar:        false,
+    rm_atelie:        false,
+    rm_corredor:      false,
+    rm_lavanderia:    false,
+    rm_banheiro:      false,
+    rm_quarto:        false,
+    missao_angelique: false
+};
+}
 if (!variable_global_exists("acertos_gerais")) {
     global.acertos_gerais = 0; 
     global.erros_gerais = 0;   

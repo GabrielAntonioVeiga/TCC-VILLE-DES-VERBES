@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Le_Jardin_de_Daubigny",
+  "%Name":"spr_quadro_lavanderia",
   "bboxMode":0,
-  "bbox_bottom":639,
+  "bbox_bottom":979,
   "bbox_left":0,
-  "bbox_right":955,
+  "bbox_right":1279,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e1f6a814-5fe0-4479-b5cf-c7fc108608d3","name":"e1f6a814-5fe0-4479-b5cf-c7fc108608d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1feaa2ac-1434-4b88-8738-b3ae36c6f698","name":"1feaa2ac-1434-4b88-8738-b3ae36c6f698","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":640,
+  "height":980,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f5e30278-ad43-4538-a0ef-63949c5cad48","blendMode":0,"displayName":"default","isLocked":false,"name":"f5e30278-ad43-4538-a0ef-63949c5cad48","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f4557be6-2e53-47e2-b90b-2bf015817bac","blendMode":0,"displayName":"default","isLocked":false,"name":"f4557be6-2e53-47e2-b90b-2bf015817bac","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Le_Jardin_de_Daubigny",
+  "name":"spr_quadro_lavanderia",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Le_Jardin_de_Daubigny",
+    "%Name":"spr_quadro_lavanderia",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Le_Jardin_de_Daubigny",
+    "name":"spr_quadro_lavanderia",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1f6a814-5fe0-4479-b5cf-c7fc108608d3","path":"sprites/Le_Jardin_de_Daubigny/Le_Jardin_de_Daubigny.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3558d548-51f1-40ea-9be5-7f51508677f7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1feaa2ac-1434-4b88-8738-b3ae36c6f698","path":"sprites/spr_quadro_lavanderia/spr_quadro_lavanderia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"72cecdc6-58fb-4810-8906-e28f5fcd699d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":956,
+  "width":1280,
 }

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Champs_de_Bl____Auvers",
+  "%Name":"Le_Jardin_de_Daubigny_1",
   "bboxMode":0,
-  "bbox_bottom":3214,
+  "bbox_bottom":639,
   "bbox_left":0,
-  "bbox_right":4095,
+  "bbox_right":955,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"250a21ba-1a00-43cf-81ec-9eb3e46967ef","name":"250a21ba-1a00-43cf-81ec-9eb3e46967ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e1f6a814-5fe0-4479-b5cf-c7fc108608d3","name":"e1f6a814-5fe0-4479-b5cf-c7fc108608d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":3215,
+  "height":640,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"51adc697-3b3f-4d39-ba7d-3ecc0f58dec6","blendMode":0,"displayName":"default","isLocked":false,"name":"51adc697-3b3f-4d39-ba7d-3ecc0f58dec6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f5e30278-ad43-4538-a0ef-63949c5cad48","blendMode":0,"displayName":"default","isLocked":false,"name":"f5e30278-ad43-4538-a0ef-63949c5cad48","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Champs_de_Bl____Auvers",
+  "name":"Le_Jardin_de_Daubigny_1",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Champs_de_Bl____Auvers",
+    "%Name":"Le_Jardin_de_Daubigny",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Champs_de_Bl____Auvers",
+    "name":"Le_Jardin_de_Daubigny",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"250a21ba-1a00-43cf-81ec-9eb3e46967ef","path":"sprites/Champs_de_Bl____Auvers/Champs_de_Bl____Auvers.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"41666110-d31c-4aa5-88e8-6f4d435243b9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1f6a814-5fe0-4479-b5cf-c7fc108608d3","path":"sprites/Le_Jardin_de_Daubigny_1/Le_Jardin_de_Daubigny_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3558d548-51f1-40ea-9be5-7f51508677f7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":4096,
+  "width":956,
 }

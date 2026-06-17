@@ -16,3 +16,6 @@ if (variable_struct_exists(global.portas_desbloqueadas, porta_id)) {
 
 
 missao_necessaria = "";
+tipo_de_tranca = "livre";  
+id_da_missao   = "";      
+id_da_sala     = "";   

@@ -7,34 +7,28 @@ var gui_h = display_get_gui_height();
 
 // ================= ESTADO BASE DA HUD (DIREITA) =================
 if (state == "closed") {
-    // 1. FUNDO DA BARRA DA HUD (RF015)
     var btn_w = 120;
     var start_y = (gui_h / 2) - ((array_length(hud_buttons)*50) / 2);
     
     draw_set_alpha(0.6);
     draw_set_color(c_black);
-    draw_rectangle(gui_w - btn_w, 0, gui_w, gui_h, false); // Tira da direita ao max
+    draw_rectangle(gui_w - btn_w, 0, gui_w, gui_h, false);
     draw_set_alpha(1.0);
     
     var mx = device_mouse_x_to_gui(0);
     var my = device_mouse_y_to_gui(0);
     
-    // 2. DESENHA ATALHOS / BOTOES
     for(var i=0; i<array_length(hud_buttons); i++) {
         var by = start_y + (i * 50);
-        
-        // Cores no hover! (RNF)
         if (mx > gui_w - btn_w && mx < gui_w && my > by - 20 && my < by + 20) {
             draw_set_color(c_yellow);
         } else {
             draw_set_color(c_white);
         }
-        
         draw_text(gui_w - (btn_w/2), by, hud_buttons[i]);
     }
     draw_set_color(c_white);
     
-    // 3. COLLAPSIBLE DE MISSAO (RF009)
     if (mission_open) {
         var m_w = 280;
         var m_h = 130; 
@@ -48,13 +42,9 @@ if (state == "closed") {
         draw_set_color(c_black);
         var centro_x = gui_w - btn_w - (m_w/2);
         
-        // 1. Pega a missão da História
         var texto_npc = variable_global_exists("objetivo_atual") ? global.objetivo_atual : "História: Livre no momento.";
-        
-        // 2. Pega a missão do Ambiente
         var texto_amb = variable_global_exists("objetivo_ambiente") ? global.objetivo_ambiente : "";
         
-        // 3. Junta os dois textos (com uma quebra de linha dupla no meio)
         var texto_final = texto_npc;
         if (texto_amb != "") {
             texto_final += "\n\n" + texto_amb;
@@ -65,7 +55,6 @@ if (state == "closed") {
 }
 // ================= ESTADOS DE OVERLAY (ALBUM / NOTAS) =================
 else {
-    // Escurece o fundo pra focar no Painel
     draw_set_alpha(0.9);
     draw_set_color(c_black);
     draw_rectangle(0, 0, gui_w, gui_h, false);
@@ -77,99 +66,142 @@ else {
     
     if (state == "album") {
         draw_set_color(c_white);
-        draw_text(gui_w/2, 100, "ÁLBUM DE PINTURAS");
+        draw_text(gui_w/2, 60, "ÁLBUM DE PINTURAS");
         
-        var total_albuns = 29;
-        var albuns_por_pagina = 6;
+        // ── Lê os 7 slots do global.quadros_coletados ──
+        var _chaves = [
+            "rm_jantar",
+            "rm_atelie",
+            "rm_corredor",
+            "rm_lavanderia",
+            "rm_banheiro",
+            "rm_quarto",
+            "missao_angelique"
+        ];
+        
+        // Nomes legíveis para cada slot
+        var _nomes = [
+            "Sala de Jantar",
+            "Ateliê",
+            "Corredor",
+            "Lavanderia",
+            "Banheiro",
+            "Quarto",
+            "Missão: Angélique"
+        ];
+        
+        // Sprites de cada slot (ajusta os nomes para os seus)
+        var _sprites = [
+            "spr_quadro_jantar",
+            "spr_quadro_atelie",
+            "spr_quadro_corredor",
+            "spr_quadro_lavanderia",
+            "spr_quadro_banheiro",
+            "spr_quadro_quarto",
+            "spr_quadro_angelique"
+        ];
+        
+        var total_slots = 7;
         var cols = 3;
-        var slot_w = 260;
-        var slot_h = 180;
-        var spacing = 40;
+        var slot_w = 220;
+        var slot_h = 160;
+        var spacing = 30;
         
         var total_w = (cols * slot_w) + ((cols - 1) * spacing);
         var base_x = (gui_w / 2) - (total_w / 2);
-        var base_y = 220;
+        var base_y = 130;
         
-        var _inicio = pagina_album * albuns_por_pagina;
-        var _fim = min(_inicio + albuns_por_pagina, total_albuns);
+        var _quadros_ok = variable_global_exists("quadros_coletados");
         
-        for (var i = _inicio; i < _fim; i++) {
-            var idx = i - _inicio;
-            var col = idx % cols;
-            var row = floor(idx / cols);
+        for (var i = 0; i < total_slots; i++) {
+            var col = i mod cols;
+            var row = floor(i / cols);
             
             var start_x = base_x + (col * (slot_w + spacing));
             var start_y = base_y + (row * (slot_h + spacing));
             
-            // Fundo escuro
-            draw_set_color(c_dkgray);
-            draw_set_alpha(0.5);
-            draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, false);
-            draw_set_alpha(1.0);
+            var _chave = _chaves[i];
+            var _coletado = _quadros_ok
+                && variable_struct_exists(global.quadros_coletados, _chave)
+                && global.quadros_coletados[$ _chave] == true;
             
-            // Borda
-            draw_set_color(c_white);
-            draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, true);
-            
-            // Texto
-            draw_text(start_x + slot_w/2, start_y + slot_h/2 - 10, "?" + " (" + string(i+1) + ")");
-            draw_text(start_x + slot_w/2, start_y + slot_h/2 + 20, "Bloqueado");
+            if (_coletado) {
+                // ── Slot desbloqueado: desenha o sprite do quadro ──
+                var _spr = asset_get_index(_sprites[i]);
+                if (_spr != -1) {
+                    draw_sprite_stretched(_spr, 0, start_x, start_y, slot_w, slot_h);
+                } else {
+                    // Sprite não encontrado — fundo verde como fallback
+                    draw_set_color(c_green);
+                    draw_set_alpha(0.5);
+                    draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, false);
+                    draw_set_alpha(1.0);
+                }
+                // Borda dourada para quadro coletado
+                draw_set_color(c_yellow);
+                draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, true);
+                // Nome da sala embaixo
+                draw_set_color(c_yellow);
+                draw_text(start_x + slot_w/2, start_y + slot_h + 15, _nomes[i]);
+            } else {
+                // ── Slot bloqueado ──
+                draw_set_color(c_dkgray);
+                draw_set_alpha(0.5);
+                draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, false);
+                draw_set_alpha(1.0);
+                draw_set_color(c_white);
+                draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, true);
+                draw_set_color(c_gray);
+                draw_text(start_x + slot_w/2, start_y + slot_h/2 - 10, "?");
+                draw_text(start_x + slot_w/2, start_y + slot_h/2 + 20, _nomes[i]);
+            }
         }
         
-        // Paginação do Álbum
-        var pag_y = voltar_y; 
-        
-        // Botão "Anterior"
-        if (pagina_album > 0) {
-            if (mx > (gui_w/2) - 250 && mx < (gui_w/2) - 150 && my > pag_y - 20 && my < pag_y + 20) {
-                draw_set_color(c_yellow);
-                if (mouse_check_button_pressed(mb_left)) pagina_album--;
-            } else draw_set_color(c_white);
-            draw_text((gui_w/2) - 200, pag_y, "< Anterior");
-        }
-        
-        // Botão "Próximo"
-        if (_fim < total_albuns) {
-            if (mx > (gui_w/2) + 150 && mx < (gui_w/2) + 250 && my > pag_y - 20 && my < pag_y + 20) {
-                draw_set_color(c_yellow);
-                if (mouse_check_button_pressed(mb_left)) pagina_album++;
-            } else draw_set_color(c_white);
-            draw_text((gui_w/2) + 200, pag_y, "Próximo >");
+        // Contador de progresso
+        var _total_coletados = 0;
+        if (_quadros_ok) {
+            for (var i = 0; i < total_slots; i++) {
+                if (variable_struct_exists(global.quadros_coletados, _chaves[i])
+                    && global.quadros_coletados[$ _chaves[i]] == true) {
+                    _total_coletados++;
+                }
+            }
         }
         draw_set_color(c_white);
+        draw_text(gui_w/2, voltar_y - 40, 
+            string(_total_coletados) + "/" + string(total_slots) + " quadros coletados");
         
-        // Botão voltar hover do Album
+        // Mensagem de álbum vazio
+        if (_total_coletados == 0) {
+            draw_set_color(c_gray);
+            draw_text(gui_w/2, gui_h/2 + 80, "Falta muito a estudar ainda!");
+        }
+        
+        // Botão Voltar
         if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && my > voltar_y - 20 && my < voltar_y + 20) {
             draw_set_color(c_yellow);
         } else draw_set_color(c_white);
-        
         draw_text(gui_w/2, voltar_y, "Voltar");
     }
-   else if (state == "notes") {
+    else if (state == "notes") {
         draw_set_color(c_white);
         draw_text(gui_w/2, 100, "BLOCO DE NOTAS");
         
-      
         var _total = array_length(global.notas);
         
         if (_total == 0) {
-       
             draw_text(gui_w/2, gui_h/2, "Nenhuma anotação disponível ainda."); 
         } else {
-            // Cálculos da paginação
             var _inicio = pagina_notas * itens_por_pagina;
             var _fim = min(_inicio + itens_por_pagina, _total);
             
-            // Desenha as notas da página atual
             for (var i = _inicio; i < _fim; i++) {
                 var _y = 200 + ((i - _inicio) * 160);
                 draw_text(gui_w/2, _y, global.notas[i]);
             }
             
-           
             var pag_y = gui_h - 160; 
             
-            // Botão "Anterior"
             if (pagina_notas > 0) {
                 if (mx > (gui_w/2) - 250 && mx < (gui_w/2) - 150 && my > pag_y - 20 && my < pag_y + 20) {
                     draw_set_color(c_yellow);
@@ -178,7 +210,6 @@ else {
                 draw_text((gui_w/2) - 200, pag_y, "< Anterior");
             }
             
-            // Botão "Próximo"
             if (_fim < _total) {
                 if (mx > (gui_w/2) + 150 && mx < (gui_w/2) + 250 && my > pag_y - 20 && my < pag_y + 20) {
                     draw_set_color(c_yellow);
@@ -187,14 +218,11 @@ else {
                 draw_text((gui_w/2) + 200, pag_y, "Próximo >");
             }
         }
-        draw_set_color(c_white); // Reseta a cor para o botão voltar
+        draw_set_color(c_white);
         
-        // ================= BOTÃO VOLTAR ORIGINAL =================
-        // Botão voltar hover de Notas
         if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && my > voltar_y - 20 && my < voltar_y + 20) {
             draw_set_color(c_yellow);
         } else draw_set_color(c_white);
-        
         draw_text(gui_w/2, voltar_y, "Voltar");
     }
 }

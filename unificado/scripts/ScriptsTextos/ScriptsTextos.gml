@@ -6,6 +6,11 @@ function ScriptsTextos()
 			texto[1] = "Texto dois do obstaculo!";
 			texto[2] = "Esse é o terceiro texto";
 		break;
+	
+	case "CutsceneIntro":
+            texto[0] = "O momento chegou...";
+            texto[1] = "A partir daqui, não há volta.";
+        break;
 	}
 }
 

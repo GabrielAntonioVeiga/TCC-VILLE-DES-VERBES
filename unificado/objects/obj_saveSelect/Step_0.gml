@@ -106,7 +106,7 @@ for (var i = 0; i < slots; i++) {
             global.quizzes_concluidos = {};
             global.portas_desbloqueadas = {};
             global.tempo_jogado = 0;
-            room_goto(rm_CharacterSelection);
+            room_goto(rm_cutscene);
             exit;
         }
     }

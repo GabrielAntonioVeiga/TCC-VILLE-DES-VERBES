@@ -12,7 +12,7 @@ draw_set_valign(fa_middle);
 
 // TÍTULO
 draw_set_color(c_white);
-draw_text_transformed(gui_w/2, 100, "SELEÇÃO DE JOGO", 1.5, 1.5, 0);
+draw_text_transformed(gui_w/2, 100, obter_string("save_selecao"), 1.5, 1.5, 0);
 
 // ==========================
 // SLOTS
@@ -24,7 +24,7 @@ for (var i = 0; i < slots; i++) {
 
     var existe = existe_save_slot(i);
 
-    var txt = "Slot " + string(i+1) + (existe ? " - Ativo" : " - Vazio");
+    var txt = obter_string("save_slot") + " " + string(i+1) + " - " + (existe ? obter_string("save_ativo") : obter_string("save_vazio"));
     draw_set_color(c_white);
     draw_text(start_x + slot_w/2, start_y - 30, txt);
 
@@ -33,14 +33,14 @@ for (var i = 0; i < slots; i++) {
     if (existe) {
         
         draw_set_color(c_white);
-        draw_text(start_x + slot_w/2, start_y + slot_h/2, "Tempo de jogo " + slot_playtime[i]);
+        draw_text(start_x + slot_w/2, start_y + slot_h/2, obter_string("save_tempo") + " " + slot_playtime[i]);
 
         // CARREGAR
         var hover = point_in_rectangle(mx, my, start_x, y_botoes, start_x + btn_w, y_botoes + btn_h);
         draw_set_color(hover ? make_color_rgb(70,140,200) : make_color_rgb(45,100,150));
         draw_rectangle(start_x, y_botoes, start_x + btn_w, y_botoes + btn_h, false);
         draw_set_color(c_white);
-        draw_text(start_x + btn_w/2, y_botoes + btn_h/2, "CARREGAR");
+        draw_text(start_x + btn_w/2, y_botoes + btn_h/2, obter_string("save_carregar"));
 
         // APAGAR
         var ax1 = start_x + slot_w - btn_w;
@@ -49,7 +49,7 @@ for (var i = 0; i < slots; i++) {
         draw_set_color(hover2 ? make_color_rgb(220,80,70) : make_color_rgb(180,50,40));
         draw_rectangle(ax1, y_botoes, ax2, y_botoes + btn_h, false);
         draw_set_color(c_white);
-        draw_text(start_x + slot_w - btn_w/2, y_botoes + btn_h/2, "APAGAR");
+        draw_text(start_x + slot_w - btn_w/2, y_botoes + btn_h/2, obter_string("save_apagar"));
 
     } else {
 
@@ -60,7 +60,7 @@ for (var i = 0; i < slots; i++) {
         draw_set_color(hover3 ? c_gray : c_dkgray);
         draw_rectangle(nx1, y_botoes, nx2, y_botoes + btn_h, false);
         draw_set_color(c_white);
-        draw_text(start_x + slot_w/2, y_botoes + btn_h/2, "NOVO JOGO");
+        draw_text(start_x + slot_w/2, y_botoes + btn_h/2, obter_string("save_novo"));
     }
 }
 

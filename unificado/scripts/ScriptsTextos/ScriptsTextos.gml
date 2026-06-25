@@ -31,7 +31,17 @@ function obter_string(chave) {
         "config_voltar": "Voltar",
         "vazio_album": "Falta muito a estudar ainda",
         "sem_missao": "Nenhum objetivo por agora",
-		"char_selection": "Selecione seu Personagem"
+        "char_selection": "Selecione seu Personagem",
+        
+        // Tela de Save / Seleção de Jogo
+        "save_selecao": "Seleção de Jogo",
+        "save_slot": "Slot",
+        "save_ativo": "Ativo",
+        "save_vazio": "Vazio",
+        "save_carregar": "Carregar",
+        "save_apagar": "Apagar",
+        "save_novo": "Novo Jogo",
+        "save_tempo": "Tempo de jogo"
     };
 
     var dict_fr = {
@@ -46,7 +56,15 @@ function obter_string(chave) {
         "config_voltar": "Retour",
         "vazio_album": "Il reste encore beaucoup à étudier",
         "sem_missao": "Aucun objectif pour le moment",
-		"char_selection": "Sélectionnez le personnage"
+        "char_selection": "Sélectionnez le personnage",
+        "save_selecao": "Sélection de la partie",
+        "save_slot": "Emplacement",
+        "save_ativo": "Actif",
+        "save_vazio": "Vide",
+        "save_carregar": "Charger",
+        "save_apagar": "Effacer",
+        "save_novo": "Nouvelle partie",
+        "save_tempo": "Temps de jeu"
     };
 
     var dict = (global.language == "fr") ? dict_fr : dict_pt;

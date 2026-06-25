@@ -65,6 +65,7 @@
     {"name":"Chaumes_de_Cordeville","order":13,"path":"sprites/Chaumes_de_Cordeville/Chaumes_de_Cordeville.yy",},
     {"name":"Chaumi_res_sur_la_Plaine","order":14,"path":"sprites/Chaumi_res_sur_la_Plaine/Chaumi_res_sur_la_Plaine.yy",},
     {"name":"Deux_Femmes___travers_Champs","order":15,"path":"sprites/Deux_Femmes___travers_Champs/Deux_Femmes___travers_Champs.yy",},
+    {"name":"fade","order":5,"path":"sprites/fade/fade.yy",},
     {"name":"interacaoE","order":1,"path":"sprites/interacaoE/interacaoE.yy",},
     {"name":"jacques","order":1,"path":"sprites/jacques/jacques.yy",},
     {"name":"jerome","order":2,"path":"sprites/jerome/jerome.yy",},

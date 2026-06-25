@@ -30,7 +30,8 @@ function obter_string(chave) {
         "config_telacheia": "Tela cheia",
         "config_voltar": "Voltar",
         "vazio_album": "Falta muito a estudar ainda",
-        "sem_missao": "Nenhum objetivo por agora"
+        "sem_missao": "Nenhum objetivo por agora",
+		"char_selection": "Selecione seu Personagem"
     };
 
     var dict_fr = {
@@ -44,7 +45,8 @@ function obter_string(chave) {
         "config_telacheia": "Plein écran",
         "config_voltar": "Retour",
         "vazio_album": "Il reste encore beaucoup à étudier",
-        "sem_missao": "Aucun objectif pour le moment"
+        "sem_missao": "Aucun objectif pour le moment",
+		"char_selection": "Sélectionnez le personnage"
     };
 
     var dict = (global.language == "fr") ? dict_fr : dict_pt;

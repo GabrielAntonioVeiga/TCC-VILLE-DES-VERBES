@@ -5,7 +5,7 @@ draw_set_color(c_white);
 var gui_w = display_get_gui_width();
 var gui_h = display_get_gui_height();
 
-draw_text(gui_w/2, 100, "Selecione o Personagem");
+draw_text_transformed(gui_w/2, 100, obter_string("char_selection"), 2, 2, 0);
 
 var spacing = 300;
 var start_x = gui_w/2 - (spacing/2);
@@ -13,13 +13,36 @@ var start_x = gui_w/2 - (spacing/2);
 for(var i=0; i<2; i++) {
     var cx = start_x + (i * spacing);
     var cy = gui_h/2;
-
+    
+    // Posição base onde o sprite será desenhado
+    var draw_x = cx - 80;
+    var draw_y = cy - 120;
+	// 1. Pega o tamanho real do sprite do personagem
+    var spr_w = sprite_get_width(chars[i]);
+    var spr_h = sprite_get_height(chars[i]);
     if (i == selected) {
         draw_set_color(c_yellow);
-        draw_rectangle(cx - 80, cy - 120, cx + 80, cy + 120, true);
+        
+        
+        // 2. Variáveis para você ajustar como preferir
+        var padding = 15;   // Espaço extra (margem) entre o personagem e o retângulo
+        var espessura = 4;  // Grossura da linha
+        
+        // 3. Calcula as pontas do retângulo somando o padding
+        var x1 = draw_x - padding;
+        var y1 = draw_y - padding;
+        var x2 = draw_x + spr_w + padding;
+        var y2 = draw_y + spr_h + padding;
+        
+        // 4. Desenha o retângulo repetidas vezes para criar a espessura
+        for (var j = 0; j < espessura; j++) {
+            // Expande o retângulo 1 pixel para fora a cada repetição
+            draw_rectangle(x1 - j, y1 - j, x2 + j, y2 + j, true);
+        }
     }
 
-    draw_sprite(chars[i], 0, cx, cy);
+    // Desenha o personagem
+    draw_sprite(chars[i], 0, draw_x, draw_y);
     
     if (i == selected) {
         draw_set_color(c_yellow);
@@ -27,14 +50,38 @@ for(var i=0; i<2; i++) {
         draw_set_color(c_white);
     }
     
-    draw_text(cx, cy + 150, char_names[i]);
+    // 1. Calcula o centro exato do personagem
+    var centro_do_personagem = draw_x + (spr_w / 2);
+    
+    // 2. Define o tamanho do texto (1.5 significa 50% maior. Mude para 2 se quiser o dobro)
+    var escala_nome = 1.5; 
+    
+    // 3. Desenha o texto centralizado e maior
+    draw_text_transformed(centro_do_personagem, cy + 200, char_names[i], escala_nome, escala_nome, 0);
 }
 
+
+var scale_x = 0.15;
+var scale_y = 0.5;
+
 var voltar_y = gui_h - 100;
+var btn_color = c_white;
+
 if (selected == 2) {
     draw_set_color(c_yellow);
+    btn_color = c_gray;
 } else {
     draw_set_color(c_white);
+    btn_color = c_white;
 }
+
+var visual_w = sprite_get_height(botao) * scale_y;
+var visual_h = sprite_get_width(botao) * scale_x;
+
+var draw_x = (gui_w / 2) + (visual_w / 2);
+var draw_y = voltar_y - (visual_h / 2);
+
+draw_sprite_ext(botao, 0, draw_x, draw_y, scale_x, scale_y, 270, btn_color, 1);
+
 draw_text(gui_w/2, voltar_y, "Voltar");
 draw_set_color(c_white);

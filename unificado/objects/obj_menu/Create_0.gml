@@ -2,10 +2,11 @@
 // Texto do menu (em Português)
 //window_set_size(900,900); //gambiarra
 menu_texts = [
-    "Jogar",
-    "Configurações",
-    "Créditos",
-    "Sair"
+     "menu_iniciar",
+     "menu_config",
+     "menu_creditos",
+	 "menu_sair"
+	 
 ];
 
 // Estado (habilitado / desabilitado)

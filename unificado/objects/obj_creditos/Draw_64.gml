@@ -17,5 +17,5 @@ if (hover_voltar) {
 } else {
     draw_set_color(c_white);
 }
-draw_text(gui_w/2, voltar_y, "Voltar");
+draw_text(gui_w/2, voltar_y, obter_string("menu_sair"));
 draw_set_color(c_white);

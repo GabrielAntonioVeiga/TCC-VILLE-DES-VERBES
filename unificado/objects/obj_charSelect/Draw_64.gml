@@ -17,24 +17,20 @@ for(var i=0; i<2; i++) {
     // Posição base onde o sprite será desenhado
     var draw_x = cx - 80;
     var draw_y = cy - 120;
-	// 1. Pega o tamanho real do sprite do personagem
     var spr_w = sprite_get_width(chars[i]);
     var spr_h = sprite_get_height(chars[i]);
     if (i == selected) {
         draw_set_color(c_yellow);
         
-        
-        // 2. Variáveis para você ajustar como preferir
         var padding = 15;   // Espaço extra (margem) entre o personagem e o retângulo
         var espessura = 4;  // Grossura da linha
         
-        // 3. Calcula as pontas do retângulo somando o padding
+        //Calcula as pontas do retângulo somando o padding
         var x1 = draw_x - padding;
         var y1 = draw_y - padding;
         var x2 = draw_x + spr_w + padding;
         var y2 = draw_y + spr_h + padding;
         
-        // 4. Desenha o retângulo repetidas vezes para criar a espessura
         for (var j = 0; j < espessura; j++) {
             // Expande o retângulo 1 pixel para fora a cada repetição
             draw_rectangle(x1 - j, y1 - j, x2 + j, y2 + j, true);
@@ -49,14 +45,9 @@ for(var i=0; i<2; i++) {
     } else {
         draw_set_color(c_white);
     }
-    
-    // 1. Calcula o centro exato do personagem
     var centro_do_personagem = draw_x + (spr_w / 2);
     
-    // 2. Define o tamanho do texto (1.5 significa 50% maior. Mude para 2 se quiser o dobro)
     var escala_nome = 1.5; 
-    
-    // 3. Desenha o texto centralizado e maior
     draw_text_transformed(centro_do_personagem, cy + 200, char_names[i], escala_nome, escala_nome, 0);
 }
 
@@ -83,5 +74,5 @@ var draw_y = voltar_y - (visual_h / 2);
 
 draw_sprite_ext(botao, 0, draw_x, draw_y, scale_x, scale_y, 270, btn_color, 1);
 
-draw_text(gui_w/2, voltar_y, "Voltar");
+draw_text(gui_w/2, voltar_y, obter_string("menu_sair"));
 draw_set_color(c_white);

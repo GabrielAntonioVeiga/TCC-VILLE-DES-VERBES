@@ -32,5 +32,5 @@ for (var i = 0; i < array_length(menu_texts); i++)
 
     // 3. Desenhar o texto
     draw_set_color(c_white);
-    draw_text(btn_x, btn_y, menu_texts[i]);
+    draw_text(btn_x, btn_y, obter_string(menu_texts[i]));
 }

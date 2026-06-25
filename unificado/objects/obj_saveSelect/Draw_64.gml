@@ -120,4 +120,4 @@ draw_rectangle(voltar_x1, voltar_y1, voltar_x2, voltar_y2, false);
 
 // Texto
 draw_set_color(c_white);
-draw_text(gui_w/2, voltar_y1 + voltar_h/2, "VOLTAR");
+draw_text(gui_w/2, voltar_y1 + voltar_h/2, obter_string("menu_sair"));

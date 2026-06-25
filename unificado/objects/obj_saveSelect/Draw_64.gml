@@ -101,7 +101,7 @@ if (confirm_mode) {
 }
 
 /// ==========================
-/// BOTÃO VOLTAR
+/// BOTÃO SAIR (PLACA DE MADEIRA)
 /// ==========================
 var voltar_w = 180;
 var voltar_h = 50;
@@ -114,10 +114,19 @@ var voltar_y2 = voltar_y1 + voltar_h;
 
 var hover_voltar = point_in_rectangle(mx, my, voltar_x1, voltar_y1, voltar_x2, voltar_y2);
 
-// Cor com hover
-draw_set_color(hover_voltar ? make_color_rgb(200,200,200) : make_color_rgb(120,120,120));
-draw_rectangle(voltar_x1, voltar_y1, voltar_x2, voltar_y2, false);
+var scale_x = 0.15;
+var scale_y = 0.5;
+var btn_color = hover_voltar ? c_gray : c_white;
 
-// Texto
+var visual_w = sprite_get_height(botao) * scale_y;
+var visual_h = sprite_get_width(botao) * scale_x;
+
+var centro_y = voltar_y1 + voltar_h/2;
+
+var draw_x = (gui_w / 2) + (visual_w / 2);
+var draw_y = centro_y - (visual_h / 2);
+
+draw_sprite_ext(botao, 0, draw_x, draw_y, scale_x, scale_y, 270, btn_color, 1);
+
 draw_set_color(c_white);
-draw_text(gui_w/2, voltar_y1 + voltar_h/2, obter_string("menu_sair"));
+draw_text(gui_w/2, centro_y, obter_string("menu_sair"));

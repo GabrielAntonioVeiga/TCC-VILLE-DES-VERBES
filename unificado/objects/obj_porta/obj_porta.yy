@@ -38,6 +38,7 @@
     {"$GMObjectProperty":"v2","%Name":"target_y","filters":[],"listItems":[],"multiselect":false,"name":"target_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"450","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"desbloqueada","filters":[],"listItems":[],"multiselect":false,"name":"desbloqueada","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"distancia_interacao","filters":[],"listItems":[],"multiselect":false,"name":"distancia_interacao","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"500","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"direcao","filters":[],"listItems":[],"multiselect":false,"name":"direcao","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

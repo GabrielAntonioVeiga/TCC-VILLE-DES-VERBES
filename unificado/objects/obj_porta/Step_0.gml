@@ -1,11 +1,8 @@
 if (!instance_exists(Player)) exit;
 
-var _dist = point_distance(x, y, Player.x, Player.y);
-
+    var _dist = point_distance(x, y - (direcao="cima" ? Player.sprite_height : Player.sprite_height/2), Player.x, Player.y);
+	
 if (_dist <= distancia_interacao) {
-
-    // Balão de interação (mantém seu sistema já existente)
-    // [seu código de balão_e aqui, se aplicável]
 
     if (keyboard_check_pressed(ord("E")) && !instance_exists(obj_quiz) && !instance_exists(Dialogo)) {
 

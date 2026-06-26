@@ -6,3 +6,4 @@ target_room = rm_jantar;
 target_x = 2000;
 target_y = 300;
 desbloqueada = true;
+direcao = "cima"; //usado para relacionar de onde o jogador vem para interagir. Isso afeta as coordenadas de desenho do "E" e colisão.

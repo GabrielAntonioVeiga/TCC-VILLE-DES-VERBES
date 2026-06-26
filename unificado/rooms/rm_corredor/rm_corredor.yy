@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_corredor",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_corredor/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -21,7 +21,7 @@
     {"name":"inst_A2172CE","path":"rooms/rm_corredor/rm_corredor.yy",},
     {"name":"inst_4CD8BC6","path":"rooms/rm_corredor/rm_corredor.yy",},
   ],
-  "isDnd":false,
+  "isDnd":true,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Invisivel","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_C020362","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C020362","objectId":{"name":"obj_parede_invisivel","path":"objects/obj_parede_invisivel/obj_parede_invisivel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":14.5,"scaleY":3.5,"x":32.0,"y":64.0,},
@@ -42,6 +42,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"target_x","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"target_y","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"desbloqueada","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"direcao","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"baixo\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.5,"x":480.0,"y":384.0,},
         {"$GMRInstance":"v4","%Name":"inst_14C2E14","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_14C2E14","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"distancia_interacao","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
@@ -91,14 +92,14 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":1366,
+    "Height":2166,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":768,
+    "Width":908,
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":1366,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":758,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":506,"hspeed":-1,"hview":506,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":908,"wview":908,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -110,7 +111,7 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":false,
   },
   "volume":1.0,

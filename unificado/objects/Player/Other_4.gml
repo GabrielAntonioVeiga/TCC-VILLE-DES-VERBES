@@ -54,8 +54,8 @@ else if (room == rm_atelie) {
     camera_set_view_size(view_camera[0], 1500, 1500);
 }
 else if (room == rm_corredor) {
-    room_width = 768;
-    room_height = 1894;
+    room_width = 790;
+    room_height = 2200;
     
     view_enabled = true;
     view_visible[0] = true;
@@ -63,7 +63,7 @@ else if (room == rm_corredor) {
     camera_set_view_size(view_camera[0], 768, 700);
 
     // Ajusta a escala do Player apenas no corredor (reduzido para não parecer gigante)
-    image_xscale = 0.8;
+    image_xscale = 0.6;
     image_yscale = 0.8;
 }
 else if (room == rm_banheiro) {

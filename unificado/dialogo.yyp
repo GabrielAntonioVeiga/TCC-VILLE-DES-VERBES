@@ -103,6 +103,7 @@
     {"id":{"name":"snd_TVG","path":"sounds/snd_TVG/snd_TVG.yy",},},
     {"id":{"name":"snd_wood_step","path":"sounds/snd_wood_step/snd_wood_step.yy",},},
     {"id":{"name":"snd_wrong_answer_quizz","path":"sounds/snd_wrong_answer_quizz/snd_wrong_answer_quizz.yy",},},
+    {"id":{"name":"angelique","path":"sprites/angelique/angelique.yy",},},
     {"id":{"name":"animacao","path":"sprites/animacao/animacao.yy",},},
     {"id":{"name":"Bords_de_lOise","path":"sprites/Bords_de_lOise/Bords_de_lOise.yy",},},
     {"id":{"name":"botao","path":"sprites/botao/botao.yy",},},
@@ -148,6 +149,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_corredor","path":"rooms/rm_corredor/rm_corredor.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_CharacterSelection","path":"rooms/rm_CharacterSelection/rm_CharacterSelection.yy",},},
     {"roomId":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
@@ -158,7 +160,6 @@
     {"roomId":{"name":"rm_atelie","path":"rooms/rm_atelie/rm_atelie.yy",},},
     {"roomId":{"name":"rm_lavanderia","path":"rooms/rm_lavanderia/rm_lavanderia.yy",},},
     {"roomId":{"name":"rm_banheiro","path":"rooms/rm_banheiro/rm_banheiro.yy",},},
-    {"roomId":{"name":"rm_corredor","path":"rooms/rm_corredor/rm_corredor.yy",},},
     {"roomId":{"name":"rm_quarto","path":"rooms/rm_quarto/rm_quarto.yy",},},
   ],
   "templateType":"game",

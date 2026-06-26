@@ -57,6 +57,7 @@
     {"name":"snd_TVG","order":5,"path":"sounds/snd_TVG/snd_TVG.yy",},
     {"name":"snd_wood_step","order":3,"path":"sounds/snd_wood_step/snd_wood_step.yy",},
     {"name":"snd_wrong_answer_quizz","order":2,"path":"sounds/snd_wrong_answer_quizz/snd_wrong_answer_quizz.yy",},
+    {"name":"angelique","order":3,"path":"sprites/angelique/angelique.yy",},
     {"name":"animacao","order":4,"path":"sprites/animacao/animacao.yy",},
     {"name":"botao","order":3,"path":"sprites/botao/botao.yy",},
     {"name":"Branche_d_Amandier_en_Fleurs","order":1,"path":"sprites/Branche_d_Amandier_en_Fleurs/Branche_d_Amandier_en_Fleurs.yy",},

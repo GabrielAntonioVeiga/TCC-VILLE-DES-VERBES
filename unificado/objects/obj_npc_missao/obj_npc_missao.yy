@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"jerome",
-    "path":"sprites/jerome/jerome.yy",
+    "name":"angelique",
+    "path":"sprites/angelique/angelique.yy",
   },
   "spriteMaskId":null,
   "visible":true,

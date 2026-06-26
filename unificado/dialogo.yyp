@@ -149,9 +149,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_corredor","path":"rooms/rm_corredor/rm_corredor.yy",},},
     {"roomId":{"name":"rm_jantar","path":"rooms/rm_jantar/rm_jantar.yy",},},
-    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_CharacterSelection","path":"rooms/rm_CharacterSelection/rm_CharacterSelection.yy",},},
     {"roomId":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
     {"roomId":{"name":"rm_config","path":"rooms/rm_config/rm_config.yy",},},

@@ -40,7 +40,6 @@ if (state == "closed") {
                 
                 if (variable_instance_exists(_inst_quiz, "meu_quiz_id")) {
                     
-                    // Mobília com lista de verbos (sorteio)
                     if (is_array(_inst_quiz.meu_quiz_id)) {
                         for (var v = 0; v < array_length(_inst_quiz.meu_quiz_id); v++) {
                             var _verbo = _inst_quiz.meu_quiz_id[v];
@@ -51,7 +50,6 @@ if (state == "closed") {
                             }
                         }
                     } 
-                    // Mobília com um único verbo
                     else {
                         var _qid = _inst_quiz.meu_quiz_id;
                         if (variable_struct_exists(global.quizzes_concluidos, _qid) 
@@ -66,12 +64,10 @@ if (state == "closed") {
                 }
             }
             
-            // Verifica se bateu 100%
             if (_quizzes_respondidos >= _total_quizzes_sala) {
                 global.ambiente_completado[$ _sala_atual] = true;
                 global.objetivo_ambiente = "Exploração da " + _nome_da_sala_formatado + ": 100% Concluída!";
                 
-                // Concede o quadro da sala se ainda não foi dado
                 if (!variable_struct_exists(global.quadros_coletados, _sala_atual)
                     || global.quadros_coletados[$ _sala_atual] == false) {
                     global.quadros_coletados[$ _sala_atual] = true;
@@ -102,44 +98,48 @@ if (state == "closed") {
 
     if (mouse_check_button_pressed(mb_left)) {
         
-        for (var i = 0; i < array_length(hud_buttons); i++) {
-            var by = start_y + (i * 50);
+        // 🆕 Só processa cliques da HUD se não tiver diálogo/quiz aberto
+        if (global.dialogo == false && !instance_exists(obj_quiz) && !instance_exists(Dialogo)) {
             
-            if (mx > gui_w - btn_w && mx < gui_w && my > by - 20 && my < by + 20) {
+            for (var i = 0; i < array_length(hud_buttons); i++) {
+                var by = start_y + (i * 50);
                 
-                clicked_any = true;
-               
-                switch(i) {
-                    case 0: // Missão
-                        mission_open = !mission_open;
-                        break;
-                    case 1: // Álbum
-                        state = "album";
-                        global.dialogo = true;
-                        mission_open = false;
-                        break;
-                    case 2: // Notas
-                        state = "notes";
-                        global.dialogo = true;
-                        mission_open = false;
-                        break;
-                    case 3: // Configurações
-                        global.previous_room = room; 
-                        salvar_jogo_temp(global.save_slot);
-                        room_goto(rm_config);
-                        break;
-                    case 4: // Salvar
-                        salvar_jogo_slot(global.save_slot);
-                        break;
-                    case 5: // Sair ao menu Principal
-                        room_goto(rm_menu);
-                        break;
+                if (mx > gui_w - btn_w && mx < gui_w && my > by - 20 && my < by + 20) {
+                    
+                    clicked_any = true;
+                   
+                    switch(i) {
+                        case 0: // Missão
+                            mission_open = !mission_open;
+                            break;
+                        case 1: // Álbum
+                            state = "album";
+                            global.dialogo = true;
+                            mission_open = false;
+                            break;
+                        case 2: // Notas
+                            state = "notes";
+                            global.dialogo = true;
+                            mission_open = false;
+                            break;
+                        case 3: // Configurações
+                            global.previous_room = room; 
+                            salvar_jogo_temp(global.save_slot);
+                            room_goto(rm_config);
+                            break;
+                        case 4: // Salvar
+                            salvar_jogo_slot(global.save_slot);
+                            break;
+                        case 5: // Sair ao menu Principal
+                            room_goto(rm_menu);
+                            break;
+                    }
                 }
             }
-        }
-        
-        if (clicked_any) {
-            audio_play_sound(snd_menu_select, 1, false);
+            
+            if (clicked_any) {
+                audio_play_sound(snd_menu_select, 1, false);
+            }
         }
     }
 

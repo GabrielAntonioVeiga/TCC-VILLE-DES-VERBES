@@ -68,7 +68,6 @@ else {
         draw_set_color(c_white);
         draw_text(gui_w/2, 60, "ÁLBUM DE PINTURAS");
         
-        // ── Lê os 7 slots do global.quadros_coletados ──
         var _chaves = [
             "rm_jantar",
             "rm_atelie",
@@ -79,7 +78,6 @@ else {
             "missao_angelique"
         ];
         
-        // Nomes legíveis para cada slot
         var _nomes = [
             "Sala de Jantar",
             "Ateliê",
@@ -90,7 +88,6 @@ else {
             "Missão: Angélique"
         ];
         
-        // Sprites de cada slot (ajusta os nomes para os seus)
         var _sprites = [
             "spr_quadro_jantar",
             "spr_quadro_atelie",
@@ -126,25 +123,20 @@ else {
                 && global.quadros_coletados[$ _chave] == true;
             
             if (_coletado) {
-                // ── Slot desbloqueado: desenha o sprite do quadro ──
                 var _spr = asset_get_index(_sprites[i]);
                 if (_spr != -1) {
                     draw_sprite_stretched(_spr, 0, start_x, start_y, slot_w, slot_h);
                 } else {
-                    // Sprite não encontrado — fundo verde como fallback
                     draw_set_color(c_green);
                     draw_set_alpha(0.5);
                     draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, false);
                     draw_set_alpha(1.0);
                 }
-                // Borda dourada para quadro coletado
                 draw_set_color(c_yellow);
                 draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, true);
-                // Nome da sala embaixo
                 draw_set_color(c_yellow);
                 draw_text(start_x + slot_w/2, start_y + slot_h + 15, _nomes[i]);
             } else {
-                // ── Slot bloqueado ──
                 draw_set_color(c_dkgray);
                 draw_set_alpha(0.5);
                 draw_rectangle(start_x, start_y, start_x + slot_w, start_y + slot_h, false);
@@ -157,7 +149,6 @@ else {
             }
         }
         
-        // Contador de progresso
         var _total_coletados = 0;
         if (_quadros_ok) {
             for (var i = 0; i < total_slots; i++) {
@@ -171,36 +162,94 @@ else {
         draw_text(gui_w/2, voltar_y - 40, 
             string(_total_coletados) + "/" + string(total_slots) + " quadros coletados");
         
-        // Mensagem de álbum vazio
         if (_total_coletados == 0) {
             draw_set_color(c_gray);
             draw_text(gui_w/2, gui_h/2 + 80, "Falta muito a estudar ainda!");
         }
         
-        // Botão Voltar
         if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && my > voltar_y - 20 && my < voltar_y + 20) {
             draw_set_color(c_yellow);
         } else draw_set_color(c_white);
         draw_text(gui_w/2, voltar_y, "Voltar");
     }
+    
     else if (state == "notes") {
         draw_set_color(c_white);
-        draw_text(gui_w/2, 100, "BLOCO DE NOTAS");
+        draw_text(gui_w/2, 60, "BLOCO DE NOTAS");
         
-        var _total = array_length(global.notas);
+        // ── Filtro por pronome ──
+        var _pronomes = ["Todos", "Je", "Tu", "Il/Elle/On", "Nous", "Vous", "Ils/Elles"];
+        
+        // Inicializa o filtro se não existir
+        if (!variable_instance_exists(id, "filtro_pronome")) {
+            filtro_pronome = 0;
+        }
+        
+        // Desenha os botões de filtro
+        var _total_pronomes = array_length(_pronomes);
+        var _fil_total_w = _total_pronomes * 100;
+        var _fil_start_x = (gui_w / 2) - (_fil_total_w / 2) + 50;
+        var _fil_y = 110;
+        
+        for (var i = 0; i < _total_pronomes; i++) {
+            var _fx = _fil_start_x + (i * 100);
+            
+            // Fundo destacado no filtro ativo
+            if (filtro_pronome == i) {
+                draw_set_color(c_yellow);
+                draw_set_alpha(0.2);
+                draw_rectangle(_fx - 40, _fil_y - 16, _fx + 40, _fil_y + 16, false);
+                draw_set_alpha(1.0);
+                draw_set_color(c_yellow);
+            } else {
+                draw_set_color(c_white);
+            }
+            draw_text(_fx, _fil_y, _pronomes[i]);
+            
+            // Clique no filtro
+            if (mouse_check_button_pressed(mb_left)
+                && mx > _fx - 40 && mx < _fx + 40
+                && my > _fil_y - 16 && my < _fil_y + 16) {
+                filtro_pronome = i;
+                pagina_notas = 0; // reseta paginação ao trocar filtro
+            }
+        }
+        draw_set_color(c_white);
+        
+        // ── Filtra as notas pelo pronome selecionado ──
+        var _notas_filtradas = [];
+        if (variable_global_exists("notas")) {
+            for (var i = 0; i < array_length(global.notas); i++) {
+                if (filtro_pronome == 0) {
+                    array_push(_notas_filtradas, global.notas[i]);
+                } else {
+                    if (string_pos(_pronomes[filtro_pronome], global.notas[i]) > 0) {
+                        array_push(_notas_filtradas, global.notas[i]);
+                    }
+                }
+            }
+        }
+        
+        var _total = array_length(_notas_filtradas);
         
         if (_total == 0) {
-            draw_text(gui_w/2, gui_h/2, "Nenhuma anotação disponível ainda."); 
+            draw_set_color(c_gray);
+            if (filtro_pronome == 0) {
+                draw_text(gui_w/2, gui_h/2, "Nenhuma anotação disponível ainda.");
+            } else {
+                draw_text(gui_w/2, gui_h/2, "Nenhuma anotação para " + _pronomes[filtro_pronome] + ".");
+            }
         } else {
             var _inicio = pagina_notas * itens_por_pagina;
             var _fim = min(_inicio + itens_por_pagina, _total);
             
             for (var i = _inicio; i < _fim; i++) {
-                var _y = 200 + ((i - _inicio) * 160);
-                draw_text(gui_w/2, _y, global.notas[i]);
+                var _y = 220 + ((i - _inicio) * 160);
+                draw_set_color(c_white);
+                draw_text(gui_w/2, _y, _notas_filtradas[i]);
             }
             
-            var pag_y = gui_h - 160; 
+            var pag_y = gui_h - 160;
             
             if (pagina_notas > 0) {
                 if (mx > (gui_w/2) - 250 && mx < (gui_w/2) - 150 && my > pag_y - 20 && my < pag_y + 20) {
@@ -218,8 +267,8 @@ else {
                 draw_text((gui_w/2) + 200, pag_y, "Próximo >");
             }
         }
-        draw_set_color(c_white);
         
+        draw_set_color(c_white);
         if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 && my > voltar_y - 20 && my < voltar_y + 20) {
             draw_set_color(c_yellow);
         } else draw_set_color(c_white);

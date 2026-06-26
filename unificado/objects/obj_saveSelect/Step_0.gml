@@ -98,17 +98,29 @@ for (var i = 0; i < slots; i++) {
         var hover_novo = point_in_rectangle(mx, my, novo_x1, y_botoes, novo_x2, y_botoes + btn_h);
 
         if (hover_novo) hovering = true;
-
-        if (click && hover_novo) {
-            global.save_slot = i;
-            global.pergunta_atual_id = {}; 
-            global.notas = [];
-            global.quizzes_concluidos = {};
-            global.portas_desbloqueadas = {};
-            global.tempo_jogado = 0;
-            room_goto(rm_cutscene);
-            exit;
-        }
+if (click && hover_novo) {
+    global.save_slot = i;
+    // já existiam:
+    global.pergunta_atual_id    = {}; 
+    global.notas                = [];
+    global.quizzes_concluidos   = {};
+    global.portas_desbloqueadas = {};
+    global.tempo_jogado         = 0;
+    // 🆕 adiciona estas três:
+    global.ambiente_completado  = {};
+    global.status_missoes       = {};
+    global.quadros_coletados    = {
+        rm_jantar:        false,
+        rm_atelie:        false,
+        rm_corredor:      false,
+        rm_lavanderia:    false,
+        rm_banheiro:      false,
+        rm_quarto:        false,
+        missao_angelique: false
+    };
+    room_goto(rm_cutscene);
+    exit;
+}
     }
 }
 

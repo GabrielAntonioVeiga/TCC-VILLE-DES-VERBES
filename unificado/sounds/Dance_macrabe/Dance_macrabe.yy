@@ -15,7 +15,7 @@
   "name":"Dance_macrabe",
   "parent":{
     "name":"musics",
-    "path":"folders/Sounds/musics.yy",
+    "path":"folders/Shaders/Sounds/musics.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

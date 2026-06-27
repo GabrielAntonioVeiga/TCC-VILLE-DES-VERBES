@@ -59,7 +59,6 @@
     {"name":"snd_wood_step_4","order":11,"path":"sounds/snd_wood_step_4/snd_wood_step_4.yy",},
     {"name":"snd_wood_step_5","order":9,"path":"sounds/snd_wood_step_5/snd_wood_step_5.yy",},
     {"name":"snd_wood_step_6","order":8,"path":"sounds/snd_wood_step_6/snd_wood_step_6.yy",},
-    {"name":"snd_wood_step","order":3,"path":"sounds/snd_wood_step/snd_wood_step.yy",},
     {"name":"snd_wrong_answer_quizz","order":2,"path":"sounds/snd_wrong_answer_quizz/snd_wrong_answer_quizz.yy",},
     {"name":"angelique","order":3,"path":"sprites/angelique/angelique.yy",},
     {"name":"animacao","order":4,"path":"sprites/animacao/animacao.yy",},

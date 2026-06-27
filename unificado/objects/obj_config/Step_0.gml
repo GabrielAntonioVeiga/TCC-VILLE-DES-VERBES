@@ -42,6 +42,7 @@ if (act_right || act_left)
         case 0: // Volume
             global.volume = clamp(global.volume + (0.1 * dir), 0, 1);
             audio_master_gain(global.volume);
+            salvar_configuracoes();
         break;
 
         case 1: // Velocidade do Texto (1=Rapido, 2=Normal, 4=Lento)
@@ -54,15 +55,19 @@ if (act_right || act_left)
                 else if (global.text_speed == 2) global.text_speed = 1;
                 else global.text_speed = 2;
             }
+            salvar_configuracoes();
         break;
 
         case 2: // Idioma
             if (global.language == "pt") global.language = "fr";
             else global.language = "pt";
+            salvar_configuracoes();
         break;
 
         case 3: // Tela cheia
             window_set_fullscreen(!window_get_fullscreen());
+            global.fullscreen = window_get_fullscreen();
+            salvar_configuracoes();
         break;
 
         case 4: // Voltar

@@ -22,5 +22,7 @@ menu_y = (gui_h / 2) - ((button_h * array_length(menu_texts)) / 2);
 
 selected_index = 0;
 
+carregar_configuracoes();
+
 draw_set_font(fnt_padrao);
 show_debug_message("obj_menu criado.");

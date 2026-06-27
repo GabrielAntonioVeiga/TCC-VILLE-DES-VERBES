@@ -13,6 +13,89 @@ function criar_feedback(texto_msg) {
     }
 }
 
+function _filename_for_config() {
+    return "configuracoes.json";
+}
+
+function carregar_configuracoes() {
+    if (!variable_global_exists("volume")) global.volume = 1;
+    if (!variable_global_exists("text_speed")) global.text_speed = 2;
+    if (!variable_global_exists("language")) global.language = "pt";
+    if (!variable_global_exists("fullscreen")) global.fullscreen = false;
+
+    var nomeArquivo = _filename_for_config();
+    if (file_exists(nomeArquivo)) {
+        var fh = file_text_open_read(nomeArquivo);
+        var conteudo = "";
+        while (!file_text_eof(fh)) {
+            conteudo += file_text_read_string(fh);
+        }
+        file_text_close(fh);
+
+        var cfg = json_parse(conteudo);
+        if (is_struct(cfg)) {
+            if (variable_struct_exists(cfg, "volume")) global.volume = clamp(cfg.volume, 0, 1);
+            if (variable_struct_exists(cfg, "text_speed")) global.text_speed = cfg.text_speed;
+            if (variable_struct_exists(cfg, "language")) global.language = cfg.language;
+            if (variable_struct_exists(cfg, "fullscreen")) global.fullscreen = cfg.fullscreen;
+        }
+    } else {
+        ini_open("settings.ini");
+        global.volume = clamp(ini_read_real("config", "volume", global.volume), 0, 1);
+        global.text_speed = ini_read_real("config", "text_speed", global.text_speed);
+        global.language = ini_read_string("config", "language", global.language);
+        global.fullscreen = ini_read_real("config", "fullscreen", global.fullscreen ? 1 : 0) == 1;
+        ini_close();
+    }
+
+    if (global.text_speed != 1 && global.text_speed != 2 && global.text_speed != 4) {
+        global.text_speed = 2;
+    }
+    if (global.language != "pt" && global.language != "fr") {
+        global.language = "pt";
+    }
+
+    audio_master_gain(global.volume);
+    window_set_fullscreen(global.fullscreen);
+}
+
+function salvar_configuracoes() {
+    var nomeArquivo = _filename_for_config();
+    var cfg = {
+        volume:     global.volume,
+        text_speed: global.text_speed,
+        language:   global.language,
+        fullscreen: global.fullscreen
+    };
+
+    var fh = file_text_open_write(nomeArquivo);
+    file_text_write_string(fh, json_stringify(cfg));
+    file_text_close(fh);
+}
+
+function aplicar_configuracoes_salvas(estruturaSalvamento) {
+    carregar_configuracoes();
+
+    if (variable_struct_exists(estruturaSalvamento, "configuracoes") && is_struct(estruturaSalvamento.configuracoes)) {
+        var cfg = estruturaSalvamento.configuracoes;
+        if (variable_struct_exists(cfg, "volume")) global.volume = clamp(cfg.volume, 0, 1);
+        if (variable_struct_exists(cfg, "text_speed")) global.text_speed = cfg.text_speed;
+        if (variable_struct_exists(cfg, "language")) global.language = cfg.language;
+        if (variable_struct_exists(cfg, "fullscreen")) global.fullscreen = cfg.fullscreen;
+    }
+
+    if (global.text_speed != 1 && global.text_speed != 2 && global.text_speed != 4) {
+        global.text_speed = 2;
+    }
+    if (global.language != "pt" && global.language != "fr") {
+        global.language = "pt";
+    }
+
+    audio_master_gain(global.volume);
+    window_set_fullscreen(global.fullscreen);
+    salvar_configuracoes();
+}
+
 function _filename_for_slot(slot) {
     return "save" + string(slot) + ".json";
 }
@@ -68,6 +151,8 @@ function carregar_jogo_slot(slot) {
     file_text_close(fh);
 
     var estruturaSalvamento = json_parse(conteudo);
+
+    aplicar_configuracoes_salvas(estruturaSalvamento);
 
     // Quizzes
     if (variable_struct_exists(estruturaSalvamento, "quizzesConcluidos")
@@ -194,6 +279,8 @@ function carregar_jogo_temp(slot) {
     file_text_close(fh);
 
     var estruturaSalvamento = json_parse(conteudo);
+
+    aplicar_configuracoes_salvas(estruturaSalvamento);
 
     // Quizzes
     if (variable_struct_exists(estruturaSalvamento, "quizzesConcluidos")

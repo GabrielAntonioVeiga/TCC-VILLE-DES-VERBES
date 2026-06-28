@@ -108,7 +108,8 @@ function salvar_jogo_slot(slot) {
     var estruturaSalvamento = {
         posicaoX:             Player.x,
         posicaoY:             Player.y,
-        avatar:               Player.sprite_index,
+        avatar:               sprite_get_name(Player.sprite_index),
+		personagem:           global.player_char,
         direcao:              Player.facing,
         cenario:              room_get_name(room),
         tempoJogado:          variable_global_exists("tempo_jogado")         ? global.tempo_jogado         : 0,
@@ -207,7 +208,13 @@ function carregar_jogo_slot(slot) {
     if (instance_exists(Player)) {
         Player.x = estruturaSalvamento.posicaoX;
         Player.y = estruturaSalvamento.posicaoY;
-        Player.sprite_index = estruturaSalvamento.avatar;
+		if (variable_struct_exists(estruturaSalvamento, "personagem")) {
+            global.player_char = estruturaSalvamento.personagem;
+        }
+        var id_avatar = asset_get_index(estruturaSalvamento.avatar);
+		if (id_avatar != -1){
+			Player.sprite_index = id_avatar;
+		}
         Player.facing = estruturaSalvamento.direcao;
         var r_id = asset_get_index(estruturaSalvamento.cenario);
         if (r_id != -1 && r_id != room) room_goto(r_id);
@@ -246,7 +253,8 @@ function salvar_jogo_temp(slot) {
     var estruturaSalvamento = {
         posicaoX:             Player.x,
         posicaoY:             Player.y,
-        avatar:               Player.sprite_index,
+        avatar:               sprite_get_name(Player.sprite_index),
+		personagem:           global.player_char,
         direcao:              Player.facing,
         cenario:              room_get_name(room),
         tempoJogado:          variable_global_exists("tempo_jogado")         ? global.tempo_jogado         : 0,
@@ -259,7 +267,7 @@ function salvar_jogo_temp(slot) {
         ambienteCompletado:   variable_global_exists("ambiente_completado")  ? global.ambiente_completado  : {},
         statusMissoes:        variable_global_exists("status_missoes")       ? global.status_missoes       : {}
     };
-
+		
     var stringEstruturaSalvamento = json_stringify(estruturaSalvamento);
     var nomeArquivo = _filename_for_temp_slot(slot);
     var fh = file_text_open_write(nomeArquivo);
@@ -335,6 +343,9 @@ function carregar_jogo_temp(slot) {
     if (instance_exists(Player)) {
         Player.x = estruturaSalvamento.posicaoX;
         Player.y = estruturaSalvamento.posicaoY;
+		if (variable_struct_exists(estruturaSalvamento, "personagem")) {
+            global.player_char = estruturaSalvamento.personagem;
+        }
         Player.sprite_index = estruturaSalvamento.avatar;
         Player.facing = estruturaSalvamento.direcao;
         var r_id = asset_get_index(estruturaSalvamento.cenario);

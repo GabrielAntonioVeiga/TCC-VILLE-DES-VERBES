@@ -29,11 +29,12 @@ if (mx > (gui_w/2) - 150 && mx < (gui_w/2) + 150 &&
 if (hovered_index != -1) {
     selected = hovered_index;
 }
-
+/*
 if (keyboard_check_pressed(vk_left)) selected--;
 if (keyboard_check_pressed(vk_right)) selected++;
 if (keyboard_check_pressed(vk_down)) selected = 2;
 if (keyboard_check_pressed(vk_up) && selected == 2) selected = 0;
+*/
 
 selected = clamp(selected, 0, 2);
 

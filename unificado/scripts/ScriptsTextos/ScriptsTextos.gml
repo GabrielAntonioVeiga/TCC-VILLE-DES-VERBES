@@ -8,9 +8,12 @@ function ScriptsTextos()
 		break;
 	
 	case "CutsceneIntro":
-            texto[0] = "O momento chegou...";
-            texto[1] = "A partir daqui, não há volta.";
-			texto[2] = "Bem-vindo(a) a Ville de Verbes! Sua jornada pela língua francesa começa agora. Para explorar os ambientes da maison(mansão), utilize as SETAS DIRECIONAIS do seu teclado. Preste bastante atenção aos objetos e personagens com um balão de 'E' brilhante sobre eles. Isso significa que são interativos! Basta se aproximar e pressionar a tecla [E] para interagir. A maison é sua para explorar. Faça quantos quizzes quiser, pratique bastante e bons estudos!";
+            texto[0] = "O momento chegou... Utilize a tecla [E] do seu teclado para avançar diálogos e interagir com objetos.";
+            texto[1] = "A partir daqui, não há volta. Bem-vindo(a) à Ville de Verbes! Sua jornada pela língua francesa começa agora.";
+			texto[2] = "Para explorar os ambientes da maison (mansão), utilize as SETAS DIRECIONAIS do seu teclado. Preste bastante atenção aos objetos e personagens com um balão de 'E' brilhante sobre eles. Isso significa que são interativos! Basta se aproximar e pressionar a tecla [E] para interagir.";
+			texto[3] = "A maison é sua para explorar. A antiga casa onde Van Gogh viveu na cidade de Auvers-sur-Oise.";
+			texto[4] = "Você guiará Francine, uma pintora, ou Jacques, um estudante da língua francesa. Faça quantos quizzes quiser, pratique bastante e bons estudos!";
+			
         break;
 	}
 }

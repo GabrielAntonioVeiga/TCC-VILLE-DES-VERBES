@@ -10,6 +10,7 @@ function ScriptsTextos()
 	case "CutsceneIntro":
             texto[0] = "O momento chegou...";
             texto[1] = "A partir daqui, não há volta.";
+			texto[2] = "Bem-vindo(a) a Ville de Verbes! Sua jornada pela língua francesa começa agora. Para explorar os ambientes da maison(mansão), utilize as SETAS DIRECIONAIS do seu teclado. Preste bastante atenção aos objetos e personagens com um balão de 'E' brilhante sobre eles. Isso significa que são interativos! Basta se aproximar e pressionar a tecla [E] para interagir. A maison é sua para explorar. Faça quantos quizzes quiser, pratique bastante e bons estudos!";
         break;
 	}
 }

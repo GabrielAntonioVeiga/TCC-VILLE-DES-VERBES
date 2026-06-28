@@ -1,21 +1,25 @@
-state = "closed"; // Pode ser "closed", "album" ou "notes"
+state = "closed";
 mission_open = false; 
-
-// Base RF015
 hud_buttons = ["Missão", "Álbum", "Notas", "Config.", "Salvar", "Sair"];
-
-// Dados de missao vazios para RF009
 lista_quadros = [
     { sala_id: "rm_atelie",     nome: "Ateliê de Pintura" },
     { sala_id: "rm_quarto",     nome: "Quarto Principal" },
     { sala_id: "rm_corredor",   nome: "Corredor" },
     { sala_id: "rm_jantar",     nome: "Sala de Jantar" },
     { sala_id: "rm_lavanderia", nome: "Lavanderia" },
-    { sala_id: "rm_banheiro",    nome: "Banheiro" } 
+    { sala_id: "rm_banheiro",   nome: "Banheiro" } 
 ];
+pagina_notas     = 0;
+itens_por_pagina = 3;
+pagina_album     = 0;
+filtro_pronome   = 0;
 
-// ================= VARIÁVEIS NOVAS (ADICIONA ISTO) =================
-pagina_notas = 0;      // Controla em que página do bloco de notas estamos
-itens_por_pagina = 3;  // Define quantas notas aparecem de cada vez
 
-pagina_album = 0;      // Controla em que página do álbum estamos
+missao_timer = 0;
+
+
+flash_botao = -1;
+flash_timer = 0;
+
+
+_sala_anterior = "";

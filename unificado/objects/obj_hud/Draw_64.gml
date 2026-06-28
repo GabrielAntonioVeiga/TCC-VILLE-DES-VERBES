@@ -18,9 +18,13 @@ if (state == "closed") {
     var mx = device_mouse_x_to_gui(0);
     var my = device_mouse_y_to_gui(0);
     
-    for(var i=0; i<array_length(hud_buttons); i++) {
+    for (var i = 0; i < array_length(hud_buttons); i++) {
         var by = start_y + (i * 50);
-        if (mx > gui_w - btn_w && mx < gui_w && my > by - 20 && my < by + 20) {
+        var hover = (mx > gui_w - btn_w && mx < gui_w && my > by - 20 && my < by + 20);
+        
+        if (i == flash_botao && flash_timer > 0) {
+            draw_set_color((flash_timer mod 16 < 8) ? c_yellow : c_white);
+        } else if (hover) {
             draw_set_color(c_yellow);
         } else {
             draw_set_color(c_white);
@@ -88,14 +92,15 @@ else {
             "Missão: Angélique"
         ];
         
+        // 🆕 Referência direta ao asset em vez de string
         var _sprites = [
-            "spr_quadro_jantar",
-            "spr_quadro_atelie",
-            "spr_quadro_corredor",
-            "spr_quadro_lavanderia",
-            "spr_quadro_banheiro",
-            "spr_quadro_quarto",
-            "spr_quadro_angelique"
+            spr_quadro_jantar,
+            spr_quadro_atelie,
+            spr_quadro_corredor,
+            spr_quadro_lavanderia,
+            spr_quadro_banheiro,
+            spr_quadro_quarto,
+            spr_quadro_angelique
         ];
         
         var total_slots = 7;
@@ -123,7 +128,11 @@ else {
                 && global.quadros_coletados[$ _chave] == true;
             
             if (_coletado) {
-                var _spr = asset_get_index(_sprites[i]);
+                var _spr = _sprites[i];
+                
+                // Debug temporário — remove depois de confirmar que está funcionando
+                show_debug_message("Slot " + string(i) + " | Sprite index: " + string(_spr));
+                
                 if (_spr != -1) {
                     draw_sprite_stretched(_spr, 0, start_x, start_y, slot_w, slot_h);
                 } else {
@@ -159,7 +168,7 @@ else {
             }
         }
         draw_set_color(c_white);
-        draw_text(gui_w/2, voltar_y - 40, 
+        draw_text(gui_w/2, voltar_y - 40,
             string(_total_coletados) + "/" + string(total_slots) + " quadros coletados");
         
         if (_total_coletados == 0) {
@@ -177,15 +186,12 @@ else {
         draw_set_color(c_white);
         draw_text(gui_w/2, 60, "BLOCO DE NOTAS");
         
-        // ── Filtro por pronome ──
         var _pronomes = ["Todos", "Je", "Tu", "Il/Elle/On", "Nous", "Vous", "Ils/Elles"];
         
-        // Inicializa o filtro se não existir
         if (!variable_instance_exists(id, "filtro_pronome")) {
             filtro_pronome = 0;
         }
         
-        // Desenha os botões de filtro
         var _total_pronomes = array_length(_pronomes);
         var _fil_total_w = _total_pronomes * 100;
         var _fil_start_x = (gui_w / 2) - (_fil_total_w / 2) + 50;
@@ -194,7 +200,6 @@ else {
         for (var i = 0; i < _total_pronomes; i++) {
             var _fx = _fil_start_x + (i * 100);
             
-            // Fundo destacado no filtro ativo
             if (filtro_pronome == i) {
                 draw_set_color(c_yellow);
                 draw_set_alpha(0.2);
@@ -206,17 +211,15 @@ else {
             }
             draw_text(_fx, _fil_y, _pronomes[i]);
             
-            // Clique no filtro
             if (mouse_check_button_pressed(mb_left)
                 && mx > _fx - 40 && mx < _fx + 40
                 && my > _fil_y - 16 && my < _fil_y + 16) {
                 filtro_pronome = i;
-                pagina_notas = 0; // reseta paginação ao trocar filtro
+                pagina_notas = 0;
             }
         }
         draw_set_color(c_white);
         
-        // ── Filtra as notas pelo pronome selecionado ──
         var _notas_filtradas = [];
         if (variable_global_exists("notas")) {
             for (var i = 0; i < array_length(global.notas); i++) {

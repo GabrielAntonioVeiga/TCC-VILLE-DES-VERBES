@@ -346,7 +346,7 @@ function carregar_jogo_temp(slot) {
 		if (variable_struct_exists(estruturaSalvamento, "personagem")) {
             global.player_char = estruturaSalvamento.personagem;
         }
-        Player.sprite_index = estruturaSalvamento.avatar;
+        Player.sprite_index = estruturaSalvamento.personagem;
         Player.facing = estruturaSalvamento.direcao;
         var r_id = asset_get_index(estruturaSalvamento.cenario);
         if (r_id != -1 && r_id != room) room_goto(r_id);
